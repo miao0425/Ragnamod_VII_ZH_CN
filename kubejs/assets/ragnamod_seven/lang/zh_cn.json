@@ -154,6 +154,12 @@
 	"entity.chickens.therealreivax_chicken": "鸡蛋三明治鸡",
 	"entity.chickens.mr_bidou_chicken": "啤酒鸡",
 	"entity.chickens.holy_chicken": "神圣鸡",
+	"entity.chickens.gelot_chicken": "Gelot 鸡",
+	"entity.chickens.piroot_chicken": "Piroot 鸡",
+	"entity.chickens.magma_steel_chicken": "岩浆钢鸡",
+	"entity.chickens.cyber_steel_chicken": "赛博钢鸡",
+	"entity.chickens.blazing_copper_chicken": "烈焰铜鸡",
+	"entity.chickens.flux_infused_chicken": "红石充能鸡",
 
 	"#Kubejs_gateways": "",
 	"gateways.wither_gate_small": "[小型]凋零之门",
