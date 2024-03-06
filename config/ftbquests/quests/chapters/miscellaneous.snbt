@@ -168,7 +168,13 @@
 				{
 					id: "5F975C422630CB58"
 					type: "item"
-					item: "botanypots:terracotta_hopper_botany_pot"
+					item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botanypots:basic_hopper_botany_pot"
+					}
+				}
 				}
 			]
 			rewards: [
@@ -195,7 +201,13 @@
 				{
 					id: "69AF1172472D89FC"
 					type: "item"
-					item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
+					item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botanypotstiers:elite_hopper_botany_pot"
+					}
+				}
 				}
 			]
 			rewards: [
@@ -222,7 +234,13 @@
 				{
 					id: "7A8D1FDE850EDC44"
 					type: "item"
-					item: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
+					item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botanypotstiers:ultra_hopper_botany_pot"
+					}
+				}
 				}
 			]
 			rewards: [
@@ -1654,7 +1672,7 @@
 			]
 		}
 		{
-			x: -1.0d
+			x: -1.5d
 			y: -3.5d
 			shape: "square"
 			description: [
@@ -1706,7 +1724,7 @@
 		}
 		{
 			icon: "travel_anchors:travel_staff"
-			x: -3.5d
+			x: 1.5d
 			y: 2.5d
 			shape: "square"
 			dependencies: ["577D6202E19B2599"]
@@ -2658,8 +2676,8 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 1.5d
-			y: 2.5d
+			x: -0.5d
+			y: -3.5d
 			shape: "square"
 			dependencies: ["577D6202E19B2599"]
 			id: "7CFE5A69DC49F07A"
@@ -2817,7 +2835,7 @@
 			]
 		}
 		{
-			x: -2.5d
+			x: -3.5d
 			y: 2.5d
 			shape: "square"
 			dependencies: ["577D6202E19B2599"]
@@ -2849,10 +2867,13 @@
 			]
 		}
 		{
-			x: -1.5d
+			x: -2.5d
 			y: 2.5d
 			shape: "square"
-			dependencies: ["577D6202E19B2599"]
+			dependencies: [
+				"577D6202E19B2599"
+				"1064B7D347E37746"
+			]
 			dependency_requirement: "one_completed"
 			id: "543F99BE7476FD64"
 			tasks: [
@@ -2882,7 +2903,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -1.5d
 			y: 2.5d
 			shape: "square"
 			dependencies: ["577D6202E19B2599"]
@@ -4793,7 +4814,7 @@
 			y: 5.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Solar Panel II, can:"
 				"Generate 8 FE/tick"
 				"Transfer 64 FE/tick"
 				"And has an internal buffer of 125k FE"
@@ -4817,7 +4838,7 @@
 			y: 5.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Solar Panel III, can:"
 				"Generate 32 FE/tick"
 				"Transfer 256 FE/tick"
 				"And has an internal buffer of 425k FE"
@@ -4841,7 +4862,7 @@
 			y: 5.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Solar Panel IV, can:"
 				"Generate 128 FE/tick"
 				"Transfer 1,024 FE/tick"
 				"And has an internal buffer of 2M FE"
@@ -4865,7 +4886,7 @@
 			y: 5.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Solar Panel V, can:"
 				"Generate 512 FE/tick"
 				"Transfer 4,096 FE/tick"
 				"And has an internal buffer of 8M FE"
@@ -4889,7 +4910,7 @@
 			y: 6.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Solar Panel VI, can:"
 				"Generate 2,048 FE/tick"
 				"Transfer 16,348 FE/tick"
 				"And has an internal buffer of 32M FE"
@@ -4913,7 +4934,7 @@
 			y: 7.0d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Solar Panel VII, can:"
 				"Generate 8,192 FE/tick"
 				"Transfer 65,536 FE/tick"
 				"And has an internal buffer of 64M FE"
@@ -4937,7 +4958,7 @@
 			y: 7.0d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Solar Panel VIII, can:"
 				"Generate 32,768 FE/tick"
 				"Transfer 262,144 FE/tick"
 				"And has an internal buffer of 128M FE"
@@ -4961,7 +4982,7 @@
 			y: 7.0d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"PSI Solar Panel, can:"
 				"Generate 65,536 FE/tick"
 				"Transfer 524,288 FE/tick"
 				"And has an internal buffer of 256M FE"
@@ -4985,7 +5006,7 @@
 			y: 7.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Alfsteel Solar Panel, can:"
 				"Generate 131,072 FE/tick"
 				"Transfer 1,048,576 FE/tick"
 				"And has an internal buffer of 512M FE"
@@ -5009,7 +5030,7 @@
 			y: 8.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Wyvern Solar Panel, can:"
 				"Generate 262,144 FE/tick"
 				"Transfer 2,097,152 FE/tick"
 				"And has an internal buffer of 1024M FE"
@@ -5033,7 +5054,7 @@
 			y: 8.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Draconic Solar Panel, can:"
 				"Generate 524,288 FE/tick"
 				"Transfer 4,194,304 FE/tick"
 				"And has an internal buffer of 2048M FE"
@@ -5057,7 +5078,7 @@
 			y: 8.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Chaotic Solar Panel, can:"
 				"Generate 1,048,576 FE/tick"
 				"Transfer 8,388,608 FE/tick"
 				"And has an internal buffer of 4096M FE"
@@ -5081,7 +5102,7 @@
 			y: 8.5d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Neutronium Solar Panel, can:"
 				"Generate 2,097,152 FE/tick"
 				"Transfer 16,777,216 FE/tick"
 				"And has an internal buffer of 8192M FE"
@@ -5105,7 +5126,7 @@
 			y: 8.0d
 			shape: "square"
 			description: [
-				"Solar Panel I, can:"
+				"Ultimate Solar Panel, can:"
 				"Generate 41,974,304 FE/tick"
 				"Transfer 33,554,432 FE/tick"
 				"And has an internal buffer of 16384M FE"
@@ -5122,6 +5143,32 @@
 				type: "item"
 				item: "avaritia:infinity_catalyst"
 				random_bonus: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			shape: "square"
+			description: ["The Auto Salvaging Table automate break down Affix items into Rarity Materials. (more efficient this way)"]
+			dependencies: ["57EE4803D9721AC1"]
+			id: "52B09775A024B426"
+			tasks: [{
+				id: "2B417ED32CBBF972"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "ragnamod_7:auto_salvaging_table"
+					}
+				}
+			}]
+			rewards: [{
+				id: "35AF3D37F740A711"
+				type: "item"
+				item: "apotheosis:gem_dust"
+				count: 16
+				random_bonus: 16
 			}]
 		}
 	]

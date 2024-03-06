@@ -10,7 +10,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 2.0d
+			x: 0.0d
 			y: -2.5d
 			shape: "square"
 			description: [
@@ -47,7 +47,7 @@
 			]
 		}
 		{
-			x: 1.5d
+			x: -0.5d
 			y: -3.5d
 			shape: "square"
 			description: [
@@ -84,8 +84,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -3.5d
+			x: 0.0d
+			y: -4.5d
 			shape: "square"
 			description: [
 				"普通地狱魂石是恶魔意志的储存器，最高可储存 1024 个恶魔意志"
@@ -121,8 +121,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -4.0d
+			x: 1.0d
+			y: -4.5d
 			shape: "square"
 			description: [
 				"大块地狱魂石是恶魔意志的储存器，最高可储存 4096 个恶魔意志"
@@ -159,7 +159,7 @@
 		}
 		{
 			x: -1.5d
-			y: 0.0d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"虚弱气血宝珠是用血晶球制作的"
@@ -186,8 +186,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -0.5d
+			x: -2.0d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"学徒气血宝珠由精灵石英制成"
@@ -213,8 +213,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -1.5d
+			x: -2.5d
+			y: 2.5d
 			shape: "square"
 			description: [
 				"法师气血宝珠是用苍穹锭制作的"
@@ -240,8 +240,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -2.5d
+			x: -2.0d
+			y: 3.5d
 			shape: "square"
 			description: [
 				"导师气血宝珠是用痛苦之源制作的"
@@ -268,8 +268,8 @@
 		}
 		{
 			title: "活体护甲"
-			x: 5.0d
-			y: -2.0d
+			x: 2.0d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"活化护甲的制作方法是：将奥术粉灰放在实心方块上，在粉灰上放上束缚试剂，然后在上面放上铁装备"
@@ -339,8 +339,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
+			x: 1.5d
+			y: -0.5d
 			shape: "square"
 			description: [
 				"空白石板是用变质石头制作的，而变质石头可以用植物魔法中的异构花获得"
@@ -368,8 +368,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 0.0d
+			x: 2.5d
+			y: -0.5d
 			shape: "square"
 			description: [
 				"您需要一个 2 级祭坛和 2000 LP 才能将一块空白石板转化为强化石板"
@@ -396,8 +396,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 0.0d
+			x: 3.5d
+			y: -0.5d
 			shape: "square"
 			description: [
 				"将强化石板转化为灌输石板需要 3 级祭坛和 5000 LP"
@@ -424,8 +424,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 0.0d
+			x: 4.5d
+			y: -0.5d
 			shape: "square"
 			description: [
 				"将灌输石板转化为恶魔石板需要 4 级祭坛和 15000 LP"
@@ -452,8 +452,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 1.0d
+			x: 0.5d
+			y: 3.5d
 			shape: "square"
 			description: [
 				"使用风之符文制作元素铭文工具：风"
@@ -485,8 +485,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 1.5d
+			x: 0.5d
+			y: 2.5d
 			shape: "square"
 			description: [
 				"使用火之符文制作元素铭文工具：火"
@@ -518,8 +518,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 1.0d
+			x: -0.5d
+			y: 2.5d
 			shape: "square"
 			description: [
 				"使用水之符文制作元素铭文工具：水"
@@ -551,8 +551,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 1.5d
+			x: -0.5d
+			y: 3.5d
 			shape: "square"
 			description: [
 				"使用地之符文制作元素铭文工具：地"
@@ -585,7 +585,7 @@
 		}
 		{
 			x: 0.0d
-			y: 3.5d
+			y: 4.5d
 			shape: "square"
 			description: [
 				"使用法力符文制作元素铭文工具：薄暮"
@@ -617,7 +617,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: -0.5d
 			y: -1.5d
 			shape: "square"
 			description: [
@@ -648,8 +648,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -2.5d
+			x: 0.5d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"献祭匕首作为一种自我牺牲的方法，可以让使用者将自己的健康点数转化为可用的生命源质"
@@ -681,8 +681,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -3.5d
+			x: -0.5d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"献祭刀用于献祭生物以换取生命源质"
@@ -708,8 +708,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: -1.0d
+			x: 4.0d
+			y: -3.0d
 			shape: "square"
 			description: [
 				"占卜印记用于通过在空中右键点击，查看您的 LP 网络中的 LP 数量"
@@ -735,8 +735,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 2.5d
+			x: 1.5d
+			y: 3.0d
 			shape: "square"
 			description: [
 				"仪式推测杖会为你构建你所选择的仪式"
@@ -770,7 +770,7 @@
 			]
 		}
 		{
-			x: 0.0d
+			x: 3.0d
 			y: 4.5d
 			shape: "square"
 			description: [
@@ -801,8 +801,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -2.0d
+			x: 5.5d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"恶魔结晶埚用于通过消耗恶魔坩埚中产生的大块灵气来培育恶魔意志结晶簇"
@@ -829,8 +829,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -1.0d
+			x: 3.5d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"用地狱魂石或恶魔意志结晶坛点击右键，会将其插入恶魔坩埚，并将魔源的意志转移到储存在区块内部的光环中"
@@ -866,8 +866,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: 0.5d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"制作需要意志的配方需要狱火锻炉，而制作需要恶魔意志或地狱魂石"
@@ -901,14 +901,14 @@
 		}
 		{
 			x: 1.0d
-			y: -2.5d
+			y: -3.0d
 			shape: "square"
 			description: [
 				"感知之剑用于收集原始意志"
 				"该原始意志会自动添加到您的物品栏中最左上方的原始意志地狱魂石上"
 			]
 			dependencies: [
-				"0000000000000337"
+				"00000000000002FE"
 				"1BEEC705CE150D00"
 			]
 			id: "0000000000000339"
@@ -941,8 +941,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: -1.0d
+			x: 1.5d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"束缚试剂与奥术粉灰一起使用可获得活化护甲和束缚物品"
@@ -969,8 +969,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 1.0d
+			x: 4.0d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"炼金反应炉用于使用血染增强剂制作一些东西"
@@ -997,8 +997,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
+			x: 3.5d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"血染恢复宝具用于逆向制作"
@@ -1031,8 +1031,9 @@
 			]
 		}
 		{
-			x: 5.5d
-			y: 1.0d
+			title: "原始单元"
+			x: 5.0d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"原始燃料单元的作用就像一个熔炉"
@@ -1054,31 +1055,8 @@
 						}
 					}
 				}
-			]
-			rewards: [
 				{
-					id: "60DC093AAB50C267"
-					type: "item"
-					item: "bloodmagic:blankslate"
-					random_bonus: 3
-				}
-			]
-		}
-		{
-			x: 6.5d
-			y: 1.0d
-			shape: "square"
-			description: [
-				"原始水化单元是用来给物品补水的"
-			]
-			dependencies: [
-				"000000000000033D"
-				"1BEEC705CE150D00"
-			]
-			id: "0000000000000343"
-			tasks: [
-				{
-					id: "0000000000000344"
+					id: "635CDBB36545C466"
 					type: "item"
 					item: {
 						id: "bloodmagic:primitive_hydration_cell"
@@ -1089,18 +1067,16 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "2A4E9BB041CA7537"
-					type: "item"
-					item: "bloodmagic:blankslate"
-					random_bonus: 3
-				}
-			]
+			rewards: [{
+				id: "60DC093AAB50C267"
+				type: "item"
+				item: "bloodmagic:blankslate"
+				random_bonus: 3
+			}]
 		}
 		{
-			x: 5.0d
-			y: 2.0d
+			x: 4.5d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"原始共鸣器用于获取小撮腐化尘土"
@@ -1139,8 +1115,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -1.5d
+			x: -1.5d
+			y: -0.5d
 			shape: "square"
 			description: [
 				"熏香祭坛用于获得自我献祭时获得的 LP 加成"
@@ -1172,8 +1148,8 @@
 		}
 		{
 			title: "木质路面"
-			x: -1.0d
-			y: -2.0d
+			x: -2.0d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"这个木质路面是增加熏香祭坛静谧度的必需品，它通过刺杀你来获得 60% 的LP"
@@ -1233,8 +1209,8 @@
 		}
 		{
 			title: "石质路面"
-			x: -1.0d
-			y: -3.0d
+			x: -2.5d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"这个石质路面是增加熏香祭坛静谧度的必需品，它通过刺杀你来获得 120% 的LP"
@@ -1268,14 +1244,14 @@
 		}
 		{
 			title: "空白符文"
-			x: 7.0d
-			y: 0.0d
+			x: 2.0d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"空白符文用于升级血祭坛的等级和制作其他符文"
 			]
 			dependencies: [
-				"000000000000036B"
+				"0000000000000313"
 				"1BEEC705CE150D00"
 			]
 			id: "000000000000034F"
@@ -1298,12 +1274,13 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: -1.0d
+			x: 6.0d
+			y: 1.0d
 			shape: "square"
 			description: [
 				"充能符文增加了一个内部缓冲区，你可以用先知印记看到"
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"000000000000034F"
 				"1BEEC705CE150D00"
@@ -1325,12 +1302,13 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: 1.0d
+			x: 7.0d
+			y: 4.5d
 			shape: "square"
 			description: [
 				"转位符文能以 20% 的倍率提高 LP 输入和输出血之祭坛的速度"
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"000000000000034F"
 				"1BEEC705CE150D00"
@@ -1352,8 +1330,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: -1.0d
+			x: 6.0d
+			y: 3.0d
 			shape: "square"
 			description: [
 				"促速符文可减少位移和充能符文的处理 tick"
@@ -1380,13 +1358,14 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: 0.5d
+			x: 7.0d
+			y: 2.5d
 			shape: "square"
 			description: [
 				"增容符文可为血之祭坛额外增加 2000 LP 的储存"
 				"这也增加了储罐的内部缓冲，因为它始终是祭坛容量的 10%"
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"000000000000034F"
 				"1BEEC705CE150D00"
@@ -1408,8 +1387,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: 1.0d
+			x: 7.0d
+			y: 3.5d
 			shape: "square"
 			description: [
 				"超容符文可额外增加 10%的 LP。每 10%的加成都是在当前增容的基础上乘以 10%（不包括 增容符文 的加成，这些加成是在之后增加的）"
@@ -1435,12 +1414,13 @@
 			]
 		}
 		{
-			x: 8.5d
+			x: 7.0d
 			y: 1.5d
 			shape: "square"
 			description: [
 				"宝珠符文每个符文可为气血宝珠储存潜能值额外增加 2% 的容量"
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"000000000000034F"
 				"1BEEC705CE150D00"
@@ -1462,12 +1442,13 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: -0.5d
+			x: 6.0d
+			y: 2.0d
 			shape: "square"
 			description: [
 				"速度符文顾名思义，能使血之祭坛的处理速度额外提高 20%"
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"000000000000034F"
 				"1BEEC705CE150D00"
@@ -1489,12 +1470,13 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 0.0d
+			x: 6.0d
+			y: 4.0d
 			shape: "square"
 			description: [
 				"献祭符文将使使用献祭匕首获得的 LP 总量额外增加 10%"
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"000000000000034F"
 				"1BEEC705CE150D00"
@@ -1516,12 +1498,13 @@
 			]
 		}
 		{
-			x: 8.5d
-			y: -1.5d
+			x: 7.0d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"献祭符文将使使用献祭之刀献祭怪物获得的 LP 总量额外增加 10%"
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"000000000000034F"
 				"1BEEC705CE150D00"
@@ -1545,7 +1528,7 @@
 		{
 			title: "仪式石"
 			x: 3.0d
-			y: 1.0d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"仪式石用于制作各种仪式"
@@ -1577,7 +1560,7 @@
 		}
 		{
 			x: 2.5d
-			y: 2.0d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"主仪式石用于仪式的创造"
@@ -1615,7 +1598,7 @@
 		{
 			title: "大血石砖"
 			x: 3.0d
-			y: 4.0d
+			y: 3.5d
 			shape: "square"
 			description: [
 				"制作一些大血石砖"
@@ -1645,8 +1628,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -1.0d
+			x: -2.5d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"炼金术桌是用来制作一些药瓶的"
@@ -1675,7 +1658,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			description: [
 				"血之祭坛用于使用生命源质（LP）转化各种物品"
 			]
@@ -1702,8 +1685,8 @@
 			]
 		}
 		{
-			x: 5.5d
-			y: -1.0d
+			x: 3.0d
+			y: -3.0d
 			shape: "square"
 			description: [
 				"奥术粉灰是用来制作炼金矩阵的，而炼金矩阵是制作血魔法符文的新方法所需要的"
@@ -1745,8 +1728,8 @@
 		}
 		{
 			title: "碎石路面"
-			x: -1.0d
-			y: -4.0d
+			x: -2.0d
+			y: -3.5d
 			shape: "square"
 			description: [
 				"这个碎石路面是增加熏香祭坛静谧度的必需品，它通过刺伤你来获得 200% 的LP"
@@ -1774,8 +1757,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
+			x: 5.5d
+			y: -0.5d
 			shape: "square"
 			description: [
 				"将恶魔石板转化为悬幽石板需要 5 级祭坛和 30000 LP"
@@ -1802,8 +1785,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
+			x: 4.0d
+			y: 2.5d
 			shape: "square"
 			description: [
 				"要获得虚弱气血碎片，您需要将饱满血命果与血染恢复宝具一起放入炼金反应炉"
@@ -1831,8 +1814,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.5d
 			shape: "square"
 			description: [
 				"要获得血命果，您需要使用仪式进入血魔法地下城 \"隐域之缘仪式\""
@@ -1868,8 +1851,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -3.5d
+			x: -1.5d
+			y: 4.5d
 			shape: "square"
 			description: [
 				"大法师气血宝珠是用恶魔合金块制作的"
@@ -1895,8 +1878,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -3.0d
+			x: 5.5d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"要获得所有其他类型的水晶，您必须举行几个仪式."
@@ -1948,8 +1931,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -2.0d
+			x: 5.5d
+			y: -3.5d
 			shape: "square"
 			description: [
 				"灵域测量仪可以显示出区块中，所有五种类型的意志"
@@ -1976,7 +1959,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: 5.0d
 			y: 4.0d
 			shape: "square"
 			description: [
@@ -2006,8 +1989,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 4.0d
+			x: 3.0d
+			y: 5.5d
 			shape: "square"
 			description: [
 				"复杂的恶魔合金部件出现在恶魔领域，它可以让符文的威力翻倍"
@@ -2035,7 +2018,7 @@
 		}
 		{
 			title: "黑曜石瓦面路"
-			x: 0.0d
+			x: -1.5d
 			y: -4.5d
 			shape: "square"
 			description: [
@@ -2071,9 +2054,9 @@
 					machine: "ragnamod_7:will_factory"
 				}
 			}
-			x: 4.5d
-			y: -3.0d
-			shape: "square"
+			x: 7.0d
+			y: -2.5d
+			shape: "gear"
 			description: [
 				"意志工厂可以让你快速获得意志结晶"
 				"{image:ftbquests:textures/quests/custom_will_factory.png width:150 height:100 align:1}"
@@ -2083,6 +2066,7 @@
 				"0221387E12A17F19"
 				"1BEEC705CE150D00"
 			]
+			size: 1.5d
 			id: "76FA8F00F4C5CE80"
 			tasks: [
 				{
@@ -2187,6 +2171,168 @@
 					count: 64
 				}
 			]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			shape: "square"
+			description: ["Make an Inscription Tool : Dawn by using a Rune of Asgard."]
+			dependencies: ["000000000000036B"]
+			id: "5A6CAD3207D7F9DD"
+			tasks: [{
+				id: "115B7CF55AD0ABB2"
+				type: "item"
+				item: {
+					id: "bloodmagic:dawnscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "514C789B2B218223"
+				type: "item"
+				item: "mythicbotany:asgard_rune"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			shape: "gear"
+			description: ["The Blood Magic Agonizer is a simple block that must be placed next to the Digital Mob Agonizer to allow you to farm Life Essence."]
+			dependencies: [
+				"748A0BE73FBB3E85"
+				"5A6CAD3207D7F9DD"
+			]
+			size: 1.5d
+			id: "12FF3F82C76165F0"
+			tasks: [{
+				id: "233E73D8BF3A079D"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "ragnamod_7:digital_mob_agonizer_addon_bloodmagic"
+					}
+				}
+			}]
+			rewards: [{
+				id: "77A36821688602D4"
+				type: "item"
+				item: {
+					id: "bloodmagic:dawnscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			shape: "gear"
+			description: [
+				"The Digital Mob Agonizer is used to farm blood from Blood Magic (Life Essence) and EvilCraft (Blood) without entities."
+				""
+				"You need to put a Blood Magic Agonizer or an EvilCraft Agonizer to tell your machine what kind of blood you want to farm (you can farm both at the same time)."
+				"{image:ftbquests:textures/quests/digital_mob_agonizer_quest.png width:150 height:100 align:1}"
+				"You need nonetheless a Blood Data Model and some Generalized Prediction to produce blood, and you can also updrage your machine with addons (Speed (x8) and Bloody(x4))."
+				""
+				"Inspired by \"Deep Mob Learning - Blood Magic Addon\""
+			]
+			dependencies: [
+				"748A0BE73FBB3E85"
+				"5A6CAD3207D7F9DD"
+			]
+			size: 1.5d
+			id: "24C5AE98D119B7FE"
+			tasks: [{
+				id: "5C2AB862E8DA394C"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "ragnamod_7:digital_mob_agonizer"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B6A09B746F74567"
+				type: "item"
+				item: "bloodmagic:hellforgedparts"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			shape: "square"
+			description: ["You can obtain Demonite Graveil using your Alchemical Reaction Chamber with a Resonator and a Demonite Fragment, previously obtain using the same machine but with an Explosive Cell instead."]
+			dependencies: [
+				"0000000000000345"
+				"7C51CC7CD794A537"
+			]
+			id: "1A9C96695F1FFB2F"
+			tasks: [{
+				id: "5C7ABD8501E4856B"
+				type: "item"
+				item: "bloodmagic:demonitegravel"
+			}]
+			rewards: [{
+				id: "71E9126C5D9BB4AF"
+				type: "item"
+				item: "bloodmagic:demonitegravel"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"Seeds of Doubt is obtained by right-clicking a Saturated Tau crop with a Demonite Gravel."
+				""
+				"You can grow this seed in a Botany Pot."
+			]
+			dependencies: [
+				"27C687E12598FC84"
+				"1A9C96695F1FFB2F"
+			]
+			id: "74931205C793F9C9"
+			tasks: [{
+				id: "4E1BFDCD5057E98A"
+				type: "item"
+				item: "bloodmagic:growing_doubt"
+			}]
+			rewards: [{
+				id: "58EC0A6FA2F79A28"
+				type: "item"
+				item: "bloodmagic:growing_doubt"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			shape: "square"
+			description: ["Use a Mechanical Press, from Create, to squeeze Doubt Seeds to obtain Bucket of Doubt."]
+			dependencies: ["74931205C793F9C9"]
+			id: "6CC1D3343CB4A3C9"
+			tasks: [{
+				id: "1C5DE39854468990"
+				type: "item"
+				item: "bloodmagic:doubt_bucket"
+			}]
+			rewards: [{
+				id: "14D2DE6309B3DE76"
+				type: "item"
+				item: "bloodmagic:growing_doubt"
+				random_bonus: 7
+			}]
 		}
 	]
 	quest_links: [ ]

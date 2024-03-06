@@ -5,6 +5,7 @@ onEvent('item.registry', e => {
 	e.create('chickens:chicken_shell').displayName('坤哥的壳');
 	e.create('chickens:nether_star_shard').displayName('§e下界之星碎片').glow(true);
 	e.create('chickens:soul_chicken').displayName('坤魂').glow(true);
+	e.create('chickens:soul_bee').displayName('蜜蜂灵魂').glow(true)
 	e.create('chemlib:draconium_compound').displayName('龙复合物');
 	e.create('ragnamod_seven:infinity_gem').displayName('§c无尽宝石');
 	e.create('ragnamod_seven:infinity_gear').displayName('§c无尽齿轮');
@@ -90,6 +91,17 @@ onEvent('item.registry', e => {
 		.maxStackSize(1);
 	e.create('ragnamod_seven:alloy_matrix').displayName('§c矩阵合金').glow(true).maxStackSize(1);
 	e.create('ragnamod_seven:solid_nuclear_waste').displayName("固态核废料")
+	e.create('ragnamod_seven:bloody_addon').displayName("血腥插件").maxStackSize(4)
+    e.create('ragnamod_seven:blood_data_model').displayName("血液数据模型").maxStackSize(1)
+    e.create('ragnamod_seven:blood_infused_data_model').displayName("血液灌注数据模型").maxStackSize(1)
+    e.create('ragnamod_seven:deeply_blood_infused_data_model').displayName("双重血液灌注数据模型").maxStackSize(1)
+    e.create('ragnamod_seven:speed_addon').displayName("速度插件").maxStackSize(8)
+    e.create('ragnamod_seven:chaos_dust').displayName("混沌粉")
+    e.create('ragnamod_seven:unpredictable_dust').displayName("预测粉").glow(true)
+    e.create('ragnamod_seven:questionable_mixture').displayName("可疑的混合物")
+    e.create('ragnamod_seven:strange_mixture').displayName("怪异的混合物")
+    e.create('ragnamod_seven:sickening_mixture').displayName("恶心的混合物")
 	e.create('thermal:press_rod_die').displayName("棒杆模具")
     e.create('thermal:press_wire_die').displayName("线材模具")
+	e.create('bloodmagic:dawnscribetool').displayName("元素铭文：破晓").maxStackSize(1).maxDamage(40)
 });

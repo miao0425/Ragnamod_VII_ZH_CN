@@ -227,7 +227,7 @@
 		}
 		{
 			x: 2.5d
-			y: -0.5d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"血腥环境存储器需要血液才能发挥作用"
@@ -274,7 +274,7 @@
 		}
 		{
 			x: 2.5d
-			y: 0.5d
+			y: -0.5d
 			shape: "square"
 			description: [
 				"环境存储器核心用于制作血腥环境存储器"
@@ -518,7 +518,7 @@
 			]
 		}
 		{
-			x: 3.5d
+			x: 4.0d
 			y: -1.0d
 			shape: "square"
 			description: [
@@ -1115,6 +1115,37 @@
 					random_bonus: 3
 				}
 			]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			shape: "gear"
+			description: ["The EvilCraft Agonizer is a simple block that must be placed next to the Digital Mob Agonizer to allow you to farm Blood."]
+			dependencies: ["249D4E899B6A93B0"]
+			size: 1.5d
+			id: "5DE94B46BBFF9C00"
+			tasks: [{
+				id: "68F860661B4DB286"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "ragnamod_7:digital_mob_agonizer_addon_evilcraft"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A1881C3C55F6A91"
+				type: "item"
+				item: {
+					id: "bloodmagic:dawnscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 	]
 	quest_links: [ ]

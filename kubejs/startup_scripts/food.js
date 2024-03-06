@@ -263,6 +263,14 @@ onEvent('item.registry', e => {
 		'minecraft:strength',
 		'Pink Grapefruit'
 	)
+	holy(
+		'Hydration®',
+		'ragnamod_seven:hydration_cranberry',
+		'Cranberry',
+		'minecraft:strength',
+		'Cranberry'
+	)
+	holy('Hydration®', 'ragnamod_seven:hydration_pear', 'Pear', 'minecraft:strength', 'Pear')
 	/*******************Iced Tea*******************/
 	holy(
 		'Iced Tea®',

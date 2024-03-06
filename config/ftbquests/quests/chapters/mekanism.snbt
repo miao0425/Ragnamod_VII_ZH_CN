@@ -2817,7 +2817,7 @@
 					id: "000000000000093E"
 					type: "item"
 					item: "mekanismgenerators:fusion_reactor_frame"
-					count: 45L
+					count: 36L
 				}
 				{
 					id: "000000000000094A"
@@ -2994,7 +2994,7 @@
 					id: "000000000000094C"
 					type: "item"
 					item: "mekanism:sps_casing"
-					count: 92L
+					count: 60L
 				}
 				{
 					id: "000000000000094D"

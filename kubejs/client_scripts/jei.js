@@ -428,6 +428,7 @@ onEvent('jei.hide.items', e => {
 		'blue_skies_tcon:diopside_nugget',
 		'blue_skies_tcon:pyrope_nugget',
 		'blue_skies_tcon:moonstone_nugget',
+		'chickens:soul_bee',
 	])
 })
 
@@ -526,7 +527,6 @@ onEvent('item.tooltip', tooltip => {
 	chemLib('gold', 'Au (79)', '过渡金属')
 	chemLib('copper', 'Cu (29)', '过渡金属')
 	chemLib('sulfur', 'S (16)', '高活性非金属')
-	chemLib('cobalt', 'Co (27)', '过渡金属')
 
 	tooltip.addAdvanced('chickens:chicken_item', (item, advanced, text) => {
 		if (
@@ -539,20 +539,24 @@ onEvent('item.tooltip', tooltip => {
 		}
 	})
 
+	//Unbreakable
 	tooltip.addAdvanced(Ingredient.all, (item, advanced, text) => {
 		if (item.nbt?.Modifier == 'forbidden_arcanus:eternal')
 			text.add(Component.translate('item.unbreakable').blue())
 	})
 
+	//Draco Compound
 	tooltip.addAdvanced('chemlib:draconium_compound', (item, advanced, text) => {
 		text.add(1, Text.of('§3Rn₂₄Xe₈Og₁₆Lu₃₂'))
 	})
 
+	//Lithium
 	tooltip.addAdvanced('mekanism:dust_lithium', (item, advanced, text) => {
 		text.add(1, Text.of('§3Li (3)'))
 		text.add(2, Text.of('§7碱性金属'))
 	})
 
+	//Zinc
 	tooltip.addAdvanced(
 		['create:zinc_ingot', 'create:zinc_nugget', 'createaddition:zinc_sheet'],
 		(item, advanced, text) => {
@@ -560,6 +564,13 @@ onEvent('item.tooltip', tooltip => {
 			text.add(2, Text.of('§7过渡金属'))
 		}
 	)
+
+	//Cobalt
+	tooltip.addAdvanced(['tconstruct:cobalt_block', 'tconstruct:cobalt_ingot', 'tconstruct:cobalt_nugget'], (item, advanced, text) => {
+		text.add(1, Text.of('§3Co (27)'))
+		text.add(2, Text.of('§7Transition Metals'))
+	})
+
 	//Soul Pedestal Fake
 	tooltip.addAdvanced('custommachinery:custom_machine_item', (item, advanced, text) => {
 		if (item.nbt?.machine.match('ragnamod_7:soul_pedestal')) {
@@ -621,5 +632,15 @@ onEvent('item.tooltip', tooltip => {
 	})
 	tooltip.addAdvanced('ragnamod_seven:war_essence', (item, advanced, text) => {
 		text.add(1, Text.of('§5§o击杀战争时掉落'))
+	})
+
+	//Echo Shard
+	tooltip.addAdvanced('warden_and_sculk:echo_shard', (item, advanced, text) => {
+		text.add(1, Text.of('§5§o远古城市宝箱中的战利品'))
+	})
+
+	//Dawn Tool
+	tooltip.addAdvanced('bloodmagic:dawnscribetool', (item, advanced, text) => {
+		text.add(1, Text.of('§7墙壁上的字迹...'))
 	})
 })
