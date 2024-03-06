@@ -103,7 +103,7 @@
 		{
 			x: 0.0d
 			y: 4.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"在这个整合包中，要想获得魔灵同调宝石，你需要把绛紫晶扔进灵火中"
 			]
@@ -1126,7 +1126,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: -2.5d
 			y: 9.5d
-			shape: "square"
+			shape: "circle"
 			description: ["{image:ftbquests:textures/quests/occultism_hedyrin_lure.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
@@ -1162,7 +1162,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 2.5d
 			y: 9.5d
-			shape: "square"
+			shape: "circle"
 			description: ["{image:ftbquests:textures/quests/occultism_ihagan_enthrallment.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
@@ -1199,7 +1199,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 0.0d
 			y: 10.0d
-			shape: "square"
+			shape: "circle"
 			description: ["{image:ftbquests:textures/quests/occultism_abras_commanding_conjure.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
@@ -1565,7 +1565,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 7.5d
 			y: 5.5d
-			shape: "square"
+			shape: "circle"
 			description: ["{image:ftbquests:textures/quests/occultism_uphyxes_inverted_tower.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
@@ -1603,7 +1603,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: -7.5d
 			y: 5.5d
-			shape: "square"
+			shape: "circle"
 			description: ["{image:ftbquests:textures/quests/occultism_strigeor_higher_binding.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
@@ -1642,7 +1642,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 9.0d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["{image:ftbquests:textures/quests/occultism_sevira_permanent_confinement.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
@@ -1679,7 +1679,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: -9.0d
 			y: 1.0d
-			shape: "square"
+			shape: "circle"
 			description: ["{image:ftbquests:textures/quests/occultism_eziveu_spectral_compulsion.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
@@ -1716,7 +1716,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 6.5d
 			y: -5.5d
-			shape: "square"
+			shape: "circle"
 			description: ["{image:ftbquests:textures/quests/occultism_ophyx_calling.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
@@ -1752,7 +1752,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: -6.5d
 			y: -5.5d
-			shape: "square"
+			shape: "circle"
 			description: ["{image:ftbquests:textures/quests/occultism_aviar_circle.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
@@ -1786,7 +1786,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: -3.5d
 			y: -8.0d
-			shape: "square"
+			shape: "circle"
 			description: ["{image:ftbquests:textures/quests/occultism_abras_open_conjure.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
@@ -1822,7 +1822,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 3.5d
 			y: -8.0d
-			shape: "square"
+			shape: "circle"
 			description: ["{image:ftbquests:textures/quests/occultism_abras_conjure.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
@@ -1859,7 +1859,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: -5.0d
 			y: -7.0d
-			shape: "square"
+			shape: "circle"
 			description: ["{image:ftbquests:textures/quests/occultism_fatma_incentivized_attraction.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
@@ -1896,7 +1896,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 5.0d
 			y: -7.0d
-			shape: "square"
+			shape: "circle"
 			description: ["{image:ftbquests:textures/quests/occultism_osorin_unbound_calling.png width:150 height:100 align:1}"]
 			dependencies: [
 				"6F4090909CAB1264"
@@ -2243,7 +2243,7 @@
 			icon: "occultism:ritual_dummy/custom_ritual"
 			x: 0.0d
 			y: -9.0d
-			shape: "square"
+			shape: "circle"
 			description: [
 				"在神秘学中，你有几种使用不同材料的仪式"
 				"根据不同的仪式，有时甚至需要献祭"
@@ -2422,6 +2422,37 @@
 					item: "occultism:book_of_binding_marid"
 				}
 			]
+		}
+		{
+			icon: "ragnamod_seven:shub_niggurath_ingot_block"
+			x: 0.0d
+			y: 6.75d
+			shape: "octagon"
+			description: [
+				"Here is the procedure to follow to obtain the Shub Niggurath Faliliar."
+				"{image:ftbquests:textures/quests/shub_niggurath.png width:150 height:100 align:1}"
+				"You must first summon the Chimera Familiar."
+				""
+				"Then, you will need to detach the goat from your chimera using a golden apple."
+				""
+				"Bring the goat to a forest biome and give it the following ingredients:"
+				"Black Dye, Flint and Eye of Ender."
+				""
+				"You have now a beautiful Shub Niggurath !"
+			]
+			dependencies: ["4A820C6E51741A85"]
+			size: 1.5d
+			id: "1BF05571E541B4B6"
+			tasks: [{
+				id: "778D65C5BD939641"
+				type: "checkmark"
+				title: "Shub Niggurath Familiar"
+			}]
+			rewards: [{
+				id: "03AC26207AF3E86F"
+				type: "item"
+				item: "croptopia:nougat"
+			}]
 		}
 	]
 	quest_links: [ ]

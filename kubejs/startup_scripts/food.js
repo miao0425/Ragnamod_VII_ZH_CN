@@ -434,4 +434,18 @@ onEvent('item.registry', e => {
 		'minecraft:speed',
 		'Maracuja x Pineapple'
 	)
+	holy(
+		'Energy®',
+		'ragnamod_seven:energy_thai_lime_toucan',
+		'Thai Lime Toucan',
+		'minecraft:speed',
+		'Thai Lime'
+	)
+	holy(
+		'Energy®',
+		'ragnamod_seven:energy_watermelon_whale',
+		'Watermelon Whale',
+		'minecraft:speed',
+		'Whatermelon'
+	)
 })

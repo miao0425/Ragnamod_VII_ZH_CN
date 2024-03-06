@@ -501,7 +501,7 @@
 			]
 		}
 		{
-			x: -3.0d
+			x: -3.5d
 			y: 7.5d
 			shape: "square"
 			description: [
@@ -540,14 +540,14 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 7.0d
+			x: -1.5d
+			y: 6.5d
 			shape: "square"
 			description: [
 				"铁背包有54格可以放置物品,并且有2个升级插槽."
 			]
 			dependencies: [
-				"269D21923CB857A7"
+				"1A1572C486A357CD"
 				"577D6202E19B2599"
 			]
 			id: "5378CA948429B7B3"
@@ -581,7 +581,7 @@
 			]
 		}
 		{
-			x: -1.0d
+			x: -0.5d
 			y: 6.5d
 			shape: "square"
 			description: [
@@ -622,7 +622,7 @@
 			]
 		}
 		{
-			x: 0.0d
+			x: 0.5d
 			y: 7.0d
 			shape: "square"
 			description: [
@@ -663,7 +663,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: 1.5d
 			y: 7.5d
 			shape: "square"
 			description: [
@@ -1092,6 +1092,7 @@
 			]
 		}
 		{
+			title: "木桶"
 			x: -11.0d
 			y: -4.5d
 			shape: "square"
@@ -1123,14 +1124,15 @@
 			]
 		}
 		{
+			title: "铁桶"
 			x: -11.0d
-			y: -3.5d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"铁桶有54个格子可以放置物品,并且有2个升级插槽."
 			]
 			dependencies: [
-				"1C896A52A86D60C9"
+				"527E35B0776F009A"
 				"577D6202E19B2599"
 			]
 			id: "3CA7C6E4B90E7E2F"
@@ -1157,8 +1159,9 @@
 			]
 		}
 		{
+			title: "金桶"
 			x: -11.0d
-			y: -2.5d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"金桶有18个格子可以放置物品,并有3个升级插槽."
@@ -1191,8 +1194,9 @@
 			]
 		}
 		{
+			title: "钻石桶"
 			x: -11.0d
-			y: -1.5d
+			y: -0.5d
 			shape: "square"
 			description: [
 				"钻石桶有 108 个格子来放置物品,并有 5 个升级插槽."
@@ -1225,8 +1229,9 @@
 			]
 		}
 		{
+			title: "下界合金桶"
 			x: -11.0d
-			y: -0.5d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"下界合金桶有120个格子放东西,有7个升级插槽."
@@ -1260,7 +1265,7 @@
 		{
 			title: "限类桶"
 			x: -11.0d
-			y: 0.5d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"限类桶的工作原理与抽屉完全相同,你可以在单个限类桶中存储一种类型的物品,两个在限制桶 II 中..."
@@ -1329,11 +1334,12 @@
 			]
 		}
 		{
+			title: "箱子"
 			x: -10.0d
-			y: -3.0d
+			y: -3.5d
 			shape: "square"
 			description: [
-				"木箱子的工作方式与箱子相同，这是有一个升级插槽的箱子"
+				"此箱子的工作方式与普通箱子相同，这是有一个升级插槽的箱子"
 			]
 			dependencies: ["577D6202E19B2599"]
 			id: "1BA882F4CA682BAB"
@@ -1360,14 +1366,15 @@
 			]
 		}
 		{
+			title: "铁箱子"
 			x: -10.0d
-			y: -2.0d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"铁箱子有54个格子可以放置物品,并且有2个升级插槽."
 			]
 			dependencies: [
-				"1BA882F4CA682BAB"
+				"7EAC5428839FC9CA"
 				"577D6202E19B2599"
 			]
 			id: "30C701AF99006157"
@@ -1394,8 +1401,9 @@
 			]
 		}
 		{
+			title: "金箱子"
 			x: -10.0d
-			y: -1.0d
+			y: -0.5d
 			shape: "square"
 			description: [
 				"金箱子有18个格子可以放置物品,并有3个升级插槽。"
@@ -1428,8 +1436,9 @@
 			]
 		}
 		{
+			title: "钻石箱子"
 			x: -10.0d
-			y: 0.0d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"钻石箱子有 108 个格子可以放置物品,并有 5 个升级插槽."
@@ -1462,8 +1471,9 @@
 			]
 		}
 		{
+			title: "下界合金箱子"
 			x: -10.0d
-			y: 1.0d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"下界合金箱子有120个格子放东西,有7个升级插槽."
@@ -1526,13 +1536,13 @@
 		}
 		{
 			x: -9.0d
-			y: -2.5d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"铁质潜影盒有54个格子可以放置物品,并且有2个升级插槽."
 			]
 			dependencies: [
-				"118BC2A083BED6DE"
+				"1ED3C72C4A25EC5E"
 				"577D6202E19B2599"
 			]
 			id: "14233AF80B6A7FE4"
@@ -1554,7 +1564,7 @@
 		}
 		{
 			x: -9.0d
-			y: -1.5d
+			y: -0.5d
 			shape: "square"
 			description: [
 				"金质潜影盒有181个格子可以放置物品,并有3个升级插槽."
@@ -1582,7 +1592,7 @@
 		}
 		{
 			x: -9.0d
-			y: -0.5d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"钻石潜影盒有 108 个格子可以放置物品,并有 5 个升级插槽."
@@ -1610,7 +1620,7 @@
 		}
 		{
 			x: -9.0d
-			y: 0.5d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"下界合金潜影盒有120个格子可以放置物品,并有7个升级插槽."
@@ -1636,7 +1646,7 @@
 			]
 		}
 		{
-			x: -11.0d
+			x: -7.5d
 			y: 1.5d
 			shape: "square"
 			description: [
@@ -1986,7 +1996,7 @@
 		}
 		{
 			x: 2.5d
-			y: 7.0d
+			y: 6.5d
 			shape: "square"
 			dependencies: ["577D6202E19B2599"]
 			id: "3CD652D2C0B66D84"
@@ -3378,7 +3388,7 @@
 		{
 			title: "功能性存储"
 			x: -7.5d
-			y: -2.0d
+			y: -2.5d
 			shape: "square"
 			dependencies: ["577D6202E19B2599"]
 			id: "5BF49C41DB9CA77F"
@@ -3637,7 +3647,7 @@
 		}
 		{
 			x: -4.5d
-			y: 7.0d
+			y: 6.5d
 			shape: "square"
 			dependencies: ["577D6202E19B2599"]
 			id: "483B83B5CDF55541"
@@ -4158,7 +4168,7 @@
 		{
 			title: "功能控制"
 			x: -7.5d
-			y: -1.0d
+			y: -1.5d
 			shape: "square"
 			dependencies: ["577D6202E19B2599"]
 			id: "487BF8A37F14EE63"
@@ -4199,7 +4209,7 @@
 		{
 			title: "特殊升级"
 			x: -7.5d
-			y: 1.0d
+			y: 0.5d
 			shape: "square"
 			dependencies: ["577D6202E19B2599"]
 			id: "0F6B724E6702C391"
@@ -4256,7 +4266,7 @@
 		{
 			title: "镶框抽屉"
 			x: -7.5d
-			y: 0.0d
+			y: -0.5d
 			shape: "square"
 			dependencies: ["577D6202E19B2599"]
 			id: "47FAC14EE3D916E5"
@@ -5216,6 +5226,130 @@
 					}
 				}
 			]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			shape: "square"
+			description: ["铜背包可以放置 45 个格物品，并有 1 个升级插槽"]
+			dependencies: [
+				"577D6202E19B2599"
+				"269D21923CB857A7"
+			]
+			id: "1A1572C486A357CD"
+			tasks: [{
+				id: "2E46A8340BB07629"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:copper_backpack"
+					Count: 1b
+					tag: {
+						inventorySlots: 45
+						upgradeSlots: 1
+						renderInfo: {
+							upgradeItems: [{
+								id: "minecraft:air"
+								Count: 1b
+								tag: {
+									data_model: { }
+								}
+							}]
+						}
+						contentsUuid: [I;
+							-329810805
+							-555398877
+							-2139060655
+							-181499887
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "549B212CE0935914"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				random_bonus: 7
+			}]
+		}
+		{
+			title: "铜桶"
+			x: -11.0d
+			y: -3.5d
+			shape: "square"
+			description: ["铜桶可以放置 45 个格物品，并有 1 个升级插槽"]
+			dependencies: [
+				"577D6202E19B2599"
+				"1C896A52A86D60C9"
+			]
+			id: "527E35B0776F009A"
+			tasks: [{
+				id: "7CD42D5ED04F5E66"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:copper_barrel"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+			rewards: [{
+				id: "16A799376B607565"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				random_bonus: 15
+			}]
+		}
+		{
+			title: "铜箱"
+			x: -10.0d
+			y: -2.5d
+			shape: "square"
+			description: ["铜箱可以放置 45 个格物品，并有 1 个升级插槽"]
+			dependencies: [
+				"577D6202E19B2599"
+				"1BA882F4CA682BAB"
+			]
+			id: "7EAC5428839FC9CA"
+			tasks: [{
+				id: "3781CB57A0170252"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:copper_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+			rewards: [{
+				id: "588E9FC459C37955"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				random_bonus: 15
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.5d
+			shape: "square"
+			description: ["铜潜影箱可以放置 45 个格物品，并有 1 个升级插槽"]
+			dependencies: [
+				"577D6202E19B2599"
+				"118BC2A083BED6DE"
+			]
+			id: "1ED3C72C4A25EC5E"
+			tasks: [{
+				id: "2E7D603EEBE60319"
+				type: "item"
+				item: "sophisticatedstorage:copper_shulker_box"
+			}]
+			rewards: [{
+				id: "412EE8622C36FEF9"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				random_bonus: 15
+			}]
 		}
 	]
 	quest_links: [ ]
