@@ -1,0 +1,350 @@
+{
+	id: "6935A012EE5813BE"
+	group: ""
+	order_index: 15
+	filename: "spirits"
+	title: "灵魂"
+	icon: "spirit:crude_soul_crystal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"灵魂水晶碎片用于在击杀一个怪物时储存一个灵魂，它只能储存一个灵魂，您可以将您的水晶放在物品栏的任何位置"
+			]
+			dependencies: [
+				"2C386FCB4D66DD1F"
+				"13C41B348C636ACA"
+			]
+			id: "6C3F4C8301FB6B2C"
+			tasks: [
+				{
+					id: "16ABBBF45A216B2D"
+					type: "item"
+					item: "spirit:soul_crystal_shard"
+				}
+			]
+			rewards: [
+				{
+					id: "16E8F9FDC21307E3"
+					type: "item"
+					item: "minecraft:quartz_block"
+					count: 4
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"灵魂水晶是您之前水晶的升级版，但如您所见，您只能在其中储存 64 个灵魂..."
+				""
+				"这很正常，因为现在你的灵魂水晶只有 0 级，同时它也是你激活灵魂笼的关键"
+				""
+				"当你的灵魂数量达到 64 个时，你可以看到数字会上升，现在它已进入 1 级，可以储存 128 个灵魂"
+				"2 级可储存 256 个灵魂"
+				"3 级可储存 512 个灵魂"
+				"4 级是最高级别，存储量不超过 3 级"
+			]
+			dependencies: [
+				"33BFE515CC2C6B7B"
+				"6142628451058BC0"
+				"13C41B348C636ACA"
+			]
+			id: "43E3D8B99061212D"
+			tasks: [
+				{
+					id: "25875D7B7C3C36BE"
+					type: "item"
+					item: "spirit:soul_crystal"
+				}
+			]
+			rewards: [
+				{
+					id: "172458F0B8AB018D"
+					type: "item"
+					item: "spirit:soul_glass"
+					count: 4
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"粗制灵魂水晶的作用与灵魂水晶碎片相同"
+				""
+				"它基本上是一种升级，使用它可以收集 256 个灵魂"
+			]
+			dependencies: [
+				"2740BEE716A25BEE"
+				"6C3F4C8301FB6B2C"
+				"13C41B348C636ACA"
+			]
+			id: "6142628451058BC0"
+			tasks: [
+				{
+					id: "7520F6D95D831486"
+					type: "item"
+					item: "spirit:crude_soul_crystal"
+				}
+			]
+			rewards: [
+				{
+					id: "68F62B9CC38AD178"
+					type: "item"
+					item: "spirit:soul_slate"
+					count: 4
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"要获得灵魂尘，只需将烧焦的异界石扔进灵魂火中即可"
+			]
+			dependencies: [
+				"2B57367693BD9211"
+				"13C41B348C636ACA"
+			]
+			id: "2C386FCB4D66DD1F"
+			tasks: [
+				{
+					id: "4C1542B47C7606A5"
+					type: "item"
+					item: "spirit:soul_powder"
+				}
+			]
+			rewards: [
+				{
+					id: "19FE928C57885D1A"
+					type: "item"
+					item: "spirit:soul_powder"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"要获得灵魂钢锭，需要将铁锭扔进灵魂火中，但火下方的方块需要被灵魂尘块包围"
+				""
+				"灵魂尘块会被制作消耗掉"
+				""
+				"如果你想知道结构，请查看JEI"
+			]
+			dependencies: [
+				"2C386FCB4D66DD1F"
+				"13C41B348C636ACA"
+			]
+			id: "2346B197A80C7552"
+			tasks: [
+				{
+					id: "6BDD0214E2D42381"
+					type: "item"
+					item: "spirit:soul_steel_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "68B9AEF69A946375"
+					type: "item"
+					item: "spirit:soul_steel_ingot"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"要获得灵魂玻璃，您需要将遮光玻璃扔进灵魂火，但灵魂火下面的方块需要被青金石方块包围"
+				""
+				"如果你想知道结构，请查看JEI"
+			]
+			dependencies: ["13C41B348C636ACA"]
+			id: "33BFE515CC2C6B7B"
+			tasks: [
+				{
+					id: "4090479CA6361CB8"
+					type: "item"
+					item: "spirit:soul_glass"
+				}
+			]
+			rewards: [
+				{
+					id: "4E737721129B176D"
+					type: "item"
+					item: "spirit:soul_glass"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			icon: "spirit:soul_pedestal"
+			x: 1.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"灵魂基座用于将灵魂转化为实体形态"
+				""
+				"在这个整合包中，它主要用于转化 资源坤"
+				"{image:ftbquests:textures/quests/spirit_pedestal.png width:150 height:100 align:1}"
+				"当你的灵魂一切就绪后，只需右击灵魂基座即可开始转生"
+			]
+			dependencies: [
+				"2346B197A80C7552"
+				"2740BEE716A25BEE"
+				"13C41B348C636ACA"
+			]
+			id: "7D9ACDADBB4CBD8C"
+			tasks: [
+				{
+					id: "17FF88CD57F34504"
+					type: "item"
+					item: "spirit:soul_pedestal"
+				}
+				{
+					id: "2BB29EB2C5D03F6E"
+					type: "item"
+					item: "spirit:pedestal"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "57E87FB42A63D9EA"
+					type: "item"
+					item: "spirit:pedestal"
+					count: 4
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"要获得灵魂板岩,你需要将异界石扔进灵魂火中"
+			]
+			dependencies: [
+				"2B57367693BD9211"
+				"13C41B348C636ACA"
+			]
+			id: "2740BEE716A25BEE"
+			tasks: [
+				{
+					id: "4357A29B640C8D04"
+					type: "item"
+					item: "spirit:soul_slate"
+				}
+			]
+			rewards: [
+				{
+					id: "613B134AFC6DB342"
+					type: "item"
+					item: "spirit:soul_slate"
+					count: 4
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			shape: "square"
+			description: [
+				"灵魂钢剑可以帮助你收集灵魂,用它杀死一个生物时,你的水晶会加倍。"
+				"灵魂死神附魔也可以为每杀死1人提供1人额外的灵魂."
+
+				"灵魂钢剑可以帮你收集灵魂，用它击杀怪物时，会双倍计算你的水晶"
+				""
+				"灵魂收割者附魔每升一级，每次击杀还能获得额外的灵魂"
+			]
+			dependencies: [
+				"2346B197A80C7552"
+				"13C41B348C636ACA"
+			]
+			id: "08810F1B7F35C526"
+			tasks: [
+				{
+					id: "239EC9361341CAD8"
+					type: "item"
+					item: {
+						id: "spirit:soul_steel_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "081641B945E540A8"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 5s
+									id: "spirit:soul_reaper"
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"灵魂笼是用来召唤无灵魂怪物的，它的作用类似于刷怪笼，没有范围要求"
+				""
+				"为了激活这个笼子，你需要一个至少有 64 个灵魂的灵魂水晶"
+				""
+				"请注意，激活灵魂笼的灵魂越多，效果就越好"
+			]
+			dependencies: [
+				"2346B197A80C7552"
+				"13C41B348C636ACA"
+			]
+			id: "4F2A8CF32BA4BDBD"
+			tasks: [
+				{
+					id: "42A2B8066E34A47D"
+					type: "item"
+					item: "spirit:soul_cage"
+				}
+			]
+			rewards: [
+				{
+					id: "02441852FE430CB6"
+					type: "item"
+					item: "spirit:soul_steel_block"
+					count: 4
+					random_bonus: 4
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

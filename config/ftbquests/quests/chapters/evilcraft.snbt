@@ -1,0 +1,1120 @@
+{
+	id: "346297BE5BDEC10F"
+	group: ""
+	order_index: 10
+	filename: "evilcraft"
+	title: "邪恶工艺"
+	icon: "evilcraft:condensed_blood"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"在地下寻找黑暗矿石"
+			]
+			dependencies: ["48D9C1D7730F18CD"]
+			id: "1577635AA4E66A66"
+			tasks: [
+				{
+					id: "43074C8E71841251"
+					type: "item"
+					item: "evilcraft:dark_gem"
+				}
+			]
+			rewards: [
+				{
+					id: "30E9CBAACA926440"
+					type: "item"
+					item: "evilcraft:dark_gem"
+					random_bonus: 7
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"只需制作一个黑苹果，但不能吃！"
+			]
+			dependencies: [
+				"1577635AA4E66A66"
+				"48D9C1D7730F18CD"
+			]
+			id: "1D654C0A3871B157"
+			tasks: [
+				{
+					id: "2EDC157D50D5005E"
+					type: "item"
+					item: "evilcraft:darkened_apple"
+				}
+			]
+			rewards: [
+				{
+					id: "7099BF3B62A57CD1"
+					type: "item"
+					item: "evilcraft:dark_gem"
+					random_bonus: 7
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"黑暗起源书是学习如何玩转邪恶工艺的指南书"
+				""
+				"要获得这本书，您必须给动物喂食黑苹果，然后在怪物死亡的地方扔一本书"
+			]
+			dependencies: [
+				"1D654C0A3871B157"
+				"48D9C1D7730F18CD"
+			]
+			id: "47708A85225B918A"
+			tasks: [
+				{
+					id: "47C2AABB81F9239B"
+					type: "item"
+					item: "evilcraft:origins_of_darkness"
+				}
+			]
+			rewards: [
+				{
+					id: "2451A9912194445E"
+					type: "item"
+					item: "evilcraft:dark_gem"
+					random_bonus: 7
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			shape: "square"
+			description: [
+				"复仇指环的作用在于能够看到击杀怪物时可能生成的复仇之魂"
+				""
+				"不过要小心，因为当戒指被激活时，你会招来比平时更多的复仇之魂"
+			]
+			dependencies: [
+				"1577635AA4E66A66"
+				"48D9C1D7730F18CD"
+			]
+			id: "4F8B08C502230A0F"
+			tasks: [
+				{
+					id: "1E2AB1E95ED99DD4"
+					type: "item"
+					item: "evilcraft:vengeance_ring"
+				}
+			]
+			rewards: [
+				{
+					id: "44D516656A444DDB"
+					type: "item"
+					item: "beyond_earth:ostrum_ingot"
+					random_bonus: 7
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"复仇之焦用于冻结复仇之魂"
+				""
+				"如果你需要把一个灵魂抓进永恒的灵魂箱，它就很有用"
+			]
+			dependencies: [
+				"4F8B08C502230A0F"
+				"48D9C1D7730F18CD"
+			]
+			id: "44167CB3A1DDA560"
+			tasks: [
+				{
+					id: "68B826431CD3909C"
+					type: "item"
+					item: "evilcraft:vengeance_focus"
+				}
+			]
+			rewards: [
+				{
+					id: "290A9C42D996F39F"
+					type: "item"
+					item: "evilcraft:dark_gem_crushed"
+					random_bonus: 7
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"复仇刺穿棱镜之焦用于对魂造成伤害并获得精华"
+			]
+			dependencies: [
+				"44167CB3A1DDA560"
+				"48D9C1D7730F18CD"
+			]
+			id: "5BDC7CBB07E7230D"
+			tasks: [
+				{
+					id: "496A95B2737A90E2"
+					type: "item"
+					item: "evilcraft:piercing_vengeance_focus"
+				}
+			]
+			rewards: [
+				{
+					id: "69CADD98C1846909"
+					type: "item"
+					item: "minecraft:end_crystal"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"血能注入器可以使用血液将物品转化为另一种物品"
+			]
+			dependencies: [
+				"562FF1F6F3713850"
+				"48D9C1D7730F18CD"
+			]
+			id: "7DA9A918079760B1"
+			tasks: [
+				{
+					id: "55592CC1CF207782"
+					type: "item"
+					item: {
+						id: "evilcraft:blood_infuser"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+							}
+							capacity: 10000
+						}
+						ForgeCaps: {
+							Parent: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+								capacity: 10000
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "15D9EE9A4E907EBC"
+					type: "item"
+					item: "evilcraft:blood_infusion_core"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			shape: "square"
+			description: [
+				"血腥环境存储器需要血液才能发挥作用"
+				"当放置在世界中时，你可以看到周围有 8 个烟雾颗粒，这就是你应该放置储血罐的地方"
+				"{image:ftbquests:textures/quests/evilcraft_sanguinary_setup.png width:150 height:100 align:1}"
+				"您可以放置任何类型的储罐，甚至是末影储罐"
+			]
+			dependencies: [
+				"249D4E899B6A93B0"
+				"48D9C1D7730F18CD"
+			]
+			id: "3DD4AC2306FA9462"
+			tasks: [
+				{
+					id: "0921E16731DF7B53"
+					type: "item"
+					item: "evilcraft:sanguinary_environmental_accumulator"
+				}
+			]
+			rewards: [
+				{
+					id: "5FEABD83E9B60116"
+					type: "item"
+					item: {
+						id: "evilcraft:dark_tank"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "evilcraft:blood"
+								Amount: 16000
+							}
+							capacity: 16000
+						}
+						ForgeCaps: {
+							Parent: {
+								FluidName: "evilcraft:blood"
+								Amount: 16000
+								capacity: 16000
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			shape: "square"
+			description: [
+				"环境存储器核心用于制作血腥环境存储器"
+				"您需要像下面的画面一样，破坏黑暗神庙中的环境存储器"
+				"{image:ftbquests:textures/quests/evilcraft_dark_temple.png width:150 height:100 align:1}"
+				"首先，环境存储器用于捕捉天气容器中的天气，方法是将瓶子扔到光束中"
+			]
+			dependencies: ["48D9C1D7730F18CD"]
+			id: "249D4E899B6A93B0"
+			tasks: [
+				{
+					id: "7E88F28F0CFFA014"
+					type: "item"
+					item: "evilcraft:environmental_accumulation_core"
+				}
+			]
+			rewards: [
+				{
+					id: "51CF5623DC568D09"
+					type: "item"
+					item: "evilcraft:bloody_cobblestone"
+					count: 8
+					random_bonus: 24
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"雷电权杖是单次使用的物品，它可以召唤雷霆"
+				"用于制作天气容器 \"雷击\"."
+			]
+			dependencies: [
+				"11A9C8B93702BC82"
+				"48D9C1D7730F18CD"
+			]
+			id: "2498E11E6FA06B0F"
+			tasks: [
+				{
+					id: "7A2AB4CD3F31453A"
+					type: "item"
+					item: "evilcraft:sceptre_of_thunder"
+				}
+			]
+			rewards: [
+				{
+					id: "4147B23B4D57E40D"
+					type: "item"
+					item: "evilcraft:blood_orb_filled"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"使用一些暗能宝石粉，再与复仇精华结合，就能获得物化复仇之魂精华"
+			]
+			dependencies: [
+				"7DB61268194A5D7E"
+				"48D9C1D7730F18CD"
+			]
+			id: "1505DA74A50CCFF1"
+			tasks: [
+				{
+					id: "634E7380B33E63C3"
+					type: "item"
+					item: "evilcraft:vengeance_essence_materialized"
+				}
+			]
+			rewards: [
+				{
+					id: "1B7217038713CCF3"
+					type: "item"
+					item: "evilcraft:dark_gem_crushed"
+					count: 8
+					random_bonus: 16
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			shape: "square"
+			description: [
+				"使用复仇刺穿棱镜之焦击杀魂灵获得"
+			]
+			dependencies: [
+				"5BDC7CBB07E7230D"
+				"48D9C1D7730F18CD"
+			]
+			id: "7DB61268194A5D7E"
+			tasks: [
+				{
+					id: "530D309B1EB93E48"
+					type: "item"
+					item: "evilcraft:vengeance_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "6149AB742B8A53D6"
+					type: "item"
+					item: "evilcraft:vengeance_essence"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"永恒的灵魂箱用于捕获复仇之魂"
+				""
+				"在这个整合包中，您需要捕获某些怪物来结束游戏！"
+			]
+			dependencies: [
+				"1577635AA4E66A66"
+				"48D9C1D7730F18CD"
+			]
+			id: "4512C2B58AD1076D"
+			tasks: [
+				{
+					id: "3E8069A26A7BACBC"
+					type: "item"
+					item: "evilcraft:box_of_eternal_closure"
+				}
+			]
+			rewards: [
+				{
+					id: "68E1C4CDB21B78F8"
+					type: "item"
+					item: "evilcraft:box_of_eternal_closure"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"血腥基座用于排出周围区域的血渍"
+				"将其与钉刺板结合使用，可实现自动副产物加血"
+			]
+			dependencies: [
+				"1577635AA4E66A66"
+				"48D9C1D7730F18CD"
+			]
+			id: "585B9B16C8FB0996"
+			tasks: [
+				{
+					id: "5DAEB41479E57B89"
+					type: "item"
+					item: {
+						id: "evilcraft:sanguinary_pedestal_0"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+							}
+							capacity: 10000
+						}
+						ForgeCaps: {
+							Parent: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+								capacity: 10000
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2E69A5A0B2BBA6E0"
+					type: "item"
+					item: {
+						id: "evilcraft:sanguinary_pedestal_0"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+								capacity: 10000
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			shape: "square"
+			description: [
+				"能血腥基座的工作原理与简单的血腥基座相同，但它可以消耗更多的血液"
+			]
+			dependencies: [
+				"585B9B16C8FB0996"
+				"48D9C1D7730F18CD"
+			]
+			id: "397F81BC0FACA32C"
+			tasks: [
+				{
+					id: "0727B28271C2DE27"
+					type: "item"
+					item: {
+						id: "evilcraft:sanguinary_pedestal_1"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+							}
+							capacity: 10000
+						}
+						ForgeCaps: {
+							Parent: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+								capacity: 10000
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3D8AE2CA0424E143"
+					type: "item"
+					item: "evilcraft:spiked_plate"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"钉刺板用于伤害怪物"
+				"使用基座实现自动产物造血"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1577635AA4E66A66"
+				"48D9C1D7730F18CD"
+			]
+			id: "2F27D1C519E3D2FC"
+			tasks: [
+				{
+					id: "3C084BD9C515E72E"
+					type: "item"
+					item: "evilcraft:spiked_plate"
+				}
+			]
+			rewards: [
+				{
+					id: "0B4EFB000C4C417C"
+					type: "item"
+					item: "evilcraft:spiked_plate"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			shape: "square"
+			description: [
+				"血液提取器可以通过 Shift 右键血迹来抽血"
+				"当您用物品栏中的有提取器时击杀怪物时，它还可以储存血液"
+				"您可以通过组合其他血液提取器或储血罐来升级内部存储"
+			]
+			dependencies: [
+				"1577635AA4E66A66"
+				"48D9C1D7730F18CD"
+			]
+			id: "2805CB885775263A"
+			tasks: [
+				{
+					id: "2B8CB33E0DF144E6"
+					type: "item"
+					item: {
+						id: "evilcraft:blood_extractor"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+							}
+							capacity: 5000
+						}
+						ForgeCaps: {
+							Parent: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+								capacity: 5000
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "222822127E135ECB"
+					type: "item"
+					item: {
+						id: "evilcraft:blood_extractor"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+							}
+							capacity: 5000
+						}
+						ForgeCaps: {
+							Parent: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+								capacity: 5000
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			shape: "square"
+			description: [
+				"天气容器，就像他的名字一样，可以使用环境存储器或 圣杯 将天气储存在里面。"
+				""
+				"当你有一个装有东西的天气容器时，你可以直接把它扔出去"
+			]
+			dependencies: [
+				"1577635AA4E66A66"
+				"48D9C1D7730F18CD"
+			]
+			id: "296E48F13F86BBB7"
+			tasks: [{
+				id: "108092E56DA73F22"
+				type: "item"
+				item: "evilcraft:weather_container"
+			}]
+			rewards: [{
+				id: "7003DA7B9DA17E39"
+				type: "item"
+				item: "evilcraft:weather_container"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"速度的诺言用于邪恶工艺机器，可叠加 4 次，它能加快机器的速度"
+			]
+			dependencies: [
+				"7DA9A918079760B1"
+				"48D9C1D7730F18CD"
+			]
+			id: "3C6BFF8D837001FE"
+			tasks: [
+				{
+					id: "0B693901BAC43FFE"
+					type: "item"
+					item: "evilcraft:promise_speed_0"
+				}
+			]
+			rewards: [
+				{
+					id: "1E668E9D9E7D3BF8"
+					type: "item"
+					item: "evilcraft:promise_speed_0"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"效率的诺言用于邪恶工艺机器，可叠加 4 次，它能让你每次操作消耗更少的血量"
+			]
+			dependencies: [
+				"7DA9A918079760B1"
+				"48D9C1D7730F18CD"
+			]
+			id: "27163873EBE27E61"
+			tasks: [
+				{
+					id: "350D127CEF5942A1"
+					type: "item"
+					item: "evilcraft:promise_efficiency_0"
+				}
+			]
+			rewards: [
+				{
+					id: "63BFC3119E88E099"
+					type: "item"
+					item: "evilcraft:promise_efficiency_0"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"坚韧的诺言 I 用于升级您的机器"
+			]
+			dependencies: [
+				"7DA9A918079760B1"
+				"48D9C1D7730F18CD"
+			]
+			id: "7D728D0DB7EBC47A"
+			tasks: [
+				{
+					id: "620F4A6AD1D82305"
+					type: "item"
+					item: "evilcraft:promise_tier_1"
+				}
+			]
+			rewards: [
+				{
+					id: "43C8F7618380DCF5"
+					type: "item"
+					item: "evilcraft:promise_tier_1"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			shape: "square"
+			description: [
+				"坚韧的诺言 II 用于升级您的机器"
+			]
+			dependencies: [
+				"7D728D0DB7EBC47A"
+				"48D9C1D7730F18CD"
+			]
+			id: "2B1CF4ACF28CA9DE"
+			tasks: [
+				{
+					id: "123B9AB0879E6179"
+					type: "item"
+					item: "evilcraft:promise_tier_2"
+				}
+			]
+			rewards: [
+				{
+					id: "6355BD986C53DEB7"
+					type: "item"
+					item: "evilcraft:promise_tier_2"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			shape: "square"
+			description: [
+				"坚韧的诺言 III 是用于升级机器的最后一级"
+			]
+			dependencies: [
+				"2B1CF4ACF28CA9DE"
+				"48D9C1D7730F18CD"
+			]
+			id: "4CBA5CFBD7EF0EA3"
+			tasks: [
+				{
+					id: "55C42BECE0C8AED3"
+					type: "item"
+					item: "evilcraft:promise_tier_3"
+				}
+			]
+			rewards: [
+				{
+					id: "16F250C39B45A116"
+					type: "item"
+					item: "evilcraft:promise_tier_3"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"你需要将一颗暗黑宝石扔进 5 桶血的池子里，才能获得这颗暗黑充能宝石"
+			]
+			dependencies: [
+				"2B6D002D9CEE7153"
+				"48D9C1D7730F18CD"
+			]
+			id: "384747F22752688B"
+			tasks: [
+				{
+					id: "3A41C53B6FA34445"
+					type: "item"
+					item: "evilcraft:dark_power_gem"
+				}
+			]
+			rewards: [
+				{
+					id: "0A90A1E725AA36FE"
+					type: "item"
+					item: "evilcraft:dark_power_gem"
+					random_bonus: 7
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"要获得 血块，你需要等待你的血桶,放置在世界上,干!"
+				"或者您也可以使用集成动力"
+				""
+				"您还需要《精准采集》"
+			]
+			dependencies: [
+				"2B6D002D9CEE7153"
+				"48D9C1D7730F18CD"
+			]
+			id: "1C8DB2E8717C6AAF"
+			tasks: [
+				{
+					id: "70BFE71264971E74"
+					type: "item"
+					item: "evilcraft:hardened_blood"
+				}
+			]
+			rewards: [
+				{
+					id: "362178B465E33618"
+					type: "item"
+					item: "evilcraft:hardened_blood_shard"
+					random_bonus: 15
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"用鲜血注入物化复仇之魂精华，获得痛苦之源"
+			]
+			dependencies: [
+				"1505DA74A50CCFF1"
+				"48D9C1D7730F18CD"
+			]
+			id: "443E2A8B9754F1B8"
+			tasks: [
+				{
+					id: "21BD4D7D4A534B50"
+					type: "item"
+					item: "evilcraft:garmonbozia"
+				}
+			]
+			rewards: [
+				{
+					id: "73813AFA025F74B2"
+					type: "item"
+					item: "evilcraft:vengeance_essence_materialized"
+					random_bonus: 7
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"亡灵树苗可以长出亡灵树，它们会在地板上掉落血渍"
+			]
+			dependencies: [
+				"7DA9A918079760B1"
+				"48D9C1D7730F18CD"
+			]
+			id: "511DF6A8A14D0B68"
+			tasks: [
+				{
+					id: "639A4C78BBC09D23"
+					type: "item"
+					item: "evilcraft:undead_sapling"
+				}
+			]
+			rewards: [
+				{
+					id: "23C1680DFBFDE1B6"
+					type: "item"
+					item: "evilcraft:undead_sapling"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"血能注入器核心是邪恶工艺机器的基础原料"
+			]
+			dependencies: [
+				"384747F22752688B"
+				"1C8DB2E8717C6AAF"
+				"48D9C1D7730F18CD"
+			]
+			id: "562FF1F6F3713850"
+			tasks: [
+				{
+					id: "3D9B73F862DB72F7"
+					type: "item"
+					item: "evilcraft:blood_infusion_core"
+				}
+			]
+			rewards: [
+				{
+					id: "5E3F4A921541EC82"
+					type: "item"
+					item: "evilcraft:blood_infusion_core"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"血晶球可以转化为虚弱气血宝珠，用于血魔法"
+			]
+			dependencies: [
+				"7DA9A918079760B1"
+				"48D9C1D7730F18CD"
+			]
+			id: "11A9C8B93702BC82"
+			tasks: [
+				{
+					id: "4C7C4DDBD745DE0B"
+					type: "item"
+					item: "evilcraft:blood_orb_filled"
+				}
+			]
+			rewards: [
+				{
+					id: "50824B30F1816709"
+					type: "item"
+					item: "evilcraft:blood_orb_filled"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"当你的血液提取器中有 1000MB 或更多血液时，你可以右击地面释放一桶血液"
+			]
+			dependencies: [
+				"2805CB885775263A"
+				"48D9C1D7730F18CD"
+			]
+			id: "2B6D002D9CEE7153"
+			tasks: [
+				{
+					id: "4D02B6D731B05615"
+					type: "item"
+					item: "evilcraft:bucket_blood"
+				}
+			]
+			rewards: [
+				{
+					id: "084D6E9DC913AF85"
+					type: "item"
+					item: "evilcraft:bucket_blood"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"永恒水方块只是一个无限水源,在相邻的储罐中自动输出"
+			]
+			dependencies: [
+				"296E48F13F86BBB7"
+				"48D9C1D7730F18CD"
+			]
+			id: "2D68A619FA087D0F"
+			tasks: [
+				{
+					id: "36B57C93D6B1600D"
+					type: "item"
+					item: "evilcraft:eternal_water"
+				}
+			]
+			rewards: [
+				{
+					id: "32494F1C6ABE57FC"
+					type: "item"
+					item: "evilcraft:bucket_eternal_water"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"血能箱可以用血液修复物品"
+			]
+			dependencies: [
+				"562FF1F6F3713850"
+				"48D9C1D7730F18CD"
+			]
+			id: "3A65F6BCB2F34B73"
+			tasks: [
+				{
+					id: "6D2F533B17EAD271"
+					type: "item"
+					item: {
+						id: "evilcraft:blood_chest"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+							}
+							capacity: 10000
+						}
+						ForgeCaps: {
+							Parent: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+								capacity: 10000
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "68BA57019C6ADD8E"
+					type: "item"
+					item: "evilcraft:bucket_blood"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"灵魂再生炉用于将灵魂再生为刷怪蛋"
+				""
+				"放置一个永恒的灵魂箱，里面有你想要的陷阱，放上一个蛋，用一些血，然后等待你的刷怪蛋生成"
+			]
+			dependencies: [
+				"4512C2B58AD1076D"
+				"48D9C1D7730F18CD"
+			]
+			id: "3990D1C488310B47"
+			tasks: [
+				{
+					id: "169096CE7C545E5A"
+					type: "item"
+					item: {
+						id: "evilcraft:spirit_reanimator"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+							}
+							capacity: 10000
+						}
+						ForgeCaps: {
+							Parent: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+								capacity: 10000
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "623E90D76BCC815E"
+					type: "item"
+					item: "minecraft:egg"
+					count: 8
+					random_bonus: 8
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			shape: "square"
+			description: [
+				"凝血用于血能注入器，可为您提供 500mb 的血液"
+				"在这个整合包中，如果你有一个蜜脾农场，就可以用它免费获得血液 "
+			]
+			dependencies: [
+				"7DA9A918079760B1"
+				"48D9C1D7730F18CD"
+			]
+			id: "68E377793A62A934"
+			tasks: [
+				{
+					id: "571406A1B31BF6E8"
+					type: "item"
+					item: "evilcraft:condensed_blood"
+				}
+			]
+			rewards: [
+				{
+					id: "06028432DCF04C24"
+					type: "item"
+					item: "evilcraft:condensed_blood"
+					random_bonus: 3
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

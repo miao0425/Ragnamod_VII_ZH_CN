@@ -1,0 +1,3809 @@
+{
+	id: "2045D567B9FCBCF3"
+	group: ""
+	order_index: 9
+	filename: "botania"
+	title: "植物魔法"
+	icon: "botania:mana_pylon"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 9.0d
+			y: -4.5d
+			width: 27.0d
+			height: 1.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/generating.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.0d
+			y: 5.0d
+			width: 27.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/functional.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "四季符文"
+			x: 11.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"这些是二级符文"
+				""
+				"它们都由 2 个 &d元素符文&r 和 4 件代表其季节的物品制作而成"
+			]
+			dependencies: [
+				"00000000000003A2"
+				"113D3F44F9F6C45C"
+			]
+			id: "000000000000037C"
+			tasks: [
+				{
+					id: "2A30C3E8DA526676"
+					type: "item"
+					item: "botania:rune_spring"
+				}
+				{
+					id: "555D46B3277DC518"
+					type: "item"
+					item: "botania:rune_summer"
+				}
+				{
+					id: "7C275C683FD97C97"
+					type: "item"
+					item: "botania:rune_autumn"
+				}
+				{
+					id: "58CFB604287FFE3E"
+					type: "item"
+					item: "botania:rune_winter"
+				}
+			]
+			rewards: [{
+				id: "702C4A6456E43254"
+				type: "item"
+				item: "botania:rune_winter"
+			}]
+		}
+		{
+			title: "罪孽符文"
+			x: 10.0d
+			y: 2.5d
+			shape: "circle"
+			description: [
+				"这些是三级符文"
+				""
+				"它们都由一个 &d元素符文&r、一个 &d季节符文&r 和 2 个魔力钻石制作而成"
+			]
+			dependencies: [
+				"000000000000037C"
+				"00000000000003D0"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000388"
+			tasks: [
+				{
+					id: "0000000000000389"
+					type: "item"
+					item: "botania:rune_wrath"
+				}
+				{
+					id: "501048AA650BB8EF"
+					type: "item"
+					item: "botania:rune_lust"
+				}
+				{
+					id: "060B00064AAE4FFD"
+					type: "item"
+					item: "botania:rune_gluttony"
+				}
+				{
+					id: "2DD691AAA99F6B30"
+					type: "item"
+					item: "botania:rune_greed"
+				}
+				{
+					id: "7877B5E8469528E8"
+					type: "item"
+					item: "botania:rune_sloth"
+				}
+				{
+					id: "1B3EBF81C5D4EA65"
+					type: "item"
+					item: "botania:rune_envy"
+				}
+				{
+					id: "1D9CF38B0A9E22BF"
+					type: "item"
+					item: "botania:rune_pride"
+				}
+			]
+			rewards: [{
+				id: "474D303D38D90673"
+				type: "item"
+				item: "botania:rune_pride"
+			}]
+		}
+		{
+			title: "世界树的符文"
+			x: 9.0d
+			y: 3.0d
+			shape: "circle"
+			description: [
+				"这些是四级符文"
+				""
+				"它们都制作有一个 &d元素符文&r、一个 &d季节符文&r、一个 &d罪恶符文&r 和 2 件代表其世界的物品"
+			]
+			dependencies: [
+				"0000000000000388"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000394"
+			tasks: [
+				{
+					id: "0000000000000395"
+					type: "item"
+					item: "mythicbotany:midgard_rune"
+				}
+				{
+					id: "0BA79AE0B09F3F0E"
+					type: "item"
+					item: "mythicbotany:asgard_rune"
+				}
+				{
+					id: "554A02555B240859"
+					type: "item"
+					item: "mythicbotany:vanaheim_rune"
+				}
+				{
+					id: "29085AD58D0933E0"
+					type: "item"
+					item: "mythicbotany:alfheim_rune"
+				}
+				{
+					id: "5770E58622BC0C5C"
+					type: "item"
+					item: "mythicbotany:joetunheim_rune"
+				}
+				{
+					id: "04BEE93DBF8CD79F"
+					type: "item"
+					item: "mythicbotany:muspelheim_rune"
+				}
+				{
+					id: "7F2C89FFA91548FB"
+					type: "item"
+					item: "mythicbotany:niflheim_rune"
+				}
+				{
+					id: "7E7ED99CA6425C78"
+					type: "item"
+					item: "mythicbotany:nidavellir_rune"
+				}
+				{
+					id: "04527CEB8BB22A79"
+					type: "item"
+					item: "mythicbotany:helheim_rune"
+				}
+			]
+			rewards: [{
+				id: "55936AE9F4994376"
+				type: "item"
+				item: "mythicbotany:midgard_rune"
+			}]
+		}
+		{
+			title: "元素符文"
+			x: 11.0d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"这些是一级符文"
+				""
+				"除了 &d魔力符文&r 外，它们的制作都需要一个魔力水晶、一个魔力粉末和 3 件代表其元素的物品"
+			]
+			dependencies: [
+				"00000000000003F7"
+				"00000000000003D3"
+				"11DDE2DB7C47E14E"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003A2"
+			tasks: [
+				{
+					id: "00000000000003A3"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "20BBF26689A2F152"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "28ABFC44933FF6D9"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "1191C9C9939572EF"
+					type: "item"
+					item: "botania:rune_air"
+				}
+				{
+					id: "58245BA9CF6838B2"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+			]
+			rewards: [{
+				id: "54C8AA615C69794D"
+				type: "item"
+				item: "botania:rune_mana"
+			}]
+		}
+		{
+			title: "火花增强"
+			x: 13.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"为您的火花装上火花升级，赋予它们特定的行为："
+				"- 扩散会将其魔力传送给范围内的所有其他火花"
+				"- 聚集将聚集范围内所有其他火花的魔力"
+				"- 隔绝的火花避免与其他具有扩散或聚集能力的火花互动"
+				"- 弥散会填充附近玩家的魔力容器（魔力石板或戒指）"
+			]
+			dependencies: [
+				"00000000000003EF"
+				"000000000000041A"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003A4"
+			tasks: [
+				{
+					id: "00000000000003A6"
+					type: "item"
+					item: "botania:spark_upgrade_recessive"
+				}
+				{
+					id: "00000000000003A7"
+					type: "item"
+					item: "botania:spark_upgrade_dominant"
+				}
+				{
+					id: "4707A3D9FDEA8EDD"
+					type: "item"
+					item: "botania:spark_upgrade_isolated"
+				}
+				{
+					id: "62A2CBABA804DCBF"
+					type: "item"
+					item: "botania:spark_upgrade_dispersive"
+				}
+			]
+			rewards: [{
+				id: "3B32038783EC36DF"
+				type: "item"
+				item: "botania:pixie_dust"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "盖亚守护者的准备工作"
+			icon: "botania:gaia_pylon"
+			x: 19.5d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"要与盖亚守护者战斗，您需要用这个任务中的东西搭建一个竞技场。查看植物魔法辞典，了解如何建造竞技场"
+				""
+				"要开始战斗，只需手持泰拉钢锭潜行+右键信标即可"
+			]
+			dependencies: [
+				"7E165C3D21F39879"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003A9"
+			tasks: [
+				{
+					id: "00000000000003AA"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+				{
+					id: "3961DECF99B9DDFA"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "0AA0E77B5C57A056"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 9L
+				}
+				{
+					id: "3E1D676C4FB738F4"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			rewards: [{
+				id: "5865559519406018"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "亚尔夫海姆传送门"
+			icon: "botania:natura_pylon"
+			x: 14.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"亚尔夫海姆传送门主要用于用世界上的东西换取亚尔夫海姆的东西"
+				"查看《植物魔法辞典》，了解您需要制作的结构"
+				"传送门需要在自然水晶下的 &n 两个 &r 池中注入 100,000 魔力才能打开，但之后只在交易时使用魔力，每次交易使用 500 魔力"
+				""
+				"之后，有了神秘植物学，您就可以进入亚尔夫海姆维度，跟着任务走"
+				""
+				"小贴士：亚尔夫海姆传送门开启后，可以将自然水晶下的魔力池换成稀释魔力池，避免锁定过多的魔力进行交易"
+				"只要不把交易物品扔进去，打破水池或铁塔并不会关闭传送门"
+			]
+			dependencies: [
+				"00000000000003EB"
+				"00000000000003AE"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "00000000000003AB"
+			tasks: [
+				{
+					id: "00000000000003AC"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "38BA82E297C1B533"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "507E860BFFE00F9F"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "08B9364BBD14F9FF"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "30AA7F0C14687CF0"
+				type: "item"
+				item: "botania:starfield"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			shape: "circle"
+			dependencies: [
+				"00000000000003CF"
+				"00000000000003D4"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003AD"
+			tasks: [{
+				id: "00000000000003AE"
+				type: "item"
+				item: "botania:mana_pylon"
+			}]
+			rewards: [{
+				id: "2006A066BF0FBEE2"
+				type: "item"
+				item: "botania:mana_diamond"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.5d
+			shape: "circle"
+			description: ["您可以将现有的植物魔法辞典扔进精灵传送门，从而升级您的植物魔法辞典"]
+			dependencies: [
+				"00000000000003AB"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003AF"
+			tasks: [{
+				id: "00000000000003B0"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "057D77D89BB0907A"
+				type: "item"
+				item: "croptopia:caramel"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"森林法杖是你操纵魔力和配置植物魔法的工具"
+				"在对准不兼容方块的情况下，通过潜行+右键魔杖，在绑定模式和功能模式之间切换"
+			]
+			dependencies: [
+				"4E8017A427B96DC5"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003B1"
+			tasks: [{
+				id: "00000000000003B2"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1048817CA847D176"
+				type: "item"
+				item: "botania:livingwood_log"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["花肥用于右键草方块生成神秘花朵"]
+			dependencies: [
+				"113D3F44F9F6C45C"
+				"761F1776ADC5E9F1"
+			]
+			size: 2.0d
+			id: "00000000000003B3"
+			tasks: [{
+				id: "00000000000003B4"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			rewards: [{
+				id: "14A0D9EE780635AC"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "花药台"
+			x: 2.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["花药台用于制作生产和功能性花"]
+			dependencies: [
+				"00000000000003B3"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "00000000000003B5"
+			tasks: [{
+				id: "00000000000003B6"
+				type: "item"
+				title: "花药台"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:apothecary"
+					}
+				}
+			}]
+			rewards: [{
+				id: "609058DB2E1BD713"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"盖亚魔力发射器可以爆发更多的魔力，速度也比精灵的快得多"
+				""
+				"它有一个 6400 魔力的内部缓冲器，可发射 640 魔力的爆裂弹，以每格 0.4 个方块（每秒 8 个方块）的速度，最多可到达 48 个方块"
+			]
+			dependencies: [
+				"00000000000003E9"
+				"00000000000003DC"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003B7"
+			tasks: [{
+				id: "00000000000003B8"
+				type: "item"
+				item: "botania:gaia_spreader"
+			}]
+			rewards: [{
+				id: "0304AC4B7F0651F1"
+				type: "item"
+				item: "botania:gaia_spreader"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"用彩虹桥法杖点击右键，就可以在你所看的方向上建造一条临时彩虹路"
+				"使用时身上需要有魔力值，但使用它不会消耗任何魔力值。建造的道路最长可达 100 个方块，持续时间为 30 秒"
+			]
+			dependencies: [
+				"00000000000003ED"
+				"00000000000003F2"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003B9"
+			tasks: [{
+				id: "00000000000003BA"
+				type: "item"
+				item: "botania:rainbow_rod"
+			}]
+			rewards: [{
+				id: "1B5C113217954080"
+				type: "item"
+				item: "botania:bifrost_perm"
+				count: 12
+				random_bonus: 12
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			shape: "circle"
+			description: ["有了海洋法杖，你手中就有了一片海洋，当然前提是你身上有魔力（每次使用 75 魔力）"]
+			dependencies: [
+				"00000000000003A2"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003BB"
+			tasks: [{
+				id: "00000000000003BC"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+			rewards: [{
+				id: "301DDFDB19211602"
+				type: "item"
+				item: "minecraft:heart_of_the_sea"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"有了移壳杆，只要身上有魔力（每次使用 40），就可以交换方块"
+			]
+			dependencies: [
+				"0000000000000388"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003BD"
+			tasks: [{
+				id: "00000000000003BE"
+				type: "item"
+				item: {
+					id: "botania:exchange_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2D38CE387557E66C"
+				type: "item"
+				item: "thermal:earth_tnt"
+				count: 4
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.0d
+			shape: "circle"
+			description: ["魔力石板用于随身携带魔力。在发送模式下，用森林法杖右键点击魔力石板，将其扔进设置好的魔力池中，就能填满魔力池；在接收模式下，则可以用魔力石板中的内容填满魔力池"]
+			dependencies: [
+				"00000000000003D1"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003C7"
+			tasks: [{
+				id: "00000000000003C8"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "595B476B529176BF"
+				type: "item"
+				item: "botania:mana_diamond"
+				random_bonus: 1
+			}]
+		}
+		{
+			title: "魔力材料"
+			x: 7.0d
+			y: -1.0d
+			shape: "circle"
+			description: [
+				"在魔力池中丢入"
+				"- 线，获得蕴魔丝线"
+				"- 粉尘（火药、荧石粉、红石粉、糖）或任何染料，获得魔力尘"
+				"- 下界石英，获得魔力石英"
+				"- 玻璃方块，获得魔力玻璃"
+			]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003CB"
+			tasks: [
+				{
+					id: "444180FD972487DA"
+					type: "item"
+					item: "botania:mana_string"
+				}
+				{
+					id: "11DDE2DB7C47E14E"
+					type: "item"
+					item: "botania:mana_powder"
+				}
+				{
+					id: "0F6ACB727D707130"
+					type: "item"
+					item: "botania:quartz_mana"
+				}
+				{
+					id: "4176DCF2028E1027"
+					type: "item"
+					item: "botania:mana_glass"
+				}
+			]
+			rewards: [{
+				id: "41345E9BFBF7C395"
+				type: "item"
+				item: "botania:quartz_mana"
+				count: 4
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			shape: "circle"
+			description: ["将钻石扔进魔力池，获得魔力钻石"]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003CF"
+			tasks: [{
+				id: "00000000000003D0"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+			rewards: [{
+				id: "7B2E9D11C3CEB0CF"
+				type: "item"
+				item: "botania:mana_diamond"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			shape: "circle"
+			description: ["将末影珍珠扔进魔力池，获得魔力珍珠"]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003D1"
+			tasks: [{
+				id: "00000000000003D2"
+				type: "item"
+				item: "botania:mana_pearl"
+			}]
+			rewards: [{
+				id: "6A805D664ADB1AF3"
+				type: "item"
+				item: "botania:mana_pearl"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["将钢锭扔进魔力池，获得魔力锭"]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003D3"
+			tasks: [{
+				id: "00000000000003D4"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+			rewards: [{
+				id: "6A226391443603C9"
+				type: "item"
+				item: "beyond_earth:steel_ingot"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			shape: "circle"
+			description: ["合成环是一种便携式工作台，最多可登记 11 哥合成"]
+			dependencies: [
+				"00000000000003D1"
+				"00000000000003D4"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003D5"
+			tasks: [{
+				id: "00000000000003D6"
+				type: "item"
+				item: {
+					id: "botania:crafting_halo"
+					Count: 1b
+					tag: {
+						rotationBase: 630.4825f
+					}
+				}
+			}]
+			rewards: [{
+				id: "56907D9F9EFBAD52"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			shape: "circle"
+			description: ["当把暗黑莲花扔进魔力池时，它能提供巨量的魔力，整整 100,000 魔力"]
+			dependencies: [
+				"00000000000003E5"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003D7"
+			tasks: [{
+				id: "00000000000003D8"
+				type: "item"
+				item: "botania:blacker_lotus"
+			}]
+			rewards: [{
+				id: "0E3A618BE58CF8D2"
+				type: "item"
+				item: "botania:blacker_lotus"
+				count: 4
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"精灵魔力发射器可以爆发更多的魔力，速度也比基础发射器更快一些"
+				""
+				"它有一个容量为 1000 魔力的内部缓冲器，可发射 240 魔力的爆裂弹，以每格 0.25 个方块（每秒 5 个方块）的速度，最多可传播到 20 个方块"
+			]
+			dependencies: [
+				"00000000000003F1"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003DB"
+			tasks: [{
+				id: "00000000000003DC"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [{
+				id: "67FAD6678232C056"
+				type: "item"
+				item: "botania:elven_spreader"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "盖亚守护者 II"
+			icon: "botania:gaia_ingot"
+			x: 18.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["使用盖亚之魂制作一个盖亚魂锭，并将它用在盖亚竞技场的信标上"]
+			dependencies: [
+				"00000000000003E9"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "00000000000003DD"
+			tasks: [{
+				id: "00000000000003DE"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+			rewards: [{
+				id: "36ACE24E75575740"
+				type: "item"
+				item: "botania:life_essence"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 17.0d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"将一个源质钢锭、一个精灵尘和一个龙石放在注魔板上，得到一个精灵钢锭"
+				"至于泰拉钢，其成本相当高（2,000,000 魔力，2 个魔力池），因此在开始制作之前要确保拥有制作所需的魔力，否则发送到注魔板的魔力将全部丢失"
+			]
+			dependencies: [
+				"0000000000000418"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003DF"
+			tasks: [{
+				id: "00000000000003E0"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+			rewards: [{
+				id: "6BFB76E07F4A5E7B"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"将魔力手镜绑定到魔力池上，右键点击魔力手镜，身上就会有魔力，就像一个远程魔力石板"
+			]
+			dependencies: [
+				"00000000000003EB"
+				"00000000000003C7"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003E3"
+			tasks: [{
+				id: "00000000000003E4"
+				type: "item"
+				item: {
+					id: "botania:mana_mirror"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "654C9B976EA936BA"
+				type: "item"
+				item: "botania:mana_diamond"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["在这个整合包中，您可以制作黑莲。只要把它扔进含有一些魔力的魔力池中，就能立即增加 8000 魔力值"]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003E5"
+			tasks: [{
+				id: "00000000000003E6"
+				type: "item"
+				item: "botania:black_lotus"
+			}]
+			rewards: [{
+				id: "4E21189582BEAA27"
+				type: "item"
+				item: "botania:black_lotus"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			shape: "circle"
+			description: [
+				"有了魔力发射器，您就可以把花产生的魔力传送到任何您想传送的地方"
+				"只需使用森林法杖，让魔力发射器指向您想要的地方"
+				""
+				"魔力发射器一次只能发射一次魔力爆发，因此，魔力发射器距离目标越远，魔力传输速度就越慢"
+				""
+				"它有一个容量为 1000 魔力的内部缓冲器，可发射 160 魔力的爆裂弹，以每格 0.2 个方块（每秒 4 个方块）的速度，最多可传播到 12 个方块"
+			]
+			dependencies: [
+				"4E8017A427B96DC5"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003E7"
+			tasks: [{
+				id: "00000000000003E8"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "1690C7063EB3D16A"
+				type: "item"
+				item: "botania:mana_spreader"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "对抗盖亚守护者"
+			icon: "botania:life_essence"
+			x: 19.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["打败盖亚守护者，获得一些盖亚之魂作为奖励"]
+			dependencies: [
+				"00000000000003A9"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003E9"
+			tasks: [
+				{
+					id: "79F16061260C42EC"
+					type: "kill"
+					icon: "botania:gaia_head"
+					entity: "botania:doppleganger"
+					value: 1L
+				}
+				{
+					id: "350ACAF37AD1780A"
+					type: "item"
+					item: "botania:life_essence"
+				}
+			]
+			rewards: [{
+				id: "291E6E4F5613C16A"
+				type: "item"
+				item: "botania:record_gaia_1"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.0d
+			shape: "circle"
+			description: [
+				"将一块泰拉钢锭、一颗魔力珍珠和一颗魔力钻石放在泰拉凝聚板材上，可获得一块泰拉钢锭。您可以右键放上去，也可以把它们扔上去"
+				"板上的物品可能会失效，因此在开始制作之前，请确保拥有制作所需的 500,000 魔力（半个魔力池），否则发送到板上的魔力将全部丢失"
+			]
+			dependencies: [
+				"0000000000000416"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003EB"
+			tasks: [{
+				id: "00000000000003EC"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [{
+				id: "35EDD0934EC5F626"
+				type: "item"
+				item: "botania:thorn_chakram"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.0d
+			shape: "circle"
+			description: ["要获得龙石，请将魔力珍珠扔进精灵门"]
+			dependencies: [
+				"00000000000003AB"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003ED"
+			tasks: [{
+				id: "00000000000003EE"
+				type: "item"
+				item: "botania:dragonstone"
+			}]
+			rewards: [{
+				id: "23218B1AE56D8E8E"
+				type: "item"
+				item: "botania:dragonstone"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["要获得精灵尘，请将魔力珍珠扔进精灵门"]
+			dependencies: [
+				"00000000000003AB"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003EF"
+			tasks: [{
+				id: "00000000000003F0"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+			rewards: [{
+				id: "28E7F1710FF3EAC6"
+				type: "item"
+				item: "botania:pixie_dust"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.0d
+			shape: "circle"
+			description: ["要获得源质钢锭，请将2个魔力钢锭扔进精灵门"]
+			dependencies: [
+				"00000000000003AB"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003F1"
+			tasks: [{
+				id: "00000000000003F2"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [{
+				id: "0BA2D32EFF0E6061"
+				type: "item"
+				item: "mythicbotany:raw_elementium_block"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.0d
+			shape: "circle"
+			description: ["工厂环是合成环的升级，但只要您的物品栏中有您注册的合成的材料，它就会自动进行合成"]
+			dependencies: [
+				"00000000000003D5"
+				"00000000000003D0"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003F3"
+			tasks: [{
+				id: "00000000000003F4"
+				type: "item"
+				item: {
+					id: "botania:auto_crafting_halo"
+					Count: 1b
+					tag: {
+						rotationBase: 630.4825f
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C23F44BC157F474"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"有了魔力分配器，你最多可以同时填满 4 个魔力池"
+				"只需将您的魔力发射器指向魔力分配器，并将您的魔力池放在它旁边即可"
+			]
+			dependencies: [
+				"00000000000003D3"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003F5"
+			tasks: [{
+				id: "00000000000003F6"
+				type: "item"
+				item: "botania:mana_distributor"
+			}]
+			rewards: [{
+				id: "0B6499BC1161C232"
+				type: "item"
+				item: "botania:mana_distributor"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"符文祭坛主要用于制作符文"
+				"为了让它发挥作用，你必须用魔力发射器为它提供魔力"
+			]
+			dependencies: [
+				"00000000000003D1"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "00000000000003F7"
+			tasks: [{
+				id: "00000000000003F8"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "077D8643E7010B12"
+				type: "item"
+				item: "botania:livingrock"
+				random_bonus: 15
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"魔力池是你储存魔力的主要方法"
+				""
+				"普通和神话魔力池最多可容纳 1,000,000 魔力，而稀释魔力池最多只能容纳 10,000 魔力"
+				"因此，后者对于储存魔力毫无用处，但作为与火花等进行复杂魔力传输的步骤却很有用"
+			]
+			dependencies: [
+				"4E8017A427B96DC5"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "00000000000003F9"
+			tasks: [{
+				id: "00000000000003FA"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "38F55633A5344A8D"
+				type: "item"
+				item: "botania:diluted_pool"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"天翼族之冠可以让你像在创造中一样暂时飞行，但有一个转折点：按下运行键可以获得惊人的速度提升！您还可以免疫坠落伤害"
+				""
+				"仅凭头冠就能飞行 1 分钟，每次消耗 35 魔力。您可以在食物栏上方看到一个新的飞行量表条，飞行时消耗法力值，在地面时以消耗法力值一半的速度补充法力值"
+				"如果您的物品栏中还有天翼族之眼（盖亚守护者 II 的奖励），您就可以无限期飞行，但当您的飞行量表耗尽时，法力消耗会翻三倍，达到每格 105"
+			]
+			dependencies: [
+				"00000000000003E9"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003FB"
+			tasks: [{
+				id: "00000000000003FC"
+				type: "item"
+				item: {
+					id: "botania:flight_tiara"
+					Count: 1b
+					tag: {
+						variant: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5BAEC5D402D7E1F0"
+				type: "item"
+				item: "botania:ender_air_bottle"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "源质钢盔甲"
+			x: 16.0d
+			y: 1.5d
+			shape: "circle"
+			description: ["由源质钢制成的盔甲具有与魔力钢相同的属性，而且每次被击中时都有几率（全套高达 52%）生成小精灵。小精灵会飞向你的对手，并对他们施加药水效果"]
+			dependencies: [
+				"00000000000003F1"
+				"113D3F44F9F6C45C"
+			]
+			id: "00000000000003FD"
+			tasks: [
+				{
+					id: "00000000000003FE"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-597681243
+								826493361
+								-1917670745
+								876601677
+							]
+						}
+					}
+				}
+				{
+					id: "00000000000003FF"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000400"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000401"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0A28925ACC029419"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 4
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "魔力钢盔甲"
+			x: 8.0d
+			y: 2.5d
+			shape: "circle"
+			description: [
+				"由魔力钢制成的部件或盔甲可提供与铁甲相当的防御力。但它也有以下优点："
+				"- 其附魔能力是铁甲的两倍（18 而不是 9）"
+				"- 它可以使用储存在你身上的法力进行自我修复，修复速度为每点耐久度和每格 140 法力"
+				"- 如果穿戴全套法力工具，使用法力工具消耗的法力值会减少 10%"
+				""
+				"而且很酷"
+			]
+			dependencies: [
+				"00000000000003D3"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000402"
+			tasks: [
+				{
+					id: "0000000000000403"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000404"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000405"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000406"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "009871CA1E0F6426"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 4
+				random_bonus: 12
+			}]
+		}
+		{
+			title: "泰拉钢盔甲"
+			x: 13.0d
+			y: -2.0d
+			shape: "circle"
+			description: [
+				"泰拉钢护甲是一套非常不错的护甲。它提供的保护不亚于下界合金套装，但又具有魔力钢盔甲的优点和更多优点："
+				"- 它的附魔能力比下界合金盔甲好得多（26 而不是 15）"
+				"- 每件装备都比下界合金装备具有更强的抗击打能力，总抗击打能力达到 100%（全套下界合金装备的抗击打能力为 40%）"
+				"- 全套可降低 20% 的魔力值"
+				"- 全套装备每 4 秒恢复 2 HP (1 ♥)"
+				"- 全套装备每 0.5 秒为你的法力容器生产 20 法力值"
+				""
+				"而且非常时尚"
+			]
+			dependencies: [
+				"00000000000003EB"
+				"0000000000000403"
+				"0000000000000404"
+				"0000000000000405"
+				"0000000000000406"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000407"
+			tasks: [
+				{
+					id: "0000000000000408"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000409"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040A"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040B"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "79C7B370B3EFB547"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				count: 6
+				random_bonus: 6
+			}]
+		}
+		{
+			title: "精灵钢盔甲"
+			x: 16.0d
+			y: 2.5d
+			shape: "circle"
+			description: [
+				"精灵钢盔甲是泰拉钢套装的升级版，也是一套非常强大的套装。除了泰拉钢套装的优点外，这套盔甲还有以下优点："
+				"- 头盔可增加 2 个方块的距离"
+				"- 胸甲包含整套装备 100% 的击退抗性"
+				"- 裤子使你的速度和游泳速度提高 5%"
+				""
+				"它真的很棒"
+			]
+			dependencies: [
+				"00000000000003DF"
+				"0000000000000408"
+				"0000000000000409"
+				"000000000000040A"
+				"000000000000040B"
+				"113D3F44F9F6C45C"
+			]
+			id: "000000000000040C"
+			tasks: [
+				{
+					id: "000000000000040D"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040E"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000040F"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000410"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3E57A0A13F0CFB01"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "5576A1C1D9D2A984"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "催化剂"
+			x: 5.0d
+			y: 1.0d
+			shape: "circle"
+			description: [
+				"炼金催化器可以为物品注入魔力，使其发生转化，如将火药转化为燧石或将石英转化为海晶碎片"
+				""
+				"炼造催化器可以复制某些物品，详情请查看 JEI"
+			]
+			dependencies: [
+				"4E8017A427B96DC5"
+				"00000000000003D2"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000411"
+			tasks: [
+				{
+					id: "0000000000000412"
+					type: "item"
+					item: "botania:alchemy_catalyst"
+				}
+				{
+					id: "0A1AD78C837D5109"
+					type: "item"
+					item: "botania:conjuration_catalyst"
+				}
+			]
+			rewards: [{
+				id: "3BB3EED9E49C2E05"
+				type: "item"
+				item: "minecraft:lily_pad"
+				random_bonus: 15
+			}]
+		}
+		{
+			icon: "botania:terra_plate"
+			x: 12.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"泰拉凝聚板用于制作泰拉钢."
+				"您需要制作一个小结构，使其发挥作用（查看植物魔法辞典可查看结构）"
+			]
+			dependencies: [
+				"00000000000003A2"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "0000000000000416"
+			tasks: [
+				{
+					id: "0000000000000417"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "2460BB5780EA5082"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+				{
+					id: "62CB6324AC826C3C"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "05B63B6D67728EDC"
+				type: "item"
+				item: "minecraft:lapis_block"
+				random_bonus: 3
+			}]
+		}
+		{
+			icon: "mythicbotany:mana_infuser"
+			x: 16.0d
+			y: 0.0d
+			shape: "circle"
+			description: ["注魔板是泰拉凝聚板材的升级版，但它需要火花拥有一个聚集升级"]
+			dependencies: [
+				"00000000000003F1"
+				"00000000000003B9"
+				"0BA79AE0B09F3F0E"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "0000000000000418"
+			tasks: [
+				{
+					id: "0000000000000419"
+					type: "item"
+					item: "mythicbotany:mana_infuser"
+				}
+				{
+					id: "52005E9110F1E8F6"
+					type: "item"
+					item: "botania:shimmerrock"
+					count: 5L
+				}
+				{
+					id: "0E984CBF7FCF3EFA"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "7B9DBFAFD04F8F64"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"火花用于在魔力池之间移动魔力，同时也为泰拉凝聚板提供魔力"
+				""
+				"它们可以在半径为 12 个方块的球形范围内，每秒向其他每一个火花发送 1000 法力值"
+			]
+			dependencies: [
+				"0000000000000416"
+				"113D3F44F9F6C45C"
+			]
+			id: "000000000000041A"
+			tasks: [{
+				id: "000000000000041B"
+				type: "item"
+				item: "botania:spark"
+			}]
+			rewards: [{
+				id: "4874337100DFB7C5"
+				type: "item"
+				item: "botania:spark"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "基础戒指"
+			x: 8.0d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"光环之戒缓慢生产魔力，速度为每 2.5 秒 5 魔力"
+				"魔力之戒最多可储存 500,000 魔力（半个魔力池）"
+				"磁化指环基本上就是一块磁铁，范围为 6 个方块。它不需要法力值就能发挥作用，而且你可以通过蹲下暂时解除磁化"
+			]
+			dependencies: [
+				"00000000000003F9"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000422"
+			tasks: [
+				{
+					id: "0000000000000423"
+					type: "item"
+					item: "botania:aura_ring"
+				}
+				{
+					id: "570F0C1E65D61CBD"
+					type: "item"
+					item: {
+						id: "botania:mana_ring"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "08EF77FD0CB69359"
+					type: "item"
+					item: {
+						id: "botania:magnet_ring"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "05B8F538EEE85732"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				random_bonus: 7
+			}]
+		}
+		{
+			title: "更大的戒指"
+			x: 9.0d
+			y: -2.0d
+			shape: "circle"
+			description: [
+				"高级魔力之戒可生产魔力，速度为每 0.5 秒 5 法力"
+				"高级魔力之戒最多可储存 2,000,000 魔力（2 个魔力池）"
+				"巨型磁化指环是一种更好的磁铁，范围为 16 个方块"
+			]
+			dependencies: [
+				"0000000000000422"
+				"00000000000003EC"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000424"
+			tasks: [
+				{
+					id: "0000000000000425"
+					type: "item"
+					item: "botania:aura_ring_greater"
+				}
+				{
+					id: "47C963FAA1CE49DC"
+					type: "item"
+					item: {
+						id: "botania:mana_ring_greater"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "02A8A09FAEB10925"
+					type: "item"
+					item: {
+						id: "botania:magnet_ring_greater"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "342168A6538F524C"
+				type: "item"
+				item: "botania:rune_mana"
+				count: 2
+			}]
+		}
+		{
+			title: "最棒的戒指"
+			x: 10.0d
+			y: -2.5d
+			shape: "circle"
+			description: [
+				"终极魔力之戒能快速生产魔力，速度为每tic 20 法力"
+				"终极魔力之戒可储存多达 4,000,000 法力（4 个法力池）"
+			]
+			dependencies: [
+				"0000000000000424"
+				"00000000000003E0"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000426"
+			tasks: [
+				{
+					id: "0000000000000427"
+					type: "item"
+					item: "mythicbotany:aura_ring_greatest"
+				}
+				{
+					id: "33F6976B985B3166"
+					type: "item"
+					item: {
+						id: "mythicbotany:mana_ring_greatest"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "58EC8711A6FEA84A"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"白雏菊用于将方块或流体转化为其他方块或流体"
+				""
+				"花朵的范围是 3x1x3，整个过程需要 1 分钟"
+			]
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "000000000000042C"
+			tasks: [{
+				id: "000000000000042D"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "796D354320511CC3"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"火红莲通过燃烧任何燃料产生魔力"
+				""
+				"这朵花的内部缓冲区有 300 法力值，范围为 7x7x7，每 0.1 秒产生 3 法力值，占燃料燃烧时间的一半"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "000000000000042E"
+			tasks: [{
+				id: "000000000000042F"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "15AF57344877D9F2"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"炽玫瑰通过吸收熔岩源产生法力。"
+				""
+				"这朵花的内部缓冲区有 500 法力值，当吸收其 3x1x3 范围内的熔岩源时，每 tick 产生 20 法力值，持续 45 秒，共计 18000 法力值，并且无法吸收任何新的熔岩源"
+				"然后进入 5 分钟的冷却时间，每次吸收新的熔岩源时都会重置"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"28ABFC44933FF6D9"
+				"00000000000003A3"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000430"
+			tasks: [{
+				id: "0000000000000431"
+				type: "item"
+				item: "botania:thermalily"
+			}]
+			rewards: [{
+				id: "446E1E04EA059688"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 20.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"阿卡纳蔷薇通过吸收玩家的 XP 或经验球产生魔力"
+				""
+				"这朵花的内部缓冲区为 6000 魔力，范围为 3x3x3"
+				"吸收玩家经验时，花朵每点每 tick 会产生 50 法力"
+				"消耗经验球时，每点可瞬间生产 35 魔力"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"58245BA9CF6838B2"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000432"
+			tasks: [{
+				id: "0000000000000433"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [{
+				id: "6BD54B9D46E3381A"
+				type: "item"
+				item: "minecraft:experience_bottle"
+				count: 64
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"冶炼火为附近的熔炉提供燃料"
+				""
+				"这朵花的内部缓冲区有 300 魔力，完全使用后，每 tick 可让 1 个熔炉在其 11x5x11 的范围内燃烧 1 件物品"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"555D46B3277DC518"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000434"
+			tasks: [{
+				id: "0000000000000435"
+				type: "item"
+				item: "botania:exoflame"
+			}]
+			rewards: [{
+				id: "11D6CB0176C2024D"
+				type: "item"
+				item: "minecraft:furnace"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			x: 13.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"热爆花通过吸收附近发生的 TNT 爆炸产生法力，从而抵消对方块和实体造成的所有伤害。只有 TNT 起作用，但在水里爆炸的 TNT 不会起作用。这朵花还有一个 TNT 炸弹探测系统"
+				""
+				"这朵花的内部缓冲区有 6500 法力，完全由吸收的爆炸填满，范围为 25x25x25 ，只要其中仍有一些法力，就无法吸收任何新的爆炸。这意味着，如果爆炸没有被花朵吸收，周围的方块和实体将照常受到伤害"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"00000000000003A3"
+				"0000000000000389"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000436"
+			tasks: [{
+				id: "0000000000000437"
+				type: "item"
+				item: "botania:entropinnyum"
+			}]
+			rewards: [{
+				id: "5CA92607F8E56F02"
+				type: "item"
+				item: "minecraft:tnt"
+				count: 4
+			}]
+		}
+		{
+			x: 19.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"贪食花通过吃蛋糕产生魔力"
+				""
+				"这朵花的内部缓冲区有 9000 法力，每 4 秒钟就能在其 11x11x11 的范围内找到一片可以吃的，每片能产生 1800 法力"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"060B00064AAE4FFD"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000438"
+			tasks: [{
+				id: "0000000000000439"
+				type: "item"
+				item: "botania:kekimurus"
+			}]
+			rewards: [{
+				id: "25F2649CDA83C28B"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"粘球草通过击杀自然生成的史莱姆来生成魔力"
+				""
+				"这朵花的内部缓冲区有 19200 法力，当击杀其 5x3x5 范围内的史莱姆时，小的能产生 1200 法力，中的能产生 2400 法力，大的能产生 9600 法力"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"20BBF26689A2F152"
+				"555D46B3277DC518"
+				"113D3F44F9F6C45C"
+			]
+			id: "000000000000043A"
+			tasks: [{
+				id: "000000000000043B"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+			rewards: [{
+				id: "5AA3AE0E797F81D6"
+				type: "item"
+				item: {
+					id: "minecraft:slime_spawn_egg"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							Size: 31
+							id: "minecraft:slime"
+						}
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"King Slime\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"凝矿兰将方块转化为矿石"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"这朵花每 5 秒消耗 17500 法力（或当玻璃花园存在时每 0.1 秒消耗 700 法力）来转换其 11x7x11 范围内的随机一个方块"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1D9CF38B0A9E22BF"
+				"2DD691AAA99F6B30"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "000000000000043C"
+			tasks: [{
+				id: "000000000000043D"
+				type: "item"
+				item: "botania:orechid"
+			}]
+			rewards: [{
+				id: "0E15149EA888ADF7"
+				type: "item"
+				item: "minecraft:diamond_ore"
+				count: 4
+			}]
+		}
+		{
+			x: 18.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"炎矿兰能将方块转化为矿石。只适用于有天然基岩天花板的维度"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"这朵花每 5 秒（或当玻璃花园存在时每 0.1 秒）消耗 20,000 魔力，以转换其 11x7x11 范围内的一个随机方块"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1D9CF38B0A9E22BF"
+				"2DD691AAA99F6B30"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "000000000000043E"
+			tasks: [{
+				id: "000000000000043F"
+				type: "item"
+				item: "botania:orechid_ignem"
+			}]
+			rewards: [{
+				id: "03ABAC6F8A6C2D73"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				count: 2
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"异构花将石头转化为变质石。这些石头主要用于装饰。不同的类型都可能在任何地方生产，但每种类型在特定的生物群系中出现的频率更高"
+				"- 变质森林石头：森林和针叶林"
+				"- 变质平原石头：平原和沙滩"
+				"- 变质高山石头：山地"
+				"- 变质菌丝石头：蘑菇岛和地下生物群系"
+				"- 变质沼泽石头：沼泽和丛林"
+				"- 变质沙漠石头：沙漠和热带草原"
+				"- 变质雪原石头：寒冷生物群系和针叶林"
+				"- 变质高原石头：恶地和热带草原"
+				""
+				"这朵花的内部缓冲区有 1000 法力值，每 0.1 秒消耗 12 法力值将其 17x11x17 范围内的一个石头方块转化为随机的变形石"
+				""
+				"小版的范围较小，为 5x3x5"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"28ABFC44933FF6D9"
+				"00000000000003A3"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000440"
+			tasks: [{
+				id: "0000000000000441"
+				type: "item"
+				item: "botania:marimorphosis"
+			}]
+			rewards: [{
+				id: "66439CC9BC2D91B2"
+				type: "item"
+				item: "botania:floating_marimorphosis"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"弱磁兰会阻止玩家的磁化指环捕捉附近掉落的物品"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"这朵花有 1 法力的内部缓冲，但不会消耗任何法力，以防止其半径为 5 个方块的球形范围内掉落的所有物品被玩家的磁化指环输出"
+				""
+				"小型变体的范围较小，半径为 1 个方块"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "0000000000000442"
+			tasks: [{
+				id: "0000000000000443"
+				type: "item"
+				item: "botania:solegnolia"
+			}]
+			rewards: [{
+				id: "4C57AEE158BBD754"
+				type: "item"
+				item: "botania:floating_solegnolia"
+			}]
+		}
+		{
+			title: "活体方块"
+			x: 6.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"要获得活石，您必须使用白雏菊转化来自蔚蓝浩空的石头"
+				"对于活木来说，转化任何一种来自蔚蓝浩空的木材都可以"
+			]
+			dependencies: [
+				"000000000000042C"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "4E8017A427B96DC5"
+			tasks: [
+				{
+					id: "1E075F013A326011"
+					type: "item"
+					item: "botania:livingrock"
+					count: 16L
+				}
+				{
+					id: "065CA81DA38942DD"
+					type: "item"
+					item: "botania:livingwood_log"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "25FD296BADCDE1AC"
+					type: "item"
+					item: "botania:livingrock"
+					count: 8
+				}
+				{
+					id: "79707CA07BDAFEB5"
+					type: "item"
+					item: "botania:livingwood_log"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "精灵钢盖亚水晶"
+			x: 18.0d
+			y: 2.0d
+			shape: "circle"
+			description: ["精灵钢盖亚水晶只是通往盖亚塔之路的一步"]
+			dependencies: [
+				"00000000000003DF"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "7E165C3D21F39879"
+			tasks: [{
+				id: "2B33A4299C13D905"
+				type: "item"
+				item: "mythicbotany:alfsteel_pylon"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4519D61889F3D558"
+				type: "item"
+				item: "minecraft:ghast_tear"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 14.0d
+			y: -2.5d
+			shape: "circle"
+			description: ["世界树之枝用来填充你的加拉尔号角。使用魔力发射器为它注入 6,240 魔力."]
+			dependencies: [
+				"00000000000003EB"
+				"113D3F44F9F6C45C"
+			]
+			id: "3C5F7AE3FA712ED6"
+			tasks: [{
+				id: "2D9AAD5C54CB3848"
+				type: "item"
+				item: "mythicbotany:yggdrasil_branch"
+			}]
+			rewards: [{
+				id: "01CE12A0F8B2FCB9"
+				type: "item"
+				item: "botania:terrasteel_nugget"
+				count: 3
+			}]
+		}
+		{
+			x: 15.0d
+			y: -2.0d
+			shape: "circle"
+			description: [
+				""
+				"制作加拉尔号角，将其用于世界树之枝"
+			]
+			dependencies: [
+				"3C5F7AE3FA712ED6"
+				"113D3F44F9F6C45C"
+			]
+			id: "3B3690A73AE1221B"
+			tasks: [{
+				id: "6EFA460A87066C63"
+				type: "item"
+				item: "mythicbotany:gjallar_horn_empty"
+			}]
+			rewards: [{
+				id: "2D499E5C65712084"
+				type: "item"
+				item: "botania:avatar"
+				count: 2
+			}]
+		}
+		{
+			x: 16.0d
+			y: -2.5d
+			shape: "circle"
+			description: [
+				"把加拉尔号角放在有足够法力的世界树之枝上，就能得到密米尔之井的水"
+				"一旦你喝了它，就能获得一些知识来举行仪式."
+			]
+			dependencies: [
+				"3B3690A73AE1221B"
+				"113D3F44F9F6C45C"
+			]
+			id: "17F4F882FBC93A4B"
+			tasks: [{
+				id: "2F06D18D19919CC9"
+				type: "item"
+				item: "mythicbotany:gjallar_horn_full"
+			}]
+			rewards: [
+				{
+					id: "6C6C4F52734BEF51"
+					type: "item"
+					item: "botania:livingwood_log"
+					count: 64
+				}
+				{
+					id: "75F03964A284933C"
+					type: "item"
+					item: "botania:livingrock"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "对抗盖亚守护者 II"
+			icon: "mythicbotany:fimbultyr_tablet"
+			x: 17.0d
+			y: -1.0d
+			shape: "circle"
+			description: [
+				"再次与盖亚守护者战斗。但要小心，因为这个守护者更加强大"
+				"如果您喝了密米尔之井的水，那么打败他们就应该得到芬保尔之符片"
+			]
+			dependencies: [
+				"00000000000003DD"
+				"17F4F882FBC93A4B"
+				"113D3F44F9F6C45C"
+			]
+			id: "1F196D2F8EC9C7D3"
+			tasks: [
+				{
+					id: "7F76683FB736C6D8"
+					type: "kill"
+					icon: "botania:gaia_head"
+					entity: "botania:doppleganger"
+					value: 1L
+				}
+				{
+					id: "400E65C5038AA4C8"
+					type: "item"
+					item: "mythicbotany:fimbultyr_tablet"
+				}
+			]
+			rewards: [{
+				id: "392703B0A9F57A4F"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+		}
+		{
+			title: "符文支架"
+			x: 19.0d
+			y: -1.0d
+			shape: "circle"
+			description: ["您需要这些来举行仪式"]
+			dependencies: [
+				"1F196D2F8EC9C7D3"
+				"113D3F44F9F6C45C"
+			]
+			id: "0A092542A77AFA9D"
+			tasks: [
+				{
+					id: "7CA8324CF35CA549"
+					type: "item"
+					item: "mythicbotany:central_rune_holder"
+				}
+				{
+					id: "0609329FCC3206AC"
+					type: "item"
+					item: "mythicbotany:rune_holder"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "0C4E1699DE229801"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 9
+				random_bonus: 9
+			}]
+		}
+		{
+			x: 19.5d
+			y: -2.0d
+			shape: "circle"
+			description: [
+				"按照下图中的仪式制作克瓦希尔之血"
+				"{image:ftbquests:textures/quests/mythicbotany_bloodofkvasir.png width:150 height:100 align:1}"
+				"当所有符文都在各自的支架上，其他物品在中央符文支架的 2 个方块内，流浪商人在 3 个方块内时，用森林法杖右键点击中央符文支架，激活中央符文支架，并用身上的 20000 法力进行仪式"
+			]
+			dependencies: [
+				"0A092542A77AFA9D"
+				"04527CEB8BB22A79"
+				"0000000000000395"
+				"113D3F44F9F6C45C"
+			]
+			id: "5EBB91A231A640CE"
+			tasks: [{
+				id: "1A4BA3F82FB67E2B"
+				type: "item"
+				item: "mythicbotany:kvasir_blood"
+			}]
+			rewards: [{
+				id: "7A8C3E14D7E9427A"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+		}
+		{
+			icon: "mythicbotany:kvasir_mead"
+			x: 20.0d
+			y: -1.0d
+			shape: "circle"
+			description: [
+				"喝下克瓦希尔之蜜酒，就能获得进入亚尔夫海姆维度的能力"
+				""
+				"请注意，您只能从主世界前往亚尔夫海姆"
+			]
+			dependencies: [
+				"5EBB91A231A640CE"
+				"113D3F44F9F6C45C"
+			]
+			id: "09F4E13303AF49A3"
+			tasks: [
+				{
+					id: "4A458D0651A84CD9"
+					type: "item"
+					item: "mythicbotany:kvasir_mead"
+				}
+				{
+					id: "31FDCF0F83BE95F5"
+					type: "dimension"
+					icon: "mythicbotany:dreamwood_leaves"
+					dimension: "mythicbotany:alfheim"
+				}
+			]
+			rewards: [{
+				id: "7F2EE87B2F38FF59"
+				type: "item"
+				item: "create_confectionery:honey_candy"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -2.0d
+			shape: "circle"
+			description: ["Mjöllnir 是雷神之锤。只有足够强大的人才能携带它，因此您必须拥有吸收之心，才能获得它的力量"]
+			dependencies: [
+				"0A092542A77AFA9D"
+				"113D3F44F9F6C45C"
+			]
+			size: 2.0d
+			id: "6702BC20FA6C1003"
+			tasks: [{
+				id: "42C45CF1B5EF5DD5"
+				type: "item"
+				item: "mythicbotany:mjoellnir"
+			}]
+			rewards: [{
+				id: "36CBCB5B79628927"
+				type: "item"
+				item: "thermal:lightning_grenade"
+				count: 16
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			shape: "circle"
+			description: [
+				"晴天娃娃在下雨时会变得悲伤，如果用向日葵喂它们，它们又会露出笑容"
+				"当你让他们开心时，阳光就会回来！"
+				""
+				"如果你用足够多的蓝色兰花喂养它们，它们可能会下雨，但又会变得悲伤......"
+			]
+			dependencies: [
+				"00000000000003CB"
+				"113D3F44F9F6C45C"
+			]
+			id: "4475A45570C9CBB9"
+			tasks: [{
+				id: "76247FBD67F99F56"
+				type: "item"
+				item: "botania:teru_teru_bozu"
+			}]
+			rewards: [{
+				id: "39431529D51761E1"
+				type: "item"
+				item: "minecraft:sunflower"
+				random_bonus: 15
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"悬浮沙漏是一个计时器，其延时可以用沙来配置！"
+				"它在翻转时会发出红石信号，以重置计时器"
+				""
+				"沙给每个物品 1 秒钟，最多 1 分 4 秒"
+				"红沙给每个物品 10 秒钟，最多 10 分 40 秒"
+				"灵魂沙每件物品给 1 分钟，最多 1 小时 4 分钟"
+			]
+			dependencies: [
+				"00000000000003D3"
+				"4176DCF2028E1027"
+				"113D3F44F9F6C45C"
+			]
+			id: "170161AEFCAA46C1"
+			tasks: [{
+				id: "16B41BBC66E8009F"
+				type: "item"
+				item: "botania:hourglass"
+			}]
+			rewards: [
+				{
+					id: "6BF98F869B77C9D4"
+					type: "item"
+					item: "minecraft:sand"
+					count: 64
+				}
+				{
+					id: "78E6489B9F5FBAE8"
+					type: "item"
+					item: "minecraft:red_sand"
+					count: 64
+				}
+				{
+					id: "3D8B28B63CC28388"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 2.5d
+			shape: "circle"
+			description: [
+				"随想之茧会在 2 分钟后变成幼年生物"
+				"随想之茧如果与水相邻获得水生怪物，通过盖亚之魂获得更稀有的怪物，或者通过右键点击上面的一些物品获得特殊怪物，比如潜影贝（带紫颂果）或村民（带绿宝石）"
+				"每使用一件物品，几率增加 5%，因此 20 件物品 = 100%"
+			]
+			dependencies: [
+				"00000000000003EF"
+				"444180FD972487DA"
+				"113D3F44F9F6C45C"
+			]
+			id: "1500FA008C576712"
+			tasks: [{
+				id: "1F78DA87569C4751"
+				type: "item"
+				item: "botania:cocoon"
+			}]
+			rewards: [{
+				id: "65D499EAE94027E3"
+				type: "item"
+				item: "botania:cocoon"
+			}]
+		}
+		{
+			title: "源质钢戒指"
+			x: 15.0d
+			y: 2.0d
+			shape: "circle"
+			description: [
+				"这些戒指能赋予你多种能力："
+				"- 精灵指环会使你被击中时生成小精灵的几率提高 25%，全套源质钢护甲的总几率为 77%"
+				"- 触物指环可使你的触角增加 3.5 个方块"
+				"- 穆斯贝尔海姆之戒能让你免疫火焰和熔岩的伤害"
+				"- 尼福尔海姆之戒能让你免于窒息"
+			]
+			dependencies: [
+				"00000000000003F1"
+				"113D3F44F9F6C45C"
+			]
+			id: "0661817CFFE04049"
+			tasks: [
+				{
+					id: "4F49E660A1C0595B"
+					type: "item"
+					item: {
+						id: "botania:pixie_ring"
+						Count: 1b
+						tag: {
+							baubleUUID: [I;
+								-2090615922
+								327303706
+								-1265205892
+								-80264876
+							]
+						}
+					}
+				}
+				{
+					id: "60BEC3FF3AB99C30"
+					type: "item"
+					item: {
+						id: "botania:reach_ring"
+						Count: 1b
+						tag: {
+							baubleUUID: [I;
+								-1637254641
+								-554219928
+								-1465456293
+								-1897416371
+							]
+						}
+					}
+				}
+				{
+					id: "56EEC30EBB7D35C0"
+					type: "item"
+					item: "mythicbotany:fire_ring"
+				}
+				{
+					id: "6C832E0611D47EF0"
+					type: "item"
+					item: "mythicbotany:ice_ring"
+				}
+			]
+			rewards: [{
+				id: "45CE27F26649BB49"
+				type: "item"
+				item: "botania:elementium_block"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"勿落草是一种非常棘手的花，它通过击杀悬浮的怪物和让它飞起来的潜影贝来产生魔力"
+				"潜影贝和怪物不会产生任何战利品或 XP"
+				""
+				"这朵花的内部缓冲区有 75000 法力值，这也是它在半径为 8 个方块的球形范围内每击杀一对怪物所产生的法力值。如果这朵花的缓冲区是空的，那么只要你能让潜影贝攻击怪物，就能经常出现这种情况"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"350ACAF37AD1780A"
+				"1B3EBF81C5D4EA65"
+				"0000000000000389"
+				"113D3F44F9F6C45C"
+			]
+			id: "4F69084ED286BE3D"
+			tasks: [{
+				id: "67A2C6EF34E232E5"
+				type: "item"
+				item: "botania:shulk_me_not"
+			}]
+			rewards: [{
+				id: "43E419081265156D"
+				type: "item"
+				item: "minecraft:shulker_spawn_egg"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"噬草花：它通过吃其他花朵产生魔力"
+				"它吃的花越多，产生的魔力就越大。但如果它连续吃同一种花，其产生的法力物就会减少"
+				"只有产魔花和功能性花朵才会起作用，神秘或闪烁的花朵不会。漂浮和神话植物不会起作用，但小花会起作用，它们被认为与大姐妹花不同"
+				""
+				"这朵花的内部缓冲区有 638,554 魔力，每 2 秒会吃掉 11x11x11 范围内的一朵花"
+				"魔力产量......随心所欲。第一朵花会产生 2000 法力，然后如果你在 2 朵花之间交流产魔，每朵花会产生 2100 法力。如果你循环使用 3 朵不同的花，每朵花将产生 2,200 法力。循环中每多一朵花，法力值就会增加如下： 2,300; 3,280; 4,033; 4,657; 5,150; 6,622; 7,860; 10,418; 12,600; 14,769; 16,671; 19,000; 25,400; 33,471; 40,900; 47,579; 53,600; 59,057; 64,264; 69,217; 74,483; 79,352; 83,869; 88,059; 92,129; 96,669; 100,940; 105,239; 112,044; 118,442; 124,612; 130,583; 136,228; 141,703; 178,442; 213,959; 247,725; 279,956; 313,671; 345,833; 377,227; 437,689; 495,526; 553,702; 638,554"
+				""
+				"请注意，如果您设法实现鲜花的自动供应，那么作为鲜花输出绑定的盖亚魔力发射器将只能全速处理 12 朵鲜花的循环生产"
+				"如果你真的想要一个疯狂的生产物，你可以考虑 MythicBotany 的魔力收集器。这个方块充当发电机花的魔力输出，每 tick（其内部缓冲区）最多可处理 10,000 法力，即全速循环使用 44 种不同的花朵"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"28ABFC44933FF6D9"
+				"1D9CF38B0A9E22BF"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "7D69936207D6D4B6"
+			tasks: [{
+				id: "3AE1356F0611A351"
+				type: "item"
+				item: "botania:rafflowsia"
+			}]
+			rewards: [{
+				id: "2C95380A18F2E5D1"
+				type: "item"
+				item: "botania:floating_rafflowsia"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"斑斓花通过吃羊毛产生魔力。但只有特定的颜色顺序，而且总是相同的："
+				"&f 白色&r > &6 橙色&r > &d 洋红色&r > &b 浅蓝色&r > &a 酸橙色&r > &d 粉红色&r > &8 灰色&r > &7 光灰色&r > &3 青色&r > &5 紫色&r > &1 蓝色&r > &4 棕色&r > &2 绿色&r > &c 红色&r > &0 黑色&r"
+				"如果你给的颜色不是它期待的颜色，羊毛还是会被吃掉，但不会产生任何魔力"
+				"您也可以用颜色好的活羊来喂养它，让它产生更多的魔力，但这个可怜的家伙会被击杀，既没有战利品也没有 XP"
+				""
+				"这朵花的内部缓冲区有 16000 法力，在它 3x3x3 的范围内，每吃一根羊毛能产生 1200 法力，每吃一只羊能产生 5000 法力，只要你能喂饱它，清空缓冲区的速度就会很快"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1191C9C9939572EF"
+				"58CFB604287FFE3E"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "5F96C097913A6940"
+			tasks: [{
+				id: "02BB8EB16A84A3E2"
+				type: "item"
+				item: "botania:spectrolus"
+			}]
+			rewards: [{
+				id: "43AF1ED4BECF4B70"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 16
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"彼方兰喜欢食物，吃任何可食用的东西都能产生魔力"
+				"它不喜欢反复吃同一种物品，所以它的魔力产量要除以你连续用同一种物品喂养它的次数"
+				"魔力的产生直接取决于物品的食物点数，因此更好的食物会产生更多的魔力。饱和度完全没有考虑在内"
+				"当你给它喂食时，它必须花时间咀嚼食物，与此同时，在它的范围内发现的所有可食用物品都会被吃掉，而不会产生任何魔力"
+				""
+				"这朵花的内部缓冲区有 9000 法力值，范围是 3x3x3，产生的法力值等于食物点数平方的 70 倍（一个食物点数是你食物条上的半个鼓槌），每个食物点数咀嚼食物的时间为 0.5 秒"
+				"请注意，任何超过 11 点食物点数的食物所产生的法力值都会超过其内部缓冲区所能承载的法力值（例如：6 个鼓槌的法力值为 10800），因此只能产生 9000 法力值"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"00000000000003A3"
+				"555D46B3277DC518"
+				"113D3F44F9F6C45C"
+			]
+			id: "41FD117163A5DA72"
+			tasks: [{
+				id: "2665650B1267CEFE"
+				type: "item"
+				item: "botania:gourmaryllis"
+			}]
+			rewards: [{
+				id: "6897867CC088FCA1"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"凋灵菟葵通过吞噬下界之星产生魔力"
+				"当您给它一颗下界之星时，它将转化为耐久度为 1,200,000 的褪色下界之星。每消耗1点耐久度将产生1点魔力，因此您可以用一颗下界之星填满1.2个魔力池"
+				"另外，不要一次给它超过一个下界之星，否则它会直接停止工作"
+				""
+				"这朵花的内部缓冲区有 2,400 法力，每 tick 能产生 1,200 法力。但奇怪的是，它的输出率仅为每 tick 600 法力，所以实际上这才是它真正的生产率"
+				"它的射程只有 1x1x1，所以下界之星需要放在花中"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1D9CF38B0A9E22BF"
+				"113D3F44F9F6C45C"
+			]
+			id: "0F45CD20647F5E92"
+			tasks: [{
+				id: "749FF463B57AC7FF"
+				type: "item"
+				item: "mythicbotany:wither_aconite"
+			}]
+			rewards: [{
+				id: "52800227070C4EE4"
+				type: "item"
+				item: "minecraft:wither_rose"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"与它的名字可能暗示的相反，雨德花不会删除雨水。相反，它只有在下雨时才会产生魔力，而在雷雨天气时产生的魔力会更多"
+				""
+				"这朵花的内部缓冲区有 300 法力，下雨时......如果不种在任何特殊土壤上，则不产生法力；如果种在鲜艳草地上，则每 tick 产生 1 法力；如果种在附魔师土壤上，则每 tick 产生 2 法力。打雷时，如果不种植在任何特殊土壤上，每 tick 产生 15 法力，种植在生动草上每 tick 产生 30 法力，种植在附魔土壤上每 tick 产生 75 法力"
+				"奇怪的是，它每次 tick 的最大输出只有 30 魔力"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"20BBF26689A2F152"
+				"113D3F44F9F6C45C"
+			]
+			id: "0635DEED6824AC7A"
+			tasks: [{
+				id: "197CBD7C270C1C21"
+				type: "item"
+				item: "mythicbotany:raindeletia"
+			}]
+			rewards: [{
+				id: "4C145F6B05D51068"
+				type: "item"
+				item: "botania:vivid_seeds"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"水绣球只是通过消耗水源来产生魔力。它的设置非常简单，但有 2 个主要缺点：产量非常低，而且花朵会在一段时间后腐烂"
+				""
+				"这朵花的内部缓冲区有 150 法力值，在其 3x1x3 的范围内，每消耗 1 个水源，每 0.1 秒产生 1 法力值，持续 1.3 秒，1 小时后衰减（=消失），无论是否起作用"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "3215785B14482E48"
+			tasks: [{
+				id: "2361C3ED9B6D094F"
+				type: "item"
+				item: "botania:hydroangeas"
+			}]
+			rewards: [{
+				id: "046DCB0FDA38DCFC"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"扇水仙基本上就是一把扇子：它会将物品输入其作用范围的末端"
+				"您可以通过它冒出的细烟看到它吹出的方向。在功能模式下，您可以用森林法杖潜行+互动来旋转花朵。风会穿过方块"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"花朵内部有 100 法力的缓冲区，每秒消耗 1 法力，以每 tick 0.12 方块（每秒 2.4 方块）的速度输入 5 宽、7 高、16 长范围内的物品"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1191C9C9939572EF"
+				"113D3F44F9F6C45C"
+			]
+			id: "744A8A46047536E7"
+			tasks: [{
+				id: "72F61F124AED6398"
+				type: "item"
+				item: "botania:daffomill"
+			}]
+			rewards: [{
+				id: "514C2C071052CA71"
+				type: "item"
+				item: "botania:floating_daffomill"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"翡翠苋能够用魔力创造出神秘花"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"这朵花的内部缓冲区有 100 法力值，它每消耗 1.5 秒就会在其 9x8x9 范围内（下面 2 个，上面 5 个）的可行方块上制造出一朵随机颜色的神秘花"
+				"请注意，在每个工作进程中，花朵会随机选择一个 X;Z 位置，并尝试从上往下种植一朵花，直到在所述位置找到可种植的土壤为止，如果没有找到，则工作失败"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"2A30C3E8DA526676"
+				"113D3F44F9F6C45C"
+			]
+			id: "3D07911E068CE27B"
+			tasks: [{
+				id: "286352DE4BD66267"
+				type: "item"
+				item: "botania:jaded_amaranthus"
+			}]
+			rewards: [{
+				id: "322D5C967E087EB4"
+				type: "item"
+				item: "botania:floating_jaded_amaranthus"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"自由之翼会让所有怪物远离禁区，就像一个无形的力场"
+				"它是束缚莓的反向版本"
+				""
+				"这朵花的内部缓冲区有 20 法力值，每 0.2 秒消耗 1 法力值，可将半径为 8 个方块的球形范围内的任何怪物隔离"
+				""
+				"小版的范围较小，半径为 3 个方块。"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "34B6300D053DC0D0"
+			tasks: [{
+				id: "54AE112E6AADFD1D"
+				type: "item"
+				item: "botania:jiyuulia"
+			}]
+			rewards: [{
+				id: "6EDA1BC2C0702614"
+				type: "item"
+				item: "botania:floating_jiyuulia"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"启命英无疑是最难对付的产能花"
+				"首先，你必须在它 25x1x25 的工作区域内放置方块。然后，每隔 0.5 秒，当小花获得红石信号供电时，它就会与方块玩一次 生命游戏（规则请上网搜索），创造和移除方块，增加它们的 "生产量"。在其工作区域外产生的方块会消失。如果所有方块都消失了，就不会产生魔力"
+				"如果经过努力，在中心 3x1x3 区域创建了一个方块，那么所有现有的方块都会被瞬间摧毁，转化为魔力"
+				""
+				"这朵花的内部缓冲区有 50,000 法力，每生成一个方块可生产 5 法力，最多一次可生产 18,000 法力"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"00000000000003A2"
+				"350ACAF37AD1780A"
+				"113D3F44F9F6C45C"
+			]
+			id: "222B4A0DE676E195"
+			tasks: [{
+				id: "3D7C21D5480D5A01"
+				type: "item"
+				item: "botania:dandelifeon"
+			}]
+			rewards: [{
+				id: "354E574EB09EBA6C"
+				type: "item"
+				item: "botania:cell_block"
+				count: 16
+			}]
+		}
+		{
+			x: 16.0d
+			y: -4.5d
+			shape: "square"
+			description: [
+				"咀叶花通过吃叶子产生魔力。"
+				"在吃掉所有可触及的树叶后，它会进入一段时间的冷却期，无法再吃任何东西"
+				""
+				"这朵花的内部缓冲区有 10,000 法力值，每 0.2 秒会吃掉其 17x17x17 范围内的一个方块叶子（花朵位于底部中心），产生 160 法力值，冷却时间为 80 秒"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"060B00064AAE4FFD"
+				"113D3F44F9F6C45C"
+			]
+			id: "72C067D0A6FBBABE"
+			tasks: [{
+				id: "063741428149780E"
+				type: "item"
+				item: "botania:munchdew"
+			}]
+			rewards: [{
+				id: "704E9576C846041C"
+				type: "item"
+				item: "mythicbotany:dreamwood_leaves"
+				count: 16
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			shape: "square"
+			description: ["当被放置在魔力池旁边时，魔力星每 3 秒钟会检查一次自己的魔力总量，通过发射蓝色粒子来显示其是否在增加，或者用红色粒子来显示其是否在减少"]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "17813C5BB2BE4FD2"
+			tasks: [{
+				id: "0092F93742C33D9C"
+				type: "item"
+				item: "botania:manastar"
+			}]
+			rewards: [{
+				id: "0156F01174AAA2F5"
+				type: "item"
+				item: "botania:floating_manastar"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"石化草会完全阻止附近的任何怪物（不包括玩家）移动"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"这朵花的内部缓冲区有 4000 法力值，每次 tick 和每个怪物消耗 1 法力值，可对其 13x13x13 范围内的所有怪物施加 0.1 秒的迟钝 99 效果"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"28ABFC44933FF6D9"
+				"113D3F44F9F6C45C"
+			]
+			id: "2C5D2B78B84ADDFF"
+			tasks: [{
+				id: "27223635C93B6686"
+				type: "item"
+				item: "botania:medumone"
+			}]
+			rewards: [{
+				id: "5B0D389C4D8C7E01"
+				type: "item"
+				item: "botania:floating_medumone"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"将气泡铃置于水下时，它会将水挤出，形成气泡，让您安静地搭建"
+				"但是要注意！这种空气不是永久性的，只要你把花拿掉，水就会回来！所以你不能像海绵一样用这朵花来 移除 水。当你在它的气泡中放置和移除积木后，水又会出现奇怪的行为"
+				""
+				"这朵花的内部缓冲区有 2000 法力值，即使附近没有水，每 tick 也会消耗 4 法力值。放置后，它首先会有一个半径为 2 个方块的球形范围，如果有法力值，每 0.5 秒会增加 1 个方块，最多可增加 12 个方块"
+				""
+				"小变体的最大范围较小，半径为 6 个方块"
+				""
+				"&4&l 警告：&r 此花放置和移除频率过高和/或过快时会导致崩溃，因此请谨慎使用"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"555D46B3277DC518"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "29EC378574FA560F"
+			tasks: [{
+				id: "0914CA77F303DFE6"
+				type: "item"
+				item: "botania:bubbell"
+			}]
+			rewards: [{
+				id: "553D084FC1FFF4CF"
+				type: "item"
+				item: {
+					id: "supplementaries:bubble_blower"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"凌空蓟可以将物品传送到更远的地方，但需要消耗魔力。已经被凌空蓟传送过的物品不能再被另一朵凌空蓟传送，您必须先把它们放到容器中，然后再把它们丢掉（一个漏斗和一个花格箱就可以做到这一点）"
+				"堆叠物品是一次性传送的，但法力消耗是按物品计算的，所以如果你没有足够的法力传送完整的堆栈，其物品都不会被传送"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"这朵花的内部缓冲区有 16,000 法力，在其 5x5x5 的中心区域内投放每件物品需要消耗 24 法力（全堆叠为 1,536 法力），才能将其传送到半径为 12 个方块的球形范围内的目的地边界"
+				""
+				"&6&l 注意：&r 由于一个错误，即使目的地范围显示为正方形，它实际上也是一个球形"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1B3EBF81C5D4EA65"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "6C43771388E6DDBA"
+			tasks: [{
+				id: "2AC887D1F08E33E3"
+				type: "item"
+				item: "botania:spectranthemum"
+			}]
+			rewards: [{
+				id: "0BE5F637F8B58BCE"
+				type: "item"
+				item: "botania:floating_spectranthemum"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"烈焰花会填满附近酿造台的燃料，所以你不需要再给它们加烈焰粉了"
+				""
+				"花朵的内部缓冲区有 300 法力值，每 0.5 秒消耗 50 法力值，可为其 7x3x7 范围内的每个酿造台填满 1 个燃料。一个酿造台有 20 个燃料，因此填满一个将消耗 1000 法力值"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"00000000000003A3"
+				"113D3F44F9F6C45C"
+			]
+			id: "4CBDC4164637EEF3"
+			tasks: [{
+				id: "2421BCB7D5BF57D6"
+				type: "item"
+				item: "mythicbotany:exoblaze"
+			}]
+			rewards: [{
+				id: "297A9DCA9055D3CA"
+				type: "item"
+				item: "minecraft:brewing_stand"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 19.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"畜牧花会获取掉落的物品来喂养玩家可以生成的怪物。这些物品必须是怪物能吃的食物"
+				""
+				"这朵花的内部缓冲区有 120 法力值，给 1 个怪物喂食 1 件物品会消耗 12 法力值，使他们进入恋爱模式，持续 1 分钟"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"501048AA650BB8EF"
+				"113D3F44F9F6C45C"
+			]
+			id: "73A16187B8BF52BC"
+			tasks: [{
+				id: "232E211C1160C201"
+				type: "item"
+				item: "botania:pollidisiac"
+			}]
+			rewards: [{
+				id: "649963E200963C00"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 14.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"天降之奏能治疗附近的玩家和驯养的宠物"
+				""
+				"这朵花的内部缓冲区有 900 法力值，消耗 120 法力值可对其 5x5x5 范围内的玩家或驯养的宠物施加再生 III 效果，持续 59 ticks（约 3 秒）。每个目标的效果刷新计时器都是独立处理的"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"2A30C3E8DA526676"
+				"113D3F44F9F6C45C"
+			]
+			id: "333C3B5342D4B8A7"
+			tasks: [{
+				id: "0C54A1C5C7B4BACF"
+				type: "item"
+				item: "botania:fallen_kanade"
+			}]
+			rewards: [{
+				id: "512AF242262E6ABF"
+				type: "item"
+				item: "minecraft:golden_apple"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"娇媚之刺会伤害附近的怪物直到它们死亡，但不包括玩家"
+				"它是恐惧之刺的一个不太专业的版本"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"这朵花的内部缓冲区有 1000 法力值，每 0.25 秒消耗 24 法力值，对其 13x13x13 范围内的所有怪物造成 4 次伤害（♥♥）"
+				""
+				"小版的范围较小，为 3x3x3"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "1E982F1EA05B4FC3"
+			tasks: [{
+				id: "3842495B8610773D"
+				type: "item"
+				item: "botania:bellethorn"
+			}]
+			rewards: [{
+				id: "59AF52C8518AC849"
+				type: "item"
+				item: "minecraft:zombie_spawn_egg"
+			}]
+		}
+		{
+			x: 19.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"消音柑可以消除附近的噪音。消音柑的数量越多，对声音的抑制作用就越大"
+				"您还可以用它来防止号角声和鼓声打破花朵范围内的方块"
+				""
+				"这朵花的球形范围半径为 4 个方块"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "75C7BBAA46DBB6DB"
+			tasks: [{
+				id: "2A7D200CA3E3C220"
+				type: "item"
+				item: "botania:bergamute"
+			}]
+			rewards: [{
+				id: "5B7D7A2E8DDAA5F5"
+				type: "item"
+				item: {
+					id: "botania:cacophonium"
+					Count: 1b
+					tag: {
+						soundName: "entity.minecraft.villager"
+						sound: "minecraft:entity.villager.ambient"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"平成之梦会对附近的敌对怪物进行洗脑，以便让它们自相残杀。被花朵感染后，它们会完全忘记其他正常情况下会针对的东西（玩家、被动生物、乌龟蛋......），去与其他被感染的怪物战斗，直到每一个怪物都死亡为止"
+				"请注意，被感染的怪物只会追逐被同一种花感染的怪物"
+				""
+				"这朵花的内部缓冲区有 1000 法力值，在其 11x11x11 的范围内，每 tick 洗脑 1 个怪物需要消耗 100 法力值"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"0000000000000389"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "0168099695957982"
+			tasks: [{
+				id: "1D12EF45852517EB"
+				type: "item"
+				item: "botania:heisei_dream"
+			}]
+			rewards: [{
+				id: "176D46E94B5072A7"
+				type: "item"
+				item: "botania:floating_heisei_dream"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"标签花允许您对物品和怪物进行大规模重命名。把名牌扔进花里，附近的所有物品堆和怪物都会被重命名为你在铁砧上给名牌重命名的名字"
+				"请注意，如果同时存在多个名称不同的名称标记，则最先找到的名称标记也会重命名其他名称标记"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"这朵花的内部缓冲区有 6000 法力值，消耗 500 法力值和一个重命名的名称标签，可对 5x5x5 范围内的所有物品堆和怪物进行重命名"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"7C275C683FD97C97"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "4867C2BD1BCFC852"
+			tasks: [{
+				id: "25299319F8FD2176"
+				type: "item"
+				item: "botania:labellia"
+			}]
+			rewards: [{
+				id: "7B9370BEF8915BA0"
+				type: "item"
+				item: "minecraft:name_tag"
+				random_bonus: 5
+			}]
+		}
+		{
+			x: 20.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"黏土花用魔力滋润附近的沙，产生黏土球"
+				""
+				"这朵花的内部缓冲区有 640 法力，每 0.25 秒消耗 80 法力，将其 11x7x11 范围内的随机沙方块转化为粘土球"
+				""
+				"小版的范围较小，为 5x3x5"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"28ABFC44933FF6D9"
+				"113D3F44F9F6C45C"
+			]
+			id: "6759DB47E7294DEE"
+			tasks: [{
+				id: "5418BA4A1373EFC4"
+				type: "item"
+				item: "botania:clayconia"
+			}]
+			rewards: [{
+				id: "20F75AA487E37445"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"聚宝花召唤的怪物没有通常的战利品，但有通常在结构箱中生产的随机战利品"
+				"您可以种植非常稀有和强大的物品，但也有大量垃圾。这就要靠你自己去分拣了"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"花朵内部有一个 35,000 法力值的缓冲区，每 5 秒消耗一次法力值，在花朵 11x1x11 范围内随机选取的 X;Z 位置上方的最低不可吸附方块上方 1 个方块生成一个怪物。这意味着，如果下方所有方块都被填满，怪物的生成高度可达最大建造高度。怪物具有无限的火抗和再生效果（苦力怕除外，它们会在 5 秒内保持这些效果），并有以下生成几率："
+				"- 骷髅: 26.46%;"
+				"- 蜘蛛: 26.46%;"
+				"- 僵尸: 21.168%;"
+				"- 苦力怕: 9.751%;"
+				"- 溺尸: 5.292%;"
+				"- 流浪者: 2.94%;"
+				"- 洞穴蜘蛛: 2.94%;"
+				"- 尸壳: 2.94%;"
+				"- 末影人: 2%;"
+				"- 闪电苦力怕: 0.049%."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"7877B5E8469528E8"
+				"1B3EBF81C5D4EA65"
+				"060B00064AAE4FFD"
+				"00000000000003F0"
+				"113D3F44F9F6C45C"
+			]
+			id: "394CE4DC82CC4EA0"
+			tasks: [{
+				id: "0E8407A74659D835"
+				type: "item"
+				item: "botania:loonium"
+			}]
+			rewards: [{
+				id: "769E2403A215DE37"
+				type: "item"
+				item: "botania:floating_loonium"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"毒风信可以毒死附近的任何实体，让你一击必杀"
+				"请注意，玩家不受影响"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"该花的内部缓冲区有 180 法力值，消耗 20 法力值可对其 13x13x13 范围内的任何生命体施加毒 I 效果，持续 3 秒"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"7C275C683FD97C97"
+				"113D3F44F9F6C45C"
+			]
+			id: "20BFED5C1E582E68"
+			tasks: [{
+				id: "07486D2BBE02676E"
+				type: "item"
+				item: "botania:hyacidus"
+			}]
+			rewards: [{
+				id: "440623C6D5B51CDB"
+				type: "item"
+				item: "botania:floating_hyacidus"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"虎之眼可以安抚苦力怕，防止它们在最糟糕的地方爆炸。被安抚的苦力怕会想尽一切办法躲避玩家，即使离开花朵的作用范围也不例外。不过，无论你做什么，在这个区域内都不会有苦力怕爆炸"
+				""
+				"这朵花的内部缓冲区有 1000 法力，在其 21x9x21 的范围内，每安抚一只苦力怕就会消耗 70 法力"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"7C275C683FD97C97"
+				"113D3F44F9F6C45C"
+			]
+			id: "72F22960DB7D8FB3"
+			tasks: [{
+				id: "55216328A19BE8F8"
+				type: "item"
+				item: "botania:tigerseye"
+			}]
+			rewards: [{
+				id: "1267D27794626C73"
+				type: "item"
+				item: "minecraft:creeper_spawn_egg"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"符文矮牵牛会立即激活附近任何有效的符文仪式"
+				""
+				"这朵花的内部缓冲区有 300 法力，但奇怪的是，在其 7x3x7 的范围内激活拥有中央符文持有者的符文仪式不会消耗任何法力"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"2F06D18D19919CC9"
+				"113D3F44F9F6C45C"
+			]
+			id: "66B4577722BACD64"
+			tasks: [{
+				id: "72962B4A842E31FB"
+				type: "item"
+				item: "mythicbotany:petrunia"
+			}]
+			rewards: [{
+				id: "28FC3E497287DA4C"
+				type: "item"
+				item: "botania:horn_grass"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"手掌花会拾取附近掉落的物品，并尽可能将它们作为方块放置在世界中。放置规则仍然适用，因此例如您需要泥土和水才能放置甘蔗"
+				"花朵可以放置物品的方块可以通过在花朵的土壤正下方放置一个这样的方块来指定。如果没有方块，花朵可以在任何地方放置方块，包括半空中"
+				"如果把物品框放在目的地方块过滤上，还可以过滤哪些物品可以被拾取放置"
+				"提供法力后，花朵的射程会增加，放置方块时会消耗一些法力"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"这朵花的内部缓冲区有 20 个魔力值，在可用的情况下消耗 1 个魔力值，可在其 5x7x5 的拾取范围内取走 1 件物品，并将其放置在其 13x13x13 的放置范围内，或在提供法力值时消耗 17x13x17 的法力值"
+				""
+				"小型变体的放置范围较小，为 5x5x5，提供魔力时为 7x5x7"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"28ABFC44933FF6D9"
+				"113D3F44F9F6C45C"
+			]
+			id: "697036438A8D2F61"
+			tasks: [{
+				id: "2BD53FD8926EEC38"
+				type: "item"
+				item: "botania:rannuncarpus"
+			}]
+			rewards: [{
+				id: "5F388BB333308B83"
+				type: "item"
+				item: "botania:floating_rannuncarpus"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"恐惧之刺伤害附近被动的成年怪物"
+				"它是娇媚之刺的更专业版本"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"这朵花的内部缓冲区有 1000 法力值，每 0.25 秒消耗 30 法力值，对其 13x13x13 范围内的所有被动成年怪物造成 4 次伤害（♥♥）"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "63C81303E6DD4B9F"
+			tasks: [{
+				id: "64918FDC31745196"
+				type: "item"
+				item: "botania:dreadthorn"
+			}]
+			rewards: [{
+				id: "2E7DD49930AEFD96"
+				type: "item"
+				item: "botania:floating_dreadthorn"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"漏斗花基本上是一个远程漏斗。它能吸收附近的物品，并将其放入相邻的物品栏中"
+				"如果由魔力池提供法力，花朵的射程会增加，并消耗一些法力"
+				"如果在鲜花插入物品的物品栏上放置物品框，鲜花只会插入物品框中显示的物品。这种行为可以通过在功能模式下用森林法杖潜行+与花朵互动来调整。用魔杖观察花朵将显示其当前模式"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"这朵花的内部缓冲区有 20 法力，但在其 13x13x13 的基础范围内吸收物品时不需要法力，如果提供法力，则在 21x21x21 范围内每吸收一个物品堆栈消耗 1 法力"
+				""
+				"小型变体的射程较低，无魔力时为 3x3x3，有魔力时为 5x5x5"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1191C9C9939572EF"
+				"113D3F44F9F6C45C"
+			]
+			id: "3A1FB6A0DAC8D4B3"
+			tasks: [{
+				id: "6925E30FD8ABFD06"
+				type: "item"
+				item: "botania:hopperhock"
+			}]
+			rewards: [{
+				id: "4E8570F442B49D1C"
+				type: "item"
+				item: "botania:floating_hopperhock"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"束缚莓是一种能将所有怪物控制在狭窄区域内的花朵，就像一个无形的力场"
+				"它是自由之翼的反向版本"
+				""
+				"这朵花的内部缓冲区有 20 法力值，每 0.2 秒消耗 1 法力值，可将半径为 7 个方块的球形范围内的任何怪物输出到半径小 1 个方块的球形范围内"
+				""
+				"小型号的输出范围较小，半径为 3 个方块"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"1191C9C9939572EF"
+				"28ABFC44933FF6D9"
+				"113D3F44F9F6C45C"
+			]
+			id: "4030877A1EFE6697"
+			tasks: [{
+				id: "5E8676CDF79EF924"
+				type: "item"
+				item: "botania:tangleberrie"
+			}]
+			rewards: [{
+				id: "67B71E6E155E59E7"
+				type: "item"
+				item: "botania:floating_tangleberrie"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"诱引莲当作用范围有末影人瞬移时，会被强制瞬移至此花上"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"这朵花的内部缓冲区有 500 法力，消耗 50 法力可将任何末影人传送&nto&r 到其半径为 64 方块的球形范围内"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"7877B5E8469528E8"
+				"501048AA650BB8EF"
+				"113D3F44F9F6C45C"
+			]
+			id: "73CB7CBF2E1AD05D"
+			tasks: [{
+				id: "42E20415F6193EB2"
+				type: "item"
+				item: "botania:vinculotus"
+			}]
+			rewards: [{
+				id: "657CFE22C629AE83"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: 13.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"通常，当猪灵和疣猪兽在下界外时，它们会在 15 秒后变成僵尸。菟葵花可以避免这种情况：只要它们留在附近，而且菟葵花有足够的魔力，它们就不会变成僵尸"
+				""
+				"花朵内部有 300 法力值的缓冲区，当僵尸化计时器高于 20 时，会消耗 150 法力值重置僵尸化计时器，这意味着花朵在其 11x5x11 的范围内，每 21 ticks（约 1 秒）就会为每个怪物激活一次"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"00000000000003A3"
+				"113D3F44F9F6C45C"
+			]
+			id: "2DC31890B7AA1B6A"
+			tasks: [{
+				id: "1D82117CE515AD82"
+				type: "item"
+				item: "mythicbotany:hellebore"
+			}]
+			rewards: [{
+				id: "0D63A4620E0B1BBD"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			x: 17.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"百水莲会消耗一些魔力来填充附近的炼药锅、花药台、坩埚"
+				""
+				"这朵花的内部缓冲区有 300 法力，在 1 秒钟的动画后，消耗 2 法力在其 7x1x7 范围内装满一个容器，然后等待 0.25 秒再检查是否有新的容器"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			id: "1F09DA2A680C565F"
+			tasks: [{
+				id: "6BE312A4BBEE2D1F"
+				type: "item"
+				item: "mythicbotany:aquapanthus"
+			}]
+			rewards: [{
+				id: "2F0BB302FC19F38E"
+				type: "item"
+				item: "botania:apothecary_taiga"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"田园康乃馨通过对植物施加微弱的骨粉效应来帮助植物生长"
+				"您可以通过对其施加红石信号来禁用这朵花"
+				""
+				"这朵花有一个 200 法力的内部缓冲区，每隔 0.6 秒就会尝试在其 11x6x11 （上方 4 个方块和下方 1 个方块）范围内寻找作物进行提升，如果找到了，就会为此消耗 5 法力"
+				"请注意，它会从上到下检查可驯化的方块，如果在较高层次上发现了可驯化的方块，较低层次的方块就不会被提升。高一级的 11x11 田块中的可驯化骨块越多，低一级田块被驯化的几率就越趋近于零"
+				""
+				"小版的水平范围较小，只有 2 个方块。"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000003B5"
+				"2A30C3E8DA526676"
+				"113D3F44F9F6C45C"
+			]
+			id: "201D9AB4906D9A76"
+			tasks: [{
+				id: "38530EFEE118A8BD"
+				type: "item"
+				item: "botania:agricarnation"
+			}]
+			rewards: [{
+				id: "1F73D2F0FD0DCCAE"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			title: "功能性花"
+			x: 2.0d
+			y: 3.8d
+			shape: "square"
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			size: 0.07d
+			id: "293FF6EF1E542435"
+			tasks: [{
+				id: "16A23611222C84BF"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			title: "产魔花"
+			x: 2.0d
+			y: -3.9d
+			shape: "square"
+			dependencies: [
+				"00000000000003B5"
+				"113D3F44F9F6C45C"
+			]
+			size: 0.07d
+			id: "4E79B855518D3EC0"
+			tasks: [{
+				id: "2AB677FCC2AE89BE"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

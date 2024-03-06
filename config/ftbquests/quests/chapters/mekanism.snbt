@@ -1,0 +1,4012 @@
+{
+	id: "6932D8CEAE707C22"
+	group: ""
+	order_index: 26
+	filename: "mekanism"
+	title: "通用机械"
+	icon: "mekanism:steel_casing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 12.0d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/meka_reactor.png"
+			hover: ["Fusion Reactor"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 15.0d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/meka_sps.png"
+			hover: ["Supercritical Phase Shifter"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/meka_thermal.png"
+			hover: ["Thermal Evaporation"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/meka_matrix.png"
+			hover: ["Induction Matrix"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/meka_fission.png"
+			hover: ["Fission Reactor"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 18.0d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/meka_boiler.png"
+			hover: ["Thermoelectric Boiler"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 21.0d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/meka_tank.png"
+			hover: ["Dynamic Tank"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/meka_turbine.png"
+			hover: ["Industrial Turbine"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.0d
+			y: 4.839285714285715d
+			width: 4.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "ftbquests:textures/background/mekasuite_upgrades.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 13.5d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"等级安装器用于将各种机器升级为等价的工厂。"
+				"Tier Installers are used to upgrade various machines into their Factory equivalent."
+			]
+			dependencies: ["24AA4048D4600331"]
+			id: "000000000000085E"
+			tasks: [
+				{
+					id: "000000000000085F"
+					type: "item"
+					item: "mekanism:basic_tier_installer"
+				}
+			]
+			rewards: [
+				{
+					id: "6A25A4AC9662AEC1"
+					type: "item"
+					item: "mekanism:basic_control_circuit"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"等级安装器用于将各种机器升级为等价的工厂。"
+				"Tier Installers are used to upgrade various machines into their Factory equivalent."
+			]
+			dependencies: [
+				"000000000000085E"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000860"
+			tasks: [
+				{
+					id: "0000000000000861"
+					type: "item"
+					item: "mekanism:advanced_tier_installer"
+				}
+			]
+			rewards: [
+				{
+					id: "3F1942629855CC8E"
+					type: "item"
+					item: "mekanism:advanced_control_circuit"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"等级安装器用于将各种机器升级为等价的工厂。"
+				"Tier Installers are used to upgrade various machines into their Factory equivalent."
+			]
+			dependencies: [
+				"0000000000000860"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000862"
+			tasks: [
+				{
+					id: "0000000000000863"
+					type: "item"
+					item: "mekanism:elite_tier_installer"
+				}
+			]
+			rewards: [
+				{
+					id: "402FA207C1F97FF0"
+					type: "item"
+					item: "mekanism:elite_control_circuit"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"等级安装器用于将各种机器升级为等价的工厂。"
+				"Tier Installers are used to upgrade various machines into their Factory equivalent."
+			]
+			dependencies: [
+				"0000000000000862"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000864"
+			tasks: [
+				{
+					id: "0000000000000865"
+					type: "item"
+					item: "mekanism:ultimate_tier_installer"
+				}
+			]
+			rewards: [
+				{
+					id: "5158AAE0939521FF"
+					type: "item"
+					item: "mekanism:ultimate_control_circuit"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"你可以在基础能量立方中存储1.60MRF."
+				"You can store 1.60MRF in the Basic Energy Cube."
+			]
+			dependencies: ["24AA4048D4600331"]
+			id: "0000000000000866"
+			tasks: [
+				{
+					id: "0000000000000867"
+					type: "item"
+					item: "mekanism:basic_energy_cube"
+				}
+			]
+			rewards: [
+				{
+					id: "62296CE8FB06DA72"
+					type: "item"
+					item: "mekanism:steel_casing"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"你可以在高级能量立方中存储6.40MRF."
+				"You can store 6.40MRF in the Advanced Energy Cube."
+			]
+			dependencies: [
+				"0000000000000866"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000868"
+			tasks: [
+				{
+					id: "0000000000000869"
+					type: "item"
+					item: "mekanism:advanced_energy_cube"
+				}
+			]
+			rewards: [
+				{
+					id: "6A630879A6D6238F"
+					type: "item"
+					item: "mekanism:alloy_infused"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"你可以在精英能量立方中存储25.60MRF."
+				"You can store 25.60MRF in the Elite Energy Cube."
+			]
+			dependencies: [
+				"0000000000000868"
+				"24AA4048D4600331"
+			]
+			id: "000000000000086A"
+			tasks: [
+				{
+					id: "000000000000086B"
+					type: "item"
+					item: "mekanism:elite_energy_cube"
+				}
+			]
+			rewards: [
+				{
+					id: "710DA5AA306B94D6"
+					type: "item"
+					item: "mekanism:alloy_reinforced"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"你可以在终极能量立方中存储40MRF."
+				"You can store 102.40MRF in the Ultimate Energy Cube."
+			]
+			dependencies: [
+				"000000000000086A"
+				"24AA4048D4600331"
+			]
+			id: "000000000000086C"
+			tasks: [
+				{
+					id: "000000000000086D"
+					type: "item"
+					item: "mekanism:ultimate_energy_cube"
+				}
+			]
+			rewards: [
+				{
+					id: "769ED2EB9C2C09E3"
+					type: "item"
+					item: "mekanism:alloy_atomic"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"基础通用线缆可以传输3.20kRF/t."
+				"基础动力管道可以传输250mB/t,内部缓冲区为2000mB."
+				"基础加压管可以传输7 500mB/t气体,内部缓冲为4000mB."
+				"基础物流传输器可以传输2个物品/秒,每秒工作1个方块距离."
+				"Basic Universal Cable can transfer 3.20kRF/t."
+				"Basic Mechanical Pipe can transfer 250mB/t and has an internal buffer of 2,000mB."
+				"Basic Pressurized Tube can transfer 750mB/t of gas and has an internal buffer of 4,000mB."
+				"Basic Logistical Transporter can transfer 2 items/sec and works 1 block distance per second."
+			]
+			dependencies: ["24AA4048D4600331"]
+			id: "000000000000086E"
+			tasks: [
+				{
+					id: "000000000000086F"
+					type: "item"
+					item: "mekanism:basic_universal_cable"
+				}
+				{
+					id: "0000000000000876"
+					type: "item"
+					item: "mekanism:basic_mechanical_pipe"
+				}
+				{
+					id: "0000000000000877"
+					type: "item"
+					item: "mekanism:basic_pressurized_tube"
+				}
+				{
+					id: "0000000000000878"
+					type: "item"
+					item: "mekanism:basic_logistical_transporter"
+				}
+			]
+			rewards: [
+				{
+					id: "45F63E4BBA9D5303"
+					type: "item"
+					item: "beyond_earth:steel_block"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"高级通用线缆可以传输51.2kRF/t."
+				"高级动力管道可以传输1000mB/t,内部缓冲为8000mB."
+				"高级加压管可以传输2000mB/t气体,内部缓冲区为16000mB."
+				"高级物流传输器可以传输32个物品/秒,每秒工作2个方块距离."
+				"Advanced Universal Cable can transfer 51.20kRF/t."
+				"Advanced Mechanical Pipe can transfer 1,000mB/t and has an internal buffer of 8,000mB."
+				"Advanced Pressurized Tube can transfer 2,000mB/t of gas and has an internal buffer of 16,000mB."
+				"Advanced Logistical Transporter can transfer 32 items/sec and works 2 blocks distance per second."
+			]
+			dependencies: [
+				"000000000000086E"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000870"
+			tasks: [
+				{
+					id: "0000000000000871"
+					type: "item"
+					item: "mekanism:advanced_universal_cable"
+				}
+				{
+					id: "0000000000000879"
+					type: "item"
+					item: "mekanism:advanced_mechanical_pipe"
+				}
+				{
+					id: "000000000000087A"
+					type: "item"
+					item: "mekanism:advanced_pressurized_tube"
+				}
+				{
+					id: "000000000000087B"
+					type: "item"
+					item: "mekanism:advanced_logistical_transporter"
+				}
+			]
+			rewards: [
+				{
+					id: "0DACBD1F446CD85D"
+					type: "item"
+					item: "mekanism:alloy_infused"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"精英通用线缆可以传输409.60kRF/t."
+				"精英动力管道可以传输8,000mB/t,内部缓冲区为32,000mB."
+				"精英加压管可以传输64000mB/t气体,内部缓冲为256,000mB."
+				"精英物流传输器可以每秒传输64个物品/秒并工作4个方块距离."
+				"Elite Universal Cable can transfer 409.60kRF/t."
+				"Elite Mechanical Pipe can transfer 8,000mB/t and has an internal buffer of 32,000mB."
+				"Elite Pressurized Tube can transfer 64,000mB/t of gas and has an internal buffer of 256,000mB."
+				"Elite Logistical Transporter can transfer 64 items/sec and works 4 blocks distance per second."
+			]
+			dependencies: [
+				"0000000000000870"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000872"
+			tasks: [
+				{
+					id: "0000000000000873"
+					type: "item"
+					item: "mekanism:elite_universal_cable"
+				}
+				{
+					id: "000000000000087C"
+					type: "item"
+					item: "mekanism:elite_mechanical_pipe"
+				}
+				{
+					id: "000000000000087D"
+					type: "item"
+					item: "mekanism:elite_pressurized_tube"
+				}
+				{
+					id: "000000000000087E"
+					type: "item"
+					item: "mekanism:elite_logistical_transporter"
+				}
+			]
+			rewards: [
+				{
+					id: "0ADD65C73ACC6ED5"
+					type: "item"
+					item: "mekanism:alloy_reinforced"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"终极通用线缆可以传输3.27MRF/t."
+				"终极动力管道可以传输32,000mB/t,内部缓冲区为128,000mB."
+				"终极加压管可以传输256,000mB/t气体,内部缓冲为1,024,000mB."
+				"终极物流传输器可以传输128个物品/秒,每秒工作10个方块距离."
+				"Ultimate Universal Cable can transfer 3.27MRF/t."
+				"Ultimate Mechanical Pipe can transfer 32,000mB/t and has an internal buffer of 128,000mB."
+				"Ultimate Pressurized Tube can transfer 256,000mB/t of gas and has an internal buffer of 1,024,000mB."
+				"Ultimate Logistical Transporter can transfer 128 items/sec and works 10 blocks distance per second."
+			]
+			dependencies: [
+				"0000000000000872"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000874"
+			tasks: [
+				{
+					id: "0000000000000875"
+					type: "item"
+					item: "mekanism:ultimate_universal_cable"
+				}
+				{
+					id: "000000000000087F"
+					type: "item"
+					item: "mekanism:ultimate_mechanical_pipe"
+				}
+				{
+					id: "0000000000000880"
+					type: "item"
+					item: "mekanism:ultimate_pressurized_tube"
+				}
+				{
+					id: "0000000000000881"
+					type: "item"
+					item: "mekanism:ultimate_logistical_transporter"
+				}
+			]
+			rewards: [
+				{
+					id: "6767CA12B27F4033"
+					type: "item"
+					item: "mekanism:alloy_atomic"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"你可以在基础流体储罐中存储32,000mB."
+				"You can store 32,000mB in the Basic Fluid Tank."
+			]
+			dependencies: ["24AA4048D4600331"]
+			id: "0000000000000882"
+			tasks: [
+				{
+					id: "0000000000000883"
+					type: "item"
+					item: "mekanism:basic_fluid_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "2E5E5873B9D65917"
+					type: "item"
+					item: "minecraft:iron_block"
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"你可以在高级流体储罐中存储64000mB."
+				"You can store 64,000mB in the Advanced Fluid Tank."
+			]
+			dependencies: [
+				"0000000000000882"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000884"
+			tasks: [
+				{
+					id: "0000000000000885"
+					type: "item"
+					item: "mekanism:advanced_fluid_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "3FBA0B4587264B25"
+					type: "item"
+					item: "mekanism:alloy_infused"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"你可以在精英流体储罐中存储128,000mB."
+				"You can store 128,000mB in the Elite Fluid Tank."
+			]
+			dependencies: [
+				"0000000000000884"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000886"
+			tasks: [
+				{
+					id: "0000000000000887"
+					type: "item"
+					item: "mekanism:elite_fluid_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "29E39E53A0E2C6C2"
+					type: "item"
+					item: "mekanism:alloy_reinforced"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"你可以在终极流体储罐中存储256,000mB."
+				"You can store 256,000mB in the Ultimate Fluid Tank."
+			]
+			dependencies: [
+				"0000000000000886"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000888"
+			tasks: [
+				{
+					id: "0000000000000889"
+					type: "item"
+					item: "mekanism:ultimate_fluid_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "30DE73CFD3D5BE88"
+					type: "item"
+					item: "mekanism:alloy_atomic"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"你可以在基础化学品储罐中存储64000mb的气体."
+				"You can store 64,000mB of gas in the Basic Chemical Tank."
+			]
+			dependencies: ["24AA4048D4600331"]
+			id: "000000000000088A"
+			tasks: [
+				{
+					id: "000000000000088B"
+					type: "item"
+					item: "mekanism:basic_chemical_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "6CEC6B46579798F5"
+					type: "item"
+					item: "mekanism:block_osmium"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"你可以在高级化学品储罐中存储256,000mB气体."
+				"You can store 256,000mB of gas in the Advanced Chemical Tank."
+			]
+			dependencies: [
+				"000000000000088A"
+				"24AA4048D4600331"
+			]
+			id: "000000000000088C"
+			tasks: [
+				{
+					id: "000000000000088D"
+					type: "item"
+					item: "mekanism:advanced_chemical_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "5A95882E904CE24D"
+					type: "item"
+					item: "mekanism:alloy_infused"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"你可以在精英化学储罐中存储1,024,000mB气体."
+				"You can store 1,024,000mB of gas in the Elite Chemical Tank."
+			]
+			dependencies: [
+				"000000000000088C"
+				"24AA4048D4600331"
+			]
+			id: "000000000000088E"
+			tasks: [
+				{
+					id: "000000000000088F"
+					type: "item"
+					item: "mekanism:elite_chemical_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "7F6CE7D03103A17F"
+					type: "item"
+					item: "mekanism:alloy_reinforced"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"你可以在终极化学储罐中存储8,192,000mb的气体."
+				"You can store 8,192,000mB of gas in the Ultimate Chemical Tank."
+			]
+			dependencies: [
+				"000000000000088E"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000890"
+			tasks: [
+				{
+					id: "0000000000000891"
+					type: "item"
+					item: "mekanism:ultimate_chemical_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "658ABC637D3F0AB7"
+					type: "item"
+					item: "mekanism:alloy_atomic"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "防辐射套装[--Hazmat Suit--]"
+			x: 6.5d
+			y: 5.0d
+			shape: "square"
+			description: [
+				"防辐射套装可以保护玩家免受辐射。"
+				"The Hazmat Suit protects the player from Radiation."
+			]
+			dependencies: ["24AA4048D4600331"]
+			id: "0000000000000892"
+			tasks: [
+				{
+					id: "0000000000000893"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_mask"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "0000000000000894"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_gown"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "0000000000000895"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "0000000000000896"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4A80326A4ED4B77A"
+					type: "item"
+					item: "engineersdecor:sign_radioactive"
+				}
+			]
+		}
+		{
+			title: "Meka套装[--MekaSuit Armor--]"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"MekaSuit是一套高度可配置的游戏末地模块盔甲。"
+				"MekaSuit的每个部分都可以用安装在改造站中的模块进行升级。"
+				"它用于末地游戏盔甲。"
+				"he MekaSuit is a highly configurable set of late-game modular armor."
+				"Each part of the MekaSuit can be upgraded with Modules that are installed with the Modification Station."
+				"It's used to the End Game armor."
+			]
+			dependencies: [
+				"0000000000000949"
+				"00000000000008CD"
+				"24AA4048D4600331"
+			]
+			size: 1.5d
+			id: "0000000000000898"
+			tasks: [
+				{
+					id: "0000000000000899"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_helmet"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "000000000000089A"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_bodyarmor"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "000000000000089B"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "000000000000089C"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "13CFBD71AAC4FD5B"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "磁力吸引单元[--Magnetic Attraction Unit--]"
+			x: -2.0d
+			y: 7.0d
+			shape: "square"
+			description: [
+				"使用强力磁盘将远处的物品吸引到玩家。"
+				"Uses Powerful Magnets to draw distant items towards the player."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "000000000000089D"
+			tasks: [
+				{
+					id: "000000000000089E"
+					type: "item"
+					item: "mekanism:module_magnetic_attraction_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "2B00FA120AF44065"
+					type: "item"
+					item: "mekanism:module_magnetic_attraction_unit"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			shape: "square"
+			description: [
+				"饥饿时自动喂食玩家营养膏。"
+				"Automatically feeds the player Nutritional Paste when hungry."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "000000000000089F"
+			tasks: [
+				{
+					id: "00000000000008A0"
+					type: "item"
+					item: "mekanism:module_nutritional_injection_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "470C5664B35D0778"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			shape: "square"
+			description: [
+				"在HUD中显示用户当前辐射量."
+				"Displays the user's current radiation dose in the HUD."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008A1"
+			tasks: [
+				{
+					id: "00000000000008A2"
+					type: "item"
+					item: "mekanism:module_dosimeter_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "19086B6F60F2CA1A"
+					type: "item"
+					item: "mekanism:hdpe_sheet"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"使用实验性科技和巨大的反物质能量,允许使用者无视重力."
+				"Using experimental technologies and the tremendous energy of antimatter, allows the user to defy gravity."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008A3"
+			tasks: [
+				{
+					id: "00000000000008A4"
+					type: "item"
+					item: "mekanism:module_gravitational_modulating_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "1EF63D69A57D4542"
+					type: "item"
+					item: "mekanism:pellet_antimatter"
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			title: "能量单元[--Energy Unit--]"
+			x: -2.0d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"增加最大能量容量。"
+				"Increases maximum energy capacity."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008A5"
+			tasks: [
+				{
+					id: "00000000000008A6"
+					type: "item"
+					item: "mekanism:module_energy_unit"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "061FD50CC4F98D78"
+					type: "item"
+					item: "mekanism:module_energy_unit"
+					random_bonus: 7
+				}
+			]
+		}
+		{
+			title: "动力动力单元[--Locomotive Boosting Unit--]"
+			x: -4.0d
+			y: 7.0d
+			shape: "square"
+			description: [
+				"提高使用者的疾跑速度(和跳跃距离)。"
+				"Increases the user's sprinting speed (and jumping distance)."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008A7"
+			tasks: [
+				{
+					id: "00000000000008A8"
+					type: "item"
+					item: "mekanism:module_locomotive_boosting_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "35EFBBE172A553A5"
+					type: "item"
+					item: "mekanism:module_locomotive_boosting_unit"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			title: "水力促动单元[--Hydraulic Propulsion Unit--]"
+			x: -3.0d
+			y: 6.0d
+			shape: "square"
+			description: [
+				"允许用户上下跳和跳都行。"
+				"Allows the user to both step and jump higher."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008A9"
+			tasks: [
+				{
+					id: "00000000000008AA"
+					type: "item"
+					item: "mekanism:module_hydraulic_propulsion_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "32A26894B36E939C"
+					type: "item"
+					item: "mekanism:module_hydraulic_propulsion_unit"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.0d
+			shape: "square"
+			description: [
+				"为任意MekaSuit盔甲提供厚度抗辐射金属板。"
+				"Provides thick, radiation-proof metal plating to any MekaSuit armor piece."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008AB"
+			tasks: [
+				{
+					id: "00000000000008AC"
+					type: "item"
+					item: "mekanism:module_radiation_shielding_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "2BDB89958BF87545"
+					type: "item"
+					item: "mekanism:module_radiation_shielding_unit"
+				}
+			]
+		}
+		{
+			title: "太阳能充能单元[--Solar Recharging Unit--]"
+			x: -4.0d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"使用太阳的力量为MekaSuit充电。安装多个来提高充电速度。需要通用机械:发电机。"
+				"Harness the power of the sun to charge your MekaSuit. Install multiple for faster charging. Requires Mekanism: Generators."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008AD"
+			tasks: [
+				{
+					id: "00000000000008AE"
+					type: "item"
+					item: "mekanismgenerators:module_solar_recharging_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "4C9AF1C16F5D7E3F"
+					type: "item"
+					item: "mekanismgenerators:module_solar_recharging_unit"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			title: "视觉增强单元[--Vision Enhancement Unit--]"
+			x: -2.0d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"亮化周围环境,让使用者看到黑暗。安装多个来提高夜视效果。"
+				"Brightens the surrounding environment, allowing the user to see through the darkness. Install multiple for more effective night vision."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008AF"
+			tasks: [
+				{
+					id: "00000000000008B0"
+					type: "item"
+					item: "mekanism:module_vision_enhancement_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "596D23F6AA62B82D"
+					type: "item"
+					item: "mekanism:module_vision_enhancement_unit"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			title: "电解呼吸单元[--Electrolytic Breathing Unit--]"
+			x: -4.0d
+			y: 5.0d
+			shape: "square"
+			description: [
+				"使用电解从水中产生可呼吸的氧气。如果需要,还会用氢气填充喷气背包模块。"
+				"Uses electrolysis to create breathable oxygen from water. Will also fill a jetpack module with hydrogen when necessary."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008B1"
+			tasks: [
+				{
+					id: "00000000000008B2"
+					type: "item"
+					item: "mekanism:module_electrolytic_breathing_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "3EA0AE458BD05394"
+					type: "item"
+					item: "mekanism:module_electrolytic_breathing_unit"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 6.0d
+			shape: "square"
+			description: [
+				"将充电平均分配到所有装备的Meka套装中。"
+				"Evenly distributes charge throughout all worn MekaSuit armor."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008B3"
+			tasks: [
+				{
+					id: "00000000000008B4"
+					type: "item"
+					item: "mekanism:module_charge_distribution_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "0D1241CA7B2AA989"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"纸板盒用于装箱其他方块来移动它们,在移动时保留库存."
+				"Cardboard Box is used for boxing up other blocks to move them, preserving the inventory while being moved."
+			]
+			dependencies: ["24AA4048D4600331"]
+			id: "00000000000008B5"
+			tasks: [
+				{
+					id: "5BE3A58AA9880260"
+					type: "item"
+					item: "mekanism:cardboard_box"
+				}
+			]
+			rewards: [
+				{
+					id: "7B91FA8D304B0069"
+					type: "item"
+					item: "dustrial_decor:cardboard_box"
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"原子分解器是一种全能工具,基本上就是Paxel的终极电子版本。"
+				"The Atomic Disassembler is an all-in-one tool, essentially the ultimate, electronic version of the paxel."
+			]
+			dependencies: ["24AA4048D4600331"]
+			id: "00000000000008BB"
+			tasks: [
+				{
+					id: "00000000000008BC"
+					type: "item"
+					item: {
+						id: "mekanism:atomic_disassembler"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "01A663DBAF704490"
+					type: "item"
+					item: "mekanism:alloy_atomic"
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"配置是通用机械机器和管道的配置工具。"
+				"The Configurator is the configuration tool for Mekanism machines and pipes."
+			]
+			dependencies: ["24AA4048D4600331"]
+			id: "00000000000008BD"
+			tasks: [
+				{
+					id: "00000000000008BE"
+					type: "item"
+					item: "mekanism:configurator"
+				}
+			]
+			rewards: [
+				{
+					id: "3520E5DD14794008"
+					type: "item"
+					item: "mekanism:energy_tablet"
+				}
+			]
+		}
+		{
+			x: 19.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"Meka-Tool是一个多功能工具物品."
+				"它几乎没有默认功能,但可以安装模块来提供多种功能."
+				"虽然配置器是制作Meka工具所需的,但它没有这个功能."
+				"The Meka-Tool is a multi-use tool item."
+				"It has almost no use default but can have Modules installed to give it a wide range of functions."
+				""
+				"While the Configurator is required to craft the Meka-Tool, It does not have that functionality."
+			]
+			dependencies: [
+				"00000000000008BD"
+				"00000000000008BB"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008BF"
+			tasks: [
+				{
+					id: "00000000000008C0"
+					type: "item"
+					item: {
+						id: "mekanism:meka_tool"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5E75217210BE5737"
+					type: "item"
+					item: "mekanism:ultimate_control_circuit"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "mekanism:qio_drive_array"
+			x: 6.5d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"QIO是一种在延迟游戏中存储大量可以远程存储、搜索和访问的物品的方法。"
+				"QIO is a way of storing large amounts of items that can be stored, searched, and accessed remotely in late game."
+			]
+			dependencies: [
+				"0000000000000948"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008C1"
+			tasks: [
+				{
+					id: "00000000000008C2"
+					type: "item"
+					item: "mekanism:qio_drive_array"
+				}
+				{
+					id: "00000000000008C3"
+					type: "item"
+					item: "mekanism:qio_dashboard"
+				}
+			]
+			rewards: [
+				{
+					id: "1198B4A6798E082C"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					count: 2
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"在这个基础QIO驱动器中,您可以存储128种不同的16k个物品."
+				"In this basic QIO Drive, you can store 16k items for 128 different types."
+			]
+			dependencies: [
+				"00000000000008C1"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008C4"
+			tasks: [
+				{
+					id: "00000000000008C5"
+					type: "item"
+					item: "mekanism:qio_drive_base"
+				}
+			]
+			rewards: [
+				{
+					id: "5522CD4169C537A2"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"在超致密QIO驱动器中,您可以存储256种不同的128k物品."
+				"In the Hyper-Dense QIO Drive, you can store 128k items for 256 different types."
+			]
+			dependencies: [
+				"00000000000008C4"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008C6"
+			tasks: [
+				{
+					id: "00000000000008C7"
+					type: "item"
+					item: "mekanism:qio_drive_hyper_dense"
+				}
+			]
+			rewards: [
+				{
+					id: "20865B9BC588E6B1"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"在时间过滤QIO驱动器中,您可以存储1048k个1024种不同的物品."
+				"In the Time-Dilating QIO Drive, you can store 1048k items for 1024 different types."
+			]
+			dependencies: [
+				"00000000000008C6"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008C8"
+			tasks: [
+				{
+					id: "00000000000008C9"
+					type: "item"
+					item: "mekanism:qio_drive_time_dilating"
+				}
+			]
+			rewards: [
+				{
+					id: "29A08220B1CDC997"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"在超级质量QIO驱动器中,您可以存储8192种不同种类的160亿个物品."
+				"In the Supermassive QIO Drive, you can store 16 billion items for 8192 different types."
+			]
+			dependencies: [
+				"00000000000008C8"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008CA"
+			tasks: [
+				{
+					id: "00000000000008CB"
+					type: "item"
+					item: "mekanism:qio_drive_supermassive"
+				}
+			]
+			rewards: [
+				{
+					id: "4F8753971066D217"
+					type: "item"
+					item: "mekanism:pellet_antimatter"
+				}
+			]
+		}
+		{
+			title: "HDPE片[--HDPE Sheet--]"
+			x: 3.0d
+			y: -3.5d
+			shape: "square"
+			description: [
+				"使用乙烯、基质和氧来获得一组高密度聚乙烯片。"
+				"Get a stack of HDPE Sheet using Ethylene, Substrate and Oxygen."
+			]
+			dependencies: [
+				"000000000000090C"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008CC"
+			tasks: [
+				{
+					id: "00000000000008CD"
+					type: "item"
+					item: "mekanism:hdpe_sheet"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "05CE6F3735E06D9F"
+					type: "item"
+					item: "mekanism:hdpe_sheet"
+					count: 16
+					random_bonus: 16
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 5.0d
+			shape: "square"
+			description: [
+				"放射性废料桶用于存储辐射材料。"
+				"它们以每秒1mB(20ticks)的速度删除其内容."
+				"你可以在其中存储512,000mB."
+				"Radioactive Waste Barrels are used to store radioactive materials."
+				""
+				"They delete their contents at a rate of 1 mB per second (20 ticks)."
+				""
+				"You can store 512,000mB in it."
+			]
+			dependencies: ["24AA4048D4600331"]
+			id: "00000000000008CE"
+			tasks: [
+				{
+					id: "00000000000008CF"
+					type: "item"
+					item: "mekanism:radioactive_waste_barrel"
+				}
+			]
+			rewards: [
+				{
+					id: "2CF862464153922F"
+					type: "item"
+					item: "engineersdecor:sign_radioactive"
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"速度升级可以让它们更快处理物品."
+				"能量升级会增加通用机械机器的功率,并减少每tick的功耗。"
+				"过滤升级将水与重水分离。它的唯一用途是电动泵。"
+				"消音升级会减少通用机械机器的噪音。"
+				"气体升级可以提高气体通用机械的效率。"
+				"锚升级确保通用机械机械方块保持区块加载."
+				"The Speed Upgrade make them process items faster."
+				"The Energy Upgrade increases the power capacity of a Mekanism machine, as well as reduce its power consumption per tick."
+				"The Filter Upgrade separates Water from Heavy Water. Its only use is in the Electric Pump."
+				"The Muffling Upgrade reduces noise from Mekanism machinery."
+				"The Gas Upgrade increases the efficiency of gas-based Mekanism machinery."
+				"The Anchor Upgrade ensures that a Mekanism machine block stays chunkloaded."
+			]
+			dependencies: ["24AA4048D4600331"]
+			id: "00000000000008DA"
+			tasks: [
+				{
+					id: "00000000000008DB"
+					type: "item"
+					item: "mekanism:upgrade_speed"
+					count: 8L
+				}
+				{
+					id: "31BA000021171CE8"
+					type: "item"
+					item: "mekanism:upgrade_energy"
+					count: 8L
+				}
+				{
+					id: "4641C869EB874FD3"
+					type: "item"
+					item: "mekanism:upgrade_filter"
+				}
+				{
+					id: "2D1C8C1A3DFF5697"
+					type: "item"
+					item: "mekanism:upgrade_muffling"
+					count: 4L
+				}
+				{
+					id: "578AB692CA818E7E"
+					type: "item"
+					item: "mekanism:upgrade_gas"
+					count: 8L
+				}
+				{
+					id: "0B7247C5F33209BD"
+					type: "item"
+					item: "mekanism:upgrade_anchor"
+				}
+			]
+			rewards: [
+				{
+					id: "0EBC5D4702984A23"
+					type: "item"
+					item: "mekanism:upgrade_speed"
+					count: 8
+				}
+				{
+					id: "5437F8058F0F9E63"
+					type: "item"
+					item: "mekanism:upgrade_energy"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			shape: "square"
+			description: [
+				"QIO导入器被连接到带有库存的方块上,并且无线将其内容传输到驱动器阵列中。输入器必须设置为与驱动器阵列相同的频率."
+				"QIO Importers are attached to a block with inventory and wirelessly transmit their contents to a drive array. The importer must be set to the same frequency as the drive array."
+			]
+			dependencies: [
+				"00000000000008C1"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008DC"
+			tasks: [
+				{
+					id: "00000000000008DD"
+					type: "item"
+					item: "mekanism:qio_importer"
+				}
+				{
+					id: "00000000000008DE"
+					type: "item"
+					item: "mekanism:qio_exporter"
+				}
+				{
+					id: "00000000000008DF"
+					type: "item"
+					item: "mekanism:qio_redstone_adapter"
+				}
+			]
+			rewards: [
+				{
+					id: "08028A9BBDBACE22"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					count: 2
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"反质子聚合器用于使用反物质将物品转化为另一个物品。"
+				"The Antiprotonic Nucleosynthesizer is used to transform an item into another using Antimatter."
+			]
+			dependencies: [
+				"0000000000000946"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008E2"
+			tasks: [
+				{
+					id: "00000000000008E3"
+					type: "item"
+					item: "mekanism:antiprotonic_nucleosynthesizer"
+				}
+			]
+			rewards: [
+				{
+					id: "175D8040CD12EC13"
+					type: "item"
+					item: "mekanism:pellet_antimatter"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"充能冶炼厂是你的基础电炉,它使用能量而不是燃料来熔炼物品。"
+				"The energized smelter is your basic electric furnace that uses energy instead of fuel to smelt items."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008E8"
+			tasks: [
+				{
+					id: "00000000000008E9"
+					type: "item"
+					item: "mekanism:energized_smelter"
+				}
+			]
+			rewards: [
+				{
+					id: "1D57E3CF3D63DFA3"
+					type: "item"
+					item: "mekanism:energized_smelter"
+				}
+			]
+		}
+		{
+			x: 18.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"提纯仓使用氧气将矿石和碎片提纯成碎块。"
+				"The Purification Chamber uses oxygen to refine Ores and shards into clumps."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008EA"
+			tasks: [
+				{
+					id: "00000000000008EB"
+					type: "item"
+					item: "mekanism:purification_chamber"
+				}
+			]
+			rewards: [
+				{
+					id: "69B83CC1FD69F0CF"
+					type: "item"
+					item: "mekanism:clump_osmium"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"冶金灌注机是一种用来制造合金的机器。"
+				"The Metallurgic Infuser is a machine used to create alloys."
+			]
+			dependencies: [
+				"7D0BC26B33BBB358"
+				"24AA4048D4600331"
+			]
+			size: 1.5d
+			id: "00000000000008EC"
+			tasks: [
+				{
+					id: "00000000000008ED"
+					type: "item"
+					item: "mekanism:metallurgic_infuser"
+				}
+			]
+			rewards: [
+				{
+					id: "725E4D3CFC7C5DF5"
+					type: "item"
+					item: "mekanism:steel_casing"
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"富集仓用于将煤炭或木炭变成压缩碳,红石变成压缩红石,钻石变成压缩钻石,强化黑石粉变成压缩黑石,全部用于冶金灌注机。"
+				"The Enrichment Chamber is used to turn Coal or Charcoal into Compressed Carbon, Redstone into Compressed Redstone, Diamond into Compressed Diamond and Refined Obsidian Dust into Compressed Obsidian, all for use in the Metallurgic Infuser."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008EE"
+			tasks: [
+				{
+					id: "00000000000008EF"
+					type: "item"
+					item: "mekanism:enrichment_chamber"
+				}
+			]
+			rewards: [
+				{
+					id: "60237D335BDA1216"
+					type: "item"
+					item: "mekanism:enriched_refined_obsidian"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"压缩机用于从荧石粉中精炼黑石粉和荧石锭中制作强化黑石锭。"
+				"The Osmium Compressor is used to create Refined Obsidian Ingots from Refined Obsidian Dust and Glowstone Ingots from Glowstone Dust."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008F0"
+			tasks: [
+				{
+					id: "00000000000008F1"
+					type: "item"
+					item: "mekanism:osmium_compressor"
+				}
+			]
+			rewards: [
+				{
+					id: "43299892046F9A7B"
+					type: "item"
+					item: "mekanism:steel_casing"
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"组合器允许你创建一个矿石块。"
+				"你可以使用这台机器来自动化钢机壳的制作。"
+				"The Combiner allows you to create an ore block."
+				"You can use this machine to automate the production of Steel Casing."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008F2"
+			tasks: [
+				{
+					id: "00000000000008F3"
+					type: "item"
+					item: "mekanism:combiner"
+				}
+			]
+			rewards: [
+				{
+					id: "442D9028A71E7137"
+					type: "item"
+					item: "mekanism:combiner"
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"粉碎机用于粉碎."
+				"不错。"
+				"The Crusher is used to crushes."
+				""
+				"Yep."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008F4"
+			tasks: [
+				{
+					id: "00000000000008F5"
+					type: "item"
+					item: "mekanism:crusher"
+				}
+			]
+			rewards: [
+				{
+					id: "4A507169A891FAE2"
+					type: "item"
+					item: "thermal:diamond_dust"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			shape: "square"
+			description: [
+				"太阳能中子活化器将太阳的中子辐射引导到其内部储层,允许缓慢产生各种同位素。"
+				"The Solar Neutron Activator directs the neutron radiation of the sun into its internal reservoir, allowing for the slow creation of various isotopes."
+			]
+			dependencies: [
+				"00000000000008CC"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008F6"
+			tasks: [
+				{
+					id: "00000000000008F7"
+					type: "item"
+					item: "mekanism:solar_neutron_activator"
+				}
+			]
+			rewards: [
+				{
+					id: "1D4BED43CDA3619E"
+					type: "item"
+					item: "mekanism:hdpe_sheet"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"量子传送机是一个允许将流体/物品/能量/气体从一个量子传送机通过通道发送到另一个的机器。"
+				"The Quantum Entangloporter is a machine that allows liquids/items/energy/gas to be sent from one Quantum Entangloporter to another through a channel."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008F8"
+			tasks: [
+				{
+					id: "00000000000008F9"
+					type: "item"
+					item: "mekanism:quantum_entangloporter"
+				}
+			]
+			rewards: [
+				{
+					id: "32A1D06138C19C68"
+					type: "item"
+					item: "mekanism:quantum_entangloporter"
+				}
+			]
+		}
+		{
+			x: 21.75d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"数字采矿机只能配置在一定区域内开采矿石。"
+				"它也可以设置为精准采集矿石,但这可以提高能量消耗。"
+				"The Digital Miner can be configured to mine ores only within a certain area. "
+				"It can also be set to silk touch ores, but this results in higher power consumption."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			size: 1.5d
+			id: "00000000000008FA"
+			tasks: [
+				{
+					id: "00000000000008FB"
+					type: "item"
+					item: "mekanism:digital_miner"
+				}
+			]
+			rewards: [
+				{
+					id: "695B1D0ACC27C0CA"
+					type: "item"
+					item: "mekanism:teleportation_core"
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"电解分离器将受控数量的直接流体发送到流体中,导致流体中的原子破坏其连接。"
+				"例如,您可以从水中获取氧气和氢气。"
+				"The Electrolytic Separator sends controlled amounts of direct current into a fluid, causing the atoms in the fluid to break their bonds."
+				"You can obtain, for example, oxygen and hydrogen from water."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "00000000000008FE"
+			tasks: [
+				{
+					id: "00000000000008FF"
+					type: "item"
+					item: "mekanism:electrolytic_separator"
+				}
+			]
+			rewards: [
+				{
+					id: "07D93E656271A71E"
+					type: "item"
+					item: "mekanism:electrolytic_separator"
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"精密锯木机用于从木制物品中回收木材并将原木变成木板。"
+				"The Precision Sawmill is used for reclaiming wood from wooden items and turn logs into planks."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000900"
+			tasks: [
+				{
+					id: "0000000000000901"
+					type: "item"
+					item: "mekanism:precision_sawmill"
+				}
+			]
+			rewards: [
+				{
+					id: "39FA78C64271C985"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"化学溶解室使用硫酸将原矿石变成浆液或氟石和氢氟酸。"
+				"The Chemical Dissolution Chamber turns raw ores into slurry or Fluorite and Hydrofluoric Acid using Sulfuric Acid."
+			]
+			dependencies: [
+				"7D0BC26B33BBB358"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000902"
+			tasks: [
+				{
+					id: "0000000000000903"
+					type: "item"
+					item: "mekanism:chemical_dissolution_chamber"
+				}
+			]
+			rewards: [
+				{
+					id: "6CF384D22C554C91"
+					type: "item"
+					item: "mekanism:chemical_dissolution_chamber"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			shape: "square"
+			description: [
+				"化学洗矿机使用水将浆液变成纯净浆液."
+				"The Chemical Washer turns Slurry into Clean Slurry using Water."
+			]
+			dependencies: [
+				"7D0BC26B33BBB358"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000904"
+			tasks: [
+				{
+					id: "0000000000000905"
+					type: "item"
+					item: "mekanism:chemical_washer"
+				}
+			]
+			rewards: [
+				{
+					id: "7E0DC4AFA482A51E"
+					type: "item"
+					item: "mekanism:ultimate_control_circuit"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"化学结晶器将纯净浆液转化为水晶和锂粉。"
+				"你可以将反物质转化为反物质丸。"
+				"The Chemical Crystallizer turns Clean Slurry into Crystals and Lithium into Lithium Dust."
+				""
+				"You can turn Antimatter into Antimatter Pellet."
+			]
+			dependencies: [
+				"7D0BC26B33BBB358"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000906"
+			tasks: [
+				{
+					id: "0000000000000907"
+					type: "item"
+					item: "mekanism:chemical_crystallizer"
+				}
+			]
+			rewards: [
+				{
+					id: "7FF160DB4ABEBB89"
+					type: "item"
+					item: "mekanism:fluorite_gem"
+					count: 32
+					random_bonus: 32
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"同位素离心机用于裂变反应堆,将六氟化铀处理成裂变燃料,或将核废料处理成钚。"
+				"The Isotopic Centrifuge is used with a Fission Reactor, wither processing Uranium Hexafluoride into Fissile Fuel, OR processing Nuclear Waste into Plutonium. "
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "000000000000090A"
+			tasks: [
+				{
+					id: "000000000000090B"
+					type: "item"
+					item: "mekanism:isotopic_centrifuge"
+				}
+			]
+			rewards: [
+				{
+					id: "75914CB2807E2EAA"
+					type: "item"
+					item: "mekanism:ultimate_control_circuit"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			shape: "square"
+			description: [
+				"加压反应室主要用于制造基质、高密度聚乙烯颗粒和乙烯。"
+				"The Pressurized Reaction Chamber is used primarily to create Substrate, HDPE Pellets and Ethylene."
+			]
+			dependencies: [
+				"7D0BC26B33BBB358"
+				"24AA4048D4600331"
+			]
+			id: "000000000000090C"
+			tasks: [
+				{
+					id: "000000000000090D"
+					type: "item"
+					item: "mekanism:pressurized_reaction_chamber"
+				}
+			]
+			rewards: [
+				{
+					id: "0C53FE33FF669C97"
+					type: "item"
+					item: "mekanism:pressurized_reaction_chamber"
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"化学注入仓使用氯化氢气体将矿石变成4个碎片."
+				"The Chemical Injection Chamber uses Hydrogen Chloride gas to turn ores into 4 Shards."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "000000000000090E"
+			tasks: [
+				{
+					id: "000000000000090F"
+					type: "item"
+					item: "mekanism:chemical_injection_chamber"
+				}
+			]
+			rewards: [
+				{
+					id: "53B1AA9F59AB3CF0"
+					type: "item"
+					item: "mekanism:shard_osmium"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"化学灌注机将两种气体结合或反应以产生另一种气体。"
+				"The Chemical Infuser combines or reacts two gases to create another gas."
+			]
+			dependencies: [
+				"7D0BC26B33BBB358"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000910"
+			tasks: [
+				{
+					id: "0000000000000911"
+					type: "item"
+					item: "mekanism:chemical_infuser"
+				}
+			]
+			rewards: [
+				{
+					id: "056AABEF7687BED5"
+					type: "item"
+					item: "mekanism:chemical_infuser"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"旋转式冷凝器用于以1:1的速度在液体和气体之间转换物质."
+				"The Rotary Condensentrator is used for converting substances between liquid and gaseous forms at a rate of 1:1."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000914"
+			tasks: [
+				{
+					id: "0000000000000915"
+					type: "item"
+					item: "mekanism:rotary_condensentrator"
+				}
+			]
+			rewards: [
+				{
+					id: "405EE06CA87C9765"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"化学氧化器用于从材料中产生气体。"
+				"The Chemical Oxidizer is used for making gases from materials."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000916"
+			tasks: [
+				{
+					id: "0000000000000917"
+					type: "item"
+					item: "mekanism:chemical_oxidizer"
+				}
+			]
+			rewards: [
+				{
+					id: "614335906025DE23"
+					type: "item"
+					item: "thermal:sulfur_dust"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"基础输导单元的容量为3.20GRF."
+				"基础输导供应器可以传输40kRF/t."
+				"The Basic Induction Cell has a capacity of 3.20GRF."
+				""
+				"The Basic Induction Provider can transfer 102.40kRF/t."
+			]
+			dependencies: [
+				"24AA4048D4600331"
+				"0000000000000933"
+			]
+			id: "0000000000000918"
+			tasks: [
+				{
+					id: "0000000000000919"
+					type: "item"
+					item: "mekanism:basic_induction_cell"
+				}
+				{
+					id: "000000000000091A"
+					type: "item"
+					item: "mekanism:basic_induction_provider"
+				}
+			]
+			rewards: [
+				{
+					id: "06BF4723F5E1AD85"
+					type: "item"
+					item: "mekanism:basic_induction_provider"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"高级输导单元的容量为25.6GRF."
+				"高级输导供应器可以传输819.20kRF/t."
+				"The Advanced Induction Cell has a capacity of 25.6GRF."
+				""
+				"The Advanced Induction Provider can transfer 819.20kRF/t."
+			]
+			dependencies: [
+				"0000000000000918"
+				"24AA4048D4600331"
+			]
+			id: "000000000000091B"
+			tasks: [
+				{
+					id: "000000000000091C"
+					type: "item"
+					item: "mekanism:advanced_induction_cell"
+				}
+				{
+					id: "000000000000091D"
+					type: "item"
+					item: "mekanism:advanced_induction_provider"
+				}
+			]
+			rewards: [
+				{
+					id: "7584FB089B2025A9"
+					type: "item"
+					item: "mekanism:advanced_induction_provider"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"精英输导单元的容量为204.80GRF."
+				"精英输导供应器可以传输 6.55MRF/t."
+				"The Elite Induction Cell has a capacity of 204.80GRF."
+				""
+				"The Elite Induction Provider can transfer 6.55MRF/t."
+			]
+			dependencies: [
+				"000000000000091B"
+				"24AA4048D4600331"
+			]
+			id: "000000000000091E"
+			tasks: [
+				{
+					id: "000000000000091F"
+					type: "item"
+					item: "mekanism:elite_induction_cell"
+				}
+				{
+					id: "0000000000000922"
+					type: "item"
+					item: "mekanism:elite_induction_provider"
+				}
+			]
+			rewards: [
+				{
+					id: "65D47726944C8642"
+					type: "item"
+					item: "mekanism:elite_induction_provider"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"终极输导单元的容量为1.60TRF."
+				"终极输导供应器可以传输52.42MRF/t."
+				"The ultimate Induction Cell has a capacity of 1.60TRF."
+				""
+				"The Ultimate  Induction Provider can transfer 52.42MRF/t."
+			]
+			dependencies: [
+				"000000000000091E"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000920"
+			tasks: [
+				{
+					id: "0000000000000921"
+					type: "item"
+					item: "mekanism:ultimate_induction_cell"
+				}
+				{
+					id: "0000000000000923"
+					type: "item"
+					item: "mekanism:ultimate_induction_provider"
+				}
+			]
+			rewards: [
+				{
+					id: "476B2FBAA35DF1DE"
+					type: "item"
+					item: "mekanism:ultimate_induction_provider"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"太阳能发电机利用太阳来产生能量。"
+				"The Solar Generator harnesses sunlight to create power."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000924"
+			tasks: [
+				{
+					id: "0000000000000925"
+					type: "item"
+					item: "mekanismgenerators:solar_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "404F80366E8438F6"
+					type: "item"
+					item: "mekanismgenerators:solar_generator"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"高级太阳能发电机是基础太阳能发电机的高度升级版本。建造高级太阳能发电机需要4台太阳能发电机,但它的发电量是其小型太阳能发电机的六倍。"
+				"The Advanced Solar Generator is a highly upgraded version of the basic Solar Generator. Construction of an Advanced Solar Generator requires four Solar Generators, but it produces six times the power of its smaller counterpart."
+			]
+			dependencies: [
+				"0000000000000924"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000926"
+			tasks: [
+				{
+					id: "0000000000000927"
+					type: "item"
+					item: "mekanismgenerators:advanced_solar_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "7A5070A3F7C86266"
+					type: "item"
+					item: "mekanismgenerators:advanced_solar_generator"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"风力发电机用于用风被动产生能量。"
+				"你走得最多,你得到的能量就越多."
+				"The Wind Generator is used to generate passively energy with wind."
+				""
+				"The highest you go, the more energy you can get."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000928"
+			tasks: [
+				{
+					id: "0000000000000929"
+					type: "item"
+					item: "mekanismgenerators:wind_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "2F2D539A87B2C409"
+					type: "item"
+					item: "mekanismgenerators:wind_generator"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"生物发电机从生物燃料中产生电力。"
+				"The Bio-Generators produce electricity from Bio Fuel."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "000000000000092A"
+			tasks: [
+				{
+					id: "000000000000092B"
+					type: "item"
+					item: "mekanismgenerators:bio_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "309B9735E4AACD83"
+					type: "item"
+					item: "mekanism:bio_fuel"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"燃气发电机通过消耗任何可燃气体来产生电力,例如由电解分离器或乙烯产生的氢气。"
+				"The Gas-Burning Generator creates power by consuming any burnable gas for example the Hydrogen produced by an Electrolytic Separator or Ethylene."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "000000000000092C"
+			tasks: [
+				{
+					id: "000000000000092D"
+					type: "item"
+					item: "mekanismgenerators:gas_burning_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "4646C1D5B84CEF55"
+					type: "item"
+					item: "mekanism:electrolytic_core"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"热力发电机将热能转化为电力。"
+				"The Heat Generator converts heat energy into power."
+			]
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "000000000000092E"
+			tasks: [
+				{
+					id: "000000000000092F"
+					type: "item"
+					item: "mekanismgenerators:heat_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "08A1AAE36D5B3367"
+					type: "item"
+					item: "mekanismgenerators:heat_generator"
+				}
+			]
+		}
+		{
+			title: "输导矩阵[--Induction Matrix--]"
+			icon: "mekanism:induction_port"
+			x: 3.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"输导矩阵是一个高度可配置的多方块能量存储结构。"
+				"输导矩阵只有在单元结构为16x16x16或更小,外壳结构为18x18x18或更小时才能成形."
+				"立方体内部可以装满输导供应器、输导元件或空气方块."
+				"The Induction Matrix is a highly configurable multi-block energy storage structure."
+				""
+				"The Induction Matrix will only form if the cell structure is a rectangular prism 16x16x16 or smaller and the casing structure is a rectangular prism 18x18x18 or smaller."
+				""
+				"The inside of the cube can be filled with either Induction Providers, Induction Cells or air blocks."
+			]
+			dependencies: [
+				"0BC2A9F9DFB154D0"
+				"0000000000000918"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000930"
+			tasks: [
+				{
+					id: "0000000000000931"
+					type: "item"
+					item: "mekanism:induction_casing"
+					count: 34L
+				}
+				{
+					id: "0000000000000932"
+					type: "item"
+					item: "mekanism:induction_port"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "35D3B0FD69C49899"
+					type: "item"
+					item: "thermal:pbj_sandwich"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			title: "热力蒸馏厂[--Thermal Evaporation Plant--]"
+			icon: "mekanism:thermal_evaporation_controller"
+			x: 0.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"热力蒸馏厂是一个多方块结构,其用意是将水转化为盐水,可以通过使用第二个热力蒸馏厂进一步转化为锂。"
+				"结构有一个4x4的方块基座,高度为3个方块,最大高度为18。"
+				"The Thermal Evaporation Plant is a multiblock structure with the purpose of converting Water to Brine, which can be further converted to Lithium by the use of a second Thermal Evaporation Plant."
+				""
+				"The structure has a 4 by 4 block base with a height of 3 blocks to a maximum height of 18."
+			]
+			dependencies: [
+				"63F59F1FDB43CA0E"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000933"
+			tasks: [
+				{
+					id: "0000000000000935"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+					count: 217L
+				}
+				{
+					id: "0000000000000936"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "0000000000000937"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "35B3ED9F5208DD33"
+					type: "item"
+					item: "thermal:pbj_sandwich"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			title: "聚变反应堆[--Fusion Reactor--]"
+			icon: "mekanismgenerators:fusion_reactor_controller"
+			x: 12.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"聚变反应堆是一个多方块结构,允许有三种燃料的可变输入速率:氘、和D-T燃料。"
+				"聚变反应堆不会自始至终。"
+				"它需要从充能激光放大器和少量D-T燃料中产生外部能量以开始聚变。"
+				"反应开始后,它会开始消耗供应的氘和,产生等离子体并产生电力."
+				"The Fusion Reactor is a multiblock structure that allows for variable input rates of 3 types of fuel: Deuterium, Tritium and D-T Fuel."
+				""
+				"The Fusion Reactor will not start on its own."
+				"It requires an outside burst of energy from a charged Laser Amplifier and a small amount of D-T Fuel to begin the fusion process."
+				"Once the reaction is jump started, it will begin consuming supplied Deuterium and Tritium, creating plasma and generating power."
+			]
+			dependencies: [
+				"36913F11C6813959"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000938"
+			tasks: [
+				{
+					id: "0000000000000939"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+				}
+				{
+					id: "000000000000093A"
+					type: "item"
+					item: "mekanismgenerators:laser_focus_matrix"
+				}
+				{
+					id: "000000000000093B"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 15L
+				}
+				{
+					id: "000000000000093C"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_logic_adapter"
+				}
+				{
+					id: "000000000000093D"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_port"
+					count: 4L
+				}
+				{
+					id: "000000000000093E"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					count: 45L
+				}
+				{
+					id: "000000000000094A"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:hohlraum"
+						Count: 1b
+						tag: {
+							mekData: {
+								GasTanks: [
+									{
+										Tank: 0b
+										stored: {
+											gasName: "mekanismgenerators:fusion_fuel"
+											amount: 10L
+										}
+									}
+								]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "26754AC0F7CC8DA0"
+					type: "item"
+					item: "thermal:pbj_sandwich"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			title: "裂变反应堆[--Fission Reactor--]"
+			icon: "mekanismgenerators:fission_fuel_assembly"
+			x: 6.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"裂变反应堆是一个多方块结构,可以产生大量的热量,但不会自动产生电力。"
+				"结构必须是3x4x3(长X,Y和Z)的最小体积外体积的幼体,最多可达18x18x18。"
+				"The Fission Reactor is a multiblock structure that generates massive amounts of heat but does not produce power on its own."
+				""
+				"The structure must be a cuboid of minimum outside size 3x4x3 (along X, Y and Z), up to 18x18x18."
+			]
+			dependencies: [
+				"17114B905F1E5628"
+				"24AA4048D4600331"
+			]
+			id: "000000000000093F"
+			tasks: [
+				{
+					id: "0000000000000940"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+					count: 62L
+				}
+				{
+					id: "0000000000000941"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+					count: 5L
+				}
+				{
+					id: "0000000000000942"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					count: 10L
+				}
+				{
+					id: "0000000000000943"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 31L
+				}
+				{
+					id: "0000000000000944"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+				}
+				{
+					id: "0000000000000945"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "4F55BFAFEE8EB87B"
+					type: "item"
+					item: "thermal:pbj_sandwich"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"得到一个反物质颗粒。"
+				"Get an Antimatter Pellet."
+			]
+			dependencies: [
+				"0000000000000906"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000946"
+			tasks: [
+				{
+					id: "0000000000000947"
+					type: "item"
+					item: "mekanism:pellet_antimatter"
+				}
+			]
+			rewards: [
+				{
+					id: "29F5B942190BECE9"
+					type: "item"
+					item: "mekanism:pellet_antimatter"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			shape: "square"
+			description: [
+				"使用加压反应室获得颗粒,具有水、和氟石粉。"
+				"请注意,这个过程会产生用过的核废料。"
+				"Obtain a Polonium Pellet using a Pressurized Reaction Chamber with Water, Polonium and Fluorite Dust."
+				""
+				"Be aware that this process create Spent Nuclear Waste."
+			]
+			dependencies: [
+				"000000000000090C"
+				"24AA4048D4600331"
+			]
+			id: "0000000000000948"
+			tasks: [
+				{
+					id: "0000000000000949"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+				}
+			]
+			rewards: [
+				{
+					id: "4C2FF56FCDD5592F"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			title: "超临界相位传动器[--Supercritical Phase Shifter--]"
+			icon: "mekanism:sps_port"
+			x: 15.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"超临界相位传动器是一个多方块结构,消耗大量能量和气来制造反物质气体,"
+				"The Supercritical Phase Shifter is a multiblock structure that consumes large amount of energy and polonium gas to create antimatter gas,"
+			]
+			dependencies: [
+				"17600C24C58CBE4D"
+				"24AA4048D4600331"
+			]
+			id: "000000000000094B"
+			tasks: [
+				{
+					id: "000000000000094C"
+					type: "item"
+					item: "mekanism:sps_casing"
+					count: 92L
+				}
+				{
+					id: "000000000000094D"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 118L
+				}
+				{
+					id: "000000000000094E"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+					count: 6L
+				}
+				{
+					id: "000000000000094F"
+					type: "item"
+					item: "mekanism:sps_port"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "7BFD56B61A04D226"
+					type: "item"
+					item: "thermal:pbj_sandwich"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 4.0d
+			dependencies: ["24AA4048D4600331"]
+			size: 0.5d
+			id: "388675A67CC6C15F"
+			tasks: [
+				{
+					id: "36913F11C6813959"
+					type: "checkmark"
+					title: "聚变反应堆多方块结构[--Fusion Reactor Multiblock--]"
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 4.0d
+			dependencies: ["24AA4048D4600331"]
+			size: 0.5d
+			id: "36E927EAE1EC49AA"
+			tasks: [
+				{
+					id: "17600C24C58CBE4D"
+					type: "checkmark"
+					title: "超临界shifter 多方块结构[--Supercritical Phase Shifter Multiblock--]"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["24AA4048D4600331"]
+			size: 0.5d
+			id: "36E35E10E83EF0EE"
+			tasks: [
+				{
+					id: "63F59F1FDB43CA0E"
+					type: "checkmark"
+					title: "热力蒸馏多方块结构[--Thermal Evaporation Multiblock--]"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["24AA4048D4600331"]
+			size: 0.5d
+			id: "6888EBB4C5E39F1F"
+			tasks: [
+				{
+					id: "0BC2A9F9DFB154D0"
+					type: "checkmark"
+					title: "输导矩阵多方块结构[--Induction Matrix Multiblock--]"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			dependencies: ["24AA4048D4600331"]
+			size: 0.5d
+			id: "7793A1D816ED6291"
+			tasks: [
+				{
+					id: "17114B905F1E5628"
+					type: "checkmark"
+					title: "裂变反应堆多方块结构[--Fission Reactor Multiblock--]"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			shape: "square"
+			description: [
+				"改造站用于将模块升级应用于Meka-Suit以交换能量."
+				"The Modification Station is used for applying modular upgrades to the Meka-Suit in exchange for energy."
+			]
+			dependencies: [
+				"00000000000008CC"
+				"0000000000000948"
+				"24AA4048D4600331"
+			]
+			id: "36D86F3E65554DF4"
+			tasks: [
+				{
+					id: "456D3AAF058435EE"
+					type: "item"
+					item: "mekanism:modification_station"
+				}
+			]
+			rewards: [
+				{
+					id: "320C25A3E430E58C"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"Robit是Mek的机械伙伴。"
+				"他可以作为合成网格、熔炉、铁砧、箱子或是可爱的小伙伴。"
+				"Robit is Mekanism's mechanical companion."
+				"He can act as a crafting grid, a furnace, an anvil, a chest, or simply a cute little buddy."
+			]
+			dependencies: ["24AA4048D4600331"]
+			id: "74BCE9E73DCDF3E0"
+			tasks: [
+				{
+					id: "22A87938CC3C9A37"
+					type: "item"
+					item: "mekanism:robit"
+				}
+			]
+			rewards: [
+				{
+					id: "5C4DE9D1C180AD66"
+					type: "item"
+					item: "mekanism:chargepad"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			description: [
+				"要制作钢机壳,你需要先得到一个超级机器框架。"
+				"稍后,你可以用组合器自动化这个外壳."
+				"To make a Steel Casing, you need to get, first, a Supreme Machine Frame."
+				"Later, you can automate this casing with a combiner."
+			]
+			dependencies: [
+				"00000000000007B9"
+				"24AA4048D4600331"
+			]
+			size: 2.0d
+			id: "7D0BC26B33BBB358"
+			tasks: [
+				{
+					id: "4C08EEB74DFC980F"
+					type: "item"
+					item: "mekanism:steel_casing"
+				}
+			]
+			rewards: [
+				{
+					id: "518BC7AA1237DC2D"
+					type: "item"
+					item: "industrialforegoing:machine_frame_supreme"
+				}
+			]
+		}
+		{
+			title: "精致锭[--Refined Ingots--]"
+			x: 7.0d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"从压缩机中收集8个锭."
+				"Collect 8 ingots of each from the Osmium Compressor."
+			]
+			dependencies: [
+				"00000000000008F0"
+				"24AA4048D4600331"
+			]
+			id: "022B48C17014A9F7"
+			tasks: [
+				{
+					id: "073FB78E25F6D0F7"
+					type: "item"
+					item: "mekanism:ingot_refined_obsidian"
+					count: 8L
+				}
+				{
+					id: "79AE4BF61B2BDCB0"
+					type: "item"
+					item: "mekanism:ingot_refined_glowstone"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "73946EBD5CDE9B7B"
+					type: "item"
+					item: "mekanism:ingot_refined_obsidian"
+					random_bonus: 3
+				}
+				{
+					id: "765E4AED0C4398A4"
+					type: "item"
+					item: "mekanism:ingot_refined_glowstone"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			shape: "square"
+			description: [
+				"HDPE强化鞘翅主要用于制作你的Meka套装的鞘翅单元,但你可以佩戴它,它比鞘翅的耐久更高。"
+				"The HDPE Reinforced Elytra is mainly used to craft the Elytra Unit, for your MekaSuit, but you can wear it, it has more durability than an Elytra."
+			]
+			dependencies: [
+				"00000000000008CC"
+				"24AA4048D4600331"
+			]
+			id: "4F1F15BEC0AB428B"
+			tasks: [
+				{
+					id: "4171D45EBC771DBE"
+					type: "item"
+					item: {
+						id: "mekanism:hdpe_elytra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "08B65F3BB976E691"
+					type: "item"
+					item: "mekanism:hdpe_sheet"
+					count: 4
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			title: "地热发电机单元[--Geothermal Generator Unit--]"
+			x: -4.0d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"使用周围环境中的地热能量,并增强对热源伤害的防护。"
+				"安装多个来提高充电速度和更高的保护。"
+				"Harnesses geothermal energy from the surrounding environment, and improves protection against damage from heat sources."
+				"Install multiple for faster charging and greater protection."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "79BF5B0A24AD0FDA"
+			tasks: [
+				{
+					id: "27EA0671878D00F6"
+					type: "item"
+					item: "mekanismgenerators:module_geothermal_generator_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "00FEC0A03754896A"
+					type: "item"
+					item: "mekanismgenerators:module_geothermal_generator_unit"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"重新分解并安全地移除击中任意Meka盔甲的激光。"
+				"Refracts and safely dissipates lasers that hit any MekaSuit armor piece."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "0DB12B262A1AC297"
+			tasks: [
+				{
+					id: "4AB00C1AA3A11A78"
+					type: "item"
+					item: "mekanism:module_laser_dissipation_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "71C06863FF4F543D"
+					type: "item"
+					item: "mekanism:module_laser_dissipation_unit"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"在HUD中显示环境辐射等级."
+				"Displays the ambient radiation level in the HUD."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "1C325F20C9A346EF"
+			tasks: [
+				{
+					id: "7C1545525AD96F84"
+					type: "item"
+					item: "mekanism:module_geiger_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "342B66209D516DCD"
+					type: "item"
+					item: "mekanism:hdpe_sheet"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"将HDPE强化鞘翅应用于Meka套装。"
+				"Applies an HDPE Reinforced Elytra to the MekaSuit."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"4171D45EBC771DBE"
+				"24AA4048D4600331"
+			]
+			id: "0911324582B6823E"
+			tasks: [
+				{
+					id: "5CF64C0FB8E8C5A7"
+					type: "item"
+					item: "mekanism:module_elytra_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "0218C7CBE4DF9908"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			title: "冰霜行者单元[--Frost Walker Unit--]"
+			x: -4.0d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"使用液氢来冻结玩家使用的任何水。"
+				"Uses liquid hydrogen to freeze any water the player walks on."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000898"
+				"24AA4048D4600331"
+			]
+			id: "5DA1D8E371639EB5"
+			tasks: [
+				{
+					id: "61603902FEB8892D"
+					type: "item"
+					item: "mekanism:module_frost_walker_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "3B38D0986894E332"
+					type: "item"
+					item: "mekanism:module_frost_walker_unit"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"颜料提取器是一种从方块和物品中提取颜料的机器。"
+				"The Pigment Extractor is a machine used to extract pigments from blocks and items."
+			]
+			dependencies: [
+				"4C08EEB74DFC980F"
+				"24AA4048D4600331"
+			]
+			id: "101CF231B6979E47"
+			tasks: [
+				{
+					id: "6737D4D80A9393FD"
+					type: "item"
+					item: {
+						id: "mekanism:pigment_extractor"
+						Count: 1b
+						tag: {
+							mekData: { }
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7C2FAA99B4003E69"
+					type: "item"
+					item: "mekanism:steel_casing"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"颜料搅拌机是一种坚固的机器,可以混合两种颜料来产生新的颜料。"
+				"The Pigment Mixer is a sturdy machine capable of mixing two pigments together to produce a new pigment."
+			]
+			dependencies: [
+				"101CF231B6979E47"
+				"24AA4048D4600331"
+			]
+			id: "2FED2D289CE88D89"
+			tasks: [
+				{
+					id: "7373A2A69C03B1DF"
+					type: "item"
+					item: {
+						id: "mekanism:pigment_mixer"
+						Count: 1b
+						tag: {
+							mekData: { }
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "00F4EE95CC3A0D97"
+					type: "item"
+					item: "mekanism:steel_casing"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "mekanism:painting_machine"
+				Count: 1b
+				tag: {
+					mekData: { }
+				}
+			}
+			x: 11.5d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"喷涂机通过仔细应用存储的颜料来给方块和物品上色."
+				"The Painting Machine is used to color blocks and items via a careful application of a stored pigment."
+			]
+			dependencies: [
+				"101CF231B6979E47"
+				"24AA4048D4600331"
+			]
+			id: "6E8B8B1CA176AADC"
+			tasks: [
+				{
+					id: "23BBA47701900648"
+					type: "item"
+					item: {
+						id: "mekanism:painting_machine"
+						Count: 1b
+						tag: {
+							mekData: { }
+						}
+					}
+				}
+				{
+					id: "32D6A2CF8096638C"
+					type: "item"
+					item: "mekanism:dye_base"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "00A71326D041C9EA"
+					type: "item"
+					item: "mekanism:dye_base"
+					count: 32
+					random_bonus: 32
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			dependencies: ["24AA4048D4600331"]
+			size: 0.5d
+			id: "1EA2087B2C5EDD79"
+			tasks: [
+				{
+					id: "44E4BCDFA1E010CB"
+					type: "checkmark"
+					title: "工业涡轮机多方块结构[--Industrial Turbine Multiblock--]"
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 4.0d
+			dependencies: ["24AA4048D4600331"]
+			size: 0.5d
+			id: "7001F898CABAE26D"
+			tasks: [
+				{
+					id: "56A02FE254BE686C"
+					type: "checkmark"
+					title: "热力锅炉多方块结构[--Thermoelectric Boiler Multiblock--]"
+				}
+			]
+		}
+		{
+			x: 21.0d
+			y: 4.0d
+			dependencies: ["24AA4048D4600331"]
+			size: 0.5d
+			id: "7ABA7F766A1D8E2C"
+			tasks: [
+				{
+					id: "336EA2CD1428EF27"
+					type: "checkmark"
+					title: "动态储罐多方块结构[--Dynamic Tank Multiblock--]"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			shape: "square"
+			description: [
+				"重力调节额外的单元可以让你的飞行更容易控制."
+				"你可以在停止飞行时改变你的动力,无视重力(你基本上总是在地面飞行),你可以修复你的FOV并控制你的垂直速度!"
+				"对于那些记得古老神龙进化护甲的人,你会喜欢这个单元的!"
+				"The Gravitational Modulating Additional Unit is used to make your flight more controllable."
+				""
+				"You can change your momentum when you stop flying, defy gravity (you basically always fly event on the ground), you can fix your FOV and control your vertical Speed!"
+				""
+				"For those who remember the old Draconic Evolution Armor, you're gonna love this Unit !"
+			]
+			dependencies: [
+				"00000000000008A3"
+				"24AA4048D4600331"
+			]
+			id: "1A3645468745F0DE"
+			tasks: [
+				{
+					id: "268E17E28A3E84A8"
+					type: "item"
+					item: "gravitationalmodulatingunittweaks:module_gravitational_modulating_additional_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "7380525D56E27954"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"度量计向您展示了辐射服。"
+				"The Dosimeter show you the Radiation Dose you have."
+			]
+			dependencies: ["24AA4048D4600331"]
+			id: "1A544016CD902697"
+			tasks: [
+				{
+					id: "4DB06227AC7AF16E"
+					type: "item"
+					item: "mekanism:dosimeter"
+				}
+			]
+			rewards: [
+				{
+					id: "40D8172BE0C8E3A0"
+					type: "item"
+					item: "thermal:lead_ingot"
+					random_bonus: 15
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"盖革计数器向您展示了辐射照射。"
+				"The Geiger Counter show you the Radiation Exposure you have."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "41E21B04835F42E2"
+			tasks: [
+				{
+					id: "5BD30297D82762CA"
+					type: "item"
+					item: "mekanism:geiger_counter"
+				}
+			]
+			rewards: [
+				{
+					id: "78F66CA5B28B9F69"
+					type: "item"
+					item: "mekanism:basic_control_circuit"
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 3.5d
+			shape: "square"
+			description: [
+				"配置卡可用于将侧面配置从一台机器复制到另一台相同类型的机器。"
+				"The Configuration card can be used to copy side configurations from one machine to another machine of the same type."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "20ED92FC863DE694"
+			tasks: [
+				{
+					id: "0EF656FF9EBD29C1"
+					type: "item"
+					item: "mekanism:configuration_card"
+				}
+			]
+			rewards: [
+				{
+					id: "036E5945971F6B61"
+					type: "item"
+					item: "mekanism:alloy_infused"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 4.5d
+			shape: "square"
+			description: [
+				"网络读取器允许你读取管道网络,如果你有大量的机器,它可以非常有用!"
+				"The Network Reader allows you to read your pipes network, it can be very useful if you have a lot of machine involved!"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000008EC"
+				"24AA4048D4600331"
+			]
+			id: "3C7ED4965CD71BBA"
+			tasks: [
+				{
+					id: "575B09D11BC6612B"
+					type: "item"
+					item: "mekanism:network_reader"
+				}
+			]
+			rewards: [
+				{
+					id: "24693143B874D1FA"
+					type: "item"
+					item: "mekanism:energy_tablet"
+				}
+			]
+		}
+		{
+			icon: "mekanism:electric_pump"
+			x: 2.5d
+			y: -1.0d
+			shape: "square"
+			description: [
+				"电动泵可以泵他下方的流体,也可以用过滤器得到重水!"
+				"Electric Pump can pump fluid underneath him and can also get Heavy Water with a Filter in it!"
+			]
+			dependencies: [
+				"7D0BC26B33BBB358"
+				"24AA4048D4600331"
+			]
+			id: "20ADA3B1BC8ACB29"
+			tasks: [
+				{
+					id: "7D030A3E5952D927"
+					type: "item"
+					item: "mekanism:electric_pump"
+				}
+				{
+					id: "08AD24FE4DC9AF8D"
+					type: "item"
+					item: "mekanism:upgrade_filter"
+				}
+			]
+			rewards: [
+				{
+					id: "7673BE90D4F4F7E8"
+					type: "item"
+					item: "mekanism:heavy_water_bucket"
+				}
+			]
+		}
+		{
+			title: "工业涡轮机[--Industrial Turbine--]"
+			icon: "mekanismgenerators:rotational_complex"
+			x: 9.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"工业涡轮机是一个多方块结构,可以用蒸汽产生大量的能量。"
+				"这个结构很复杂来解释,相反,有很多东西需要知道才能很好地建造它。"
+				"为此,我向您致以歉意,但您可以在wiki上了解更多关于这个结构的信息。"
+				"然而,你可以通过制作蓝图来找到2个蓝图。"
+				"一个是最小的模型,另一个是最大的模型。"
+				"但是在两个结构上,你必须添加自己的涡轮机阀门,并且可以放置一些饱和凝聚器."
+				"结构必须是最小尺寸为5x5x5(xx,Y和Z)的幼体,最多可达17x18x17。"
+				"注意,大多数通用机械多方块是自定义的。"
+				"The Industrial Turbine is a multiblock who can produce massive amount of energy with Steam."
+				""
+				"This structure is complicated to explain, rather, there are a lot of things that are required to know to build it well."
+				"For that, I'm apologies, but you can learn more about this structure on the wiki. "
+				""
+				"Nevertheless, you can find 2 schematics with the Schematiccanon, from create."
+				"One is the smallest model, the other is the largest model."
+				""
+				"But on the two structure you have to add yourself Turbine Valve and can place some Saturating Condenser."
+				""
+				"The structure must be a cuboid of minimum outside size 5x5x5 (along X, Y and Z), up to 17x18x17."
+				""
+				"Be aware that most of mekanism multiblock are customizable."
+			]
+			dependencies: [
+				"44E4BCDFA1E010CB"
+				"24AA4048D4600331"
+			]
+			id: "670B1506323F7ECB"
+			tasks: [
+				{
+					id: "0DFA92BA4A8DC4E4"
+					type: "item"
+					item: "mekanismgenerators:turbine_casing"
+					count: 53L
+				}
+				{
+					id: "499C08807F83A0FF"
+					type: "item"
+					item: "mekanismgenerators:turbine_valve"
+					count: 2L
+				}
+				{
+					id: "7023443DC57171C6"
+					type: "item"
+					item: "mekanismgenerators:turbine_vent"
+					count: 33L
+				}
+				{
+					id: "359829EFB08D5489"
+					type: "item"
+					item: "mekanismgenerators:turbine_rotor"
+				}
+				{
+					id: "16B904B2E3B509AA"
+					type: "item"
+					item: "mekanismgenerators:turbine_blade"
+					count: 2L
+				}
+				{
+					id: "6B7CAE22344AAFA5"
+					type: "item"
+					item: "mekanismgenerators:rotational_complex"
+				}
+				{
+					id: "76FED3F80163B1B1"
+					type: "item"
+					item: "mekanismgenerators:electromagnetic_coil"
+				}
+				{
+					id: "32BAA2CF438682C8"
+					type: "item"
+					item: "mekanism:pressure_disperser"
+					count: 8L
+				}
+				{
+					id: "713C8FD730D1DAE0"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 12L
+				}
+			]
+			rewards: [
+				{
+					id: "68AF102F15D4A751"
+					type: "item"
+					item: "thermal:pbj_sandwich"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			title: "热力锅炉[--Thermoelectric Boiler--]"
+			icon: "mekanism:superheating_element"
+			x: 18.0d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"热力锅炉用于使用燃料木加热器或抗性加热器产生含水和加热的蒸汽。"
+				"要建造一个锅炉,不管大小如何,我喜欢用结构玻璃和锅炉外壳来将水和蒸汽隔开,就像任务页面上的屏幕一样。"
+				"您需要用锅炉外壳制作一个幼体体,你的幼体体的6面可以是一个结构玻璃,然后在底部有一个(最小)过热元素线,然后在你结构的任何Y级上放置一条压力分散线。"
+				"您需要知道,在压缩机线上方是您存储蒸汽的地方,下面是水。"
+				"结构必须是3x4x3(长X,Y和Z)的最小体积外体积的幼体,最多可达18x18x18。"
+				"注意,大多数通用机械多方块是自定义的。"
+				"The Thermoelectric Boiler is used to generate Steam with Water and Heat, using a Fuelwood Heater or a Resistive Heater."
+				""
+				"To build a Boiler you need, whatever the size is, I like to separate the Water and the Stream visually with structure glass and boiler casing, like the screen on the quest page."
+				""
+				"You need to make a cuboid with Boiler Casings, the 6 face of your cuboid can be Structural Glass, Then on the bottom place a line (minimum) of Superheating Element and then place a line of Pressure Disperser on any Y level of your structure."
+				""
+				"You need to know that above of the line of Pressure Disperser is the place who you store your Steam, below is the Water."
+				""
+				"The structure must be a cuboid of minimum outside size 3x4x3 (along X, Y and Z), up to 18x18x18."
+				""
+				"Be aware that most of mekanism multiblock are customizable."
+			]
+			dependencies: [
+				"56A02FE254BE686C"
+				"24AA4048D4600331"
+			]
+			id: "6A15BE15348DA27D"
+			tasks: [
+				{
+					id: "1D24F39B3DE5E88A"
+					type: "item"
+					item: "mekanism:boiler_casing"
+					count: 26L
+				}
+				{
+					id: "2C057A42D807FC1B"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 6L
+				}
+				{
+					id: "5B0FFE6CD6E74011"
+					type: "item"
+					item: "mekanism:boiler_valve"
+					count: 2L
+				}
+				{
+					id: "4E478289C0CC1404"
+					type: "item"
+					item: "mekanism:superheating_element"
+				}
+				{
+					id: "47E06B22D41ABF53"
+					type: "item"
+					item: "mekanism:pressure_disperser"
+				}
+			]
+			rewards: [
+				{
+					id: "76C4105D0A4A8AB0"
+					type: "item"
+					item: "thermal:pbj_sandwich"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			title: "动态储罐[--Dynamic Tank--]"
+			icon: "mekanism:dynamic_valve"
+			x: 21.0d
+			y: 1.5d
+			description: [
+				"动力储罐基本上是一个可以存储任何种类或流体的大型储罐。"
+				"你可以使用结构玻璃和任意数字的阀门."
+				"结构必须是3x3x3(长X,Y和Z)的最小体积外体积,最多可达18x18x18。"
+				"The Dynamic Tank is basically a huge tank to store any kind or fluids."
+				"You can use Structural Glass and any number of Valve."
+				""
+				"The structure must be a cuboid of minimum outside size 3x3x3 (along X, Y and Z), up to 18x18x18."
+			]
+			dependencies: [
+				"336EA2CD1428EF27"
+				"24AA4048D4600331"
+			]
+			id: "5B814440052D0679"
+			tasks: [
+				{
+					id: "53B37417222B9793"
+					type: "item"
+					item: "mekanism:dynamic_tank"
+					count: 62L
+				}
+				{
+					id: "7883336B4F9C1BD7"
+					type: "item"
+					item: "mekanism:dynamic_valve"
+					count: 2L
+				}
+				{
+					id: "7784A50FE4A1CD6C"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 34L
+				}
+			]
+			rewards: [
+				{
+					id: "4DC9621D6FDE4412"
+					type: "item"
+					item: "thermal:pbj_sandwich"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 8.0d
+			shape: "square"
+			description: ["太空呼吸单元可以利用氧气罐，为你补充氧气"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000898"]
+			id: "22D59BB30C473651"
+			tasks: [{
+				id: "2CB730E482120317"
+				type: "item"
+				item: "beyond_earth_giselle_addon:module_space_breathing_unit"
+			}]
+			rewards: [{
+				id: "77BE0819A43EB54D"
+				type: "item"
+				item: "beyond_earth_giselle_addon:module_space_breathing_unit"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -2.5d
+			y: 8.0d
+			shape: "square"
+			description: ["重力正常化单元可以取消所有重力效果"]
+			hide_dependency_lines: true
+			dependencies: ["0000000000000898"]
+			id: "7101C2FB6460FD9D"
+			tasks: [{
+				id: "09FC09DDD516B60A"
+				type: "item"
+				item: "beyond_earth_giselle_addon:module_gravity_normalizing_unit"
+			}]
+			rewards: [{
+				id: "69DE407409A56788"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
+				random_bonus: 2
+			}]
+		}
+	]
+	quest_links: [ ]
+}

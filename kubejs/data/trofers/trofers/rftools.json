@@ -1,0 +1,16 @@
+{
+	"name": {
+		"color": "#bababa",
+		"text": "RF工具奖杯"
+	},
+	"display": {
+		"scale": 1.2
+	},
+	"item": {
+		"item": "xnet:controller"
+	},
+	"colors": {
+		"base": "#312c36",
+		"accent": "#bababa"
+	}
+}

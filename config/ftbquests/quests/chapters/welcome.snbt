@@ -1,0 +1,175 @@
+{
+	id: "375F4C25F6B07F8C"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "欢迎"
+	icon: "architects_palette:unobtanium_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: -3.5d
+			width: 10.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "ragnamod:textures/logo.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			shape: "gear"
+			description: [
+				"欢迎来到&d诸神黄昏7"
+				""
+				"这个整合包帮助你发现几个新模组，任务将指导您进行后续发展"
+				"这些模组并不是强制要求的，但任务将会提供发展方向"
+				""
+				"对一些合成进行了修改，增加了难度，并在模组之间进行了很好的联动，但它仍然是一个所有人都能游玩的整合包，增加了创造物品的难度"
+			]
+			size: 2.0d
+			id: "2C8AB1F55FB366FF"
+			tasks: [
+				{
+					id: "5C8377F4E34EADEC"
+					type: "checkmark"
+					title: "欢迎"
+				}
+			]
+		}
+		{
+			icon: "create_sa:steam_engine"
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"要与朋友分享任务，您需要创建一个团队"
+				""
+				"为此，请键入命令："
+				"/ftbteams party create"
+				""
+				"现在进入物品栏菜单，点击左上角的 \"我的团队\" 按钮"
+				"您可以点击 设置 来配置您的团队（名称、颜色、描述等......）"
+				""
+				"您只需用该命令邀请您的朋友："
+				"/ftbteams party invite NAME"
+				""
+				"你的朋友们只需接受，你们现在就是一个团队了"
+				""
+				"如果您想加入一个已经存在的团队，只需输入以下命令即可："
+				"/ftbteams party join TEAM NAME"
+			]
+			dependencies: ["2C8AB1F55FB366FF"]
+			id: "56716F5436571867"
+			tasks: [
+				{
+					id: "1092D040F7A11D5A"
+					type: "checkmark"
+					title: "FTB团队"
+				}
+			]
+		}
+		{
+			icon: "computercraft:printed_pages"
+			x: -1.5d
+			y: 1.0d
+			description: [
+				"我说过，这个整合包不会强迫你完成任务"
+				""
+				"你可以选择跟不跟它们走"
+				""
+				"不过要注意，有些任务会给你解释"
+			]
+			dependencies: ["2C8AB1F55FB366FF"]
+			id: "7FCC8E5807B336D5"
+			tasks: [
+				{
+					id: "44CD1AE4C463D342"
+					type: "checkmark"
+					title: "任务"
+				}
+			]
+			rewards: [
+				{
+					id: "7C6ECD9A89730417"
+					type: "item"
+					item: "ftbquests:book"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "modularrouters:creative_module"
+				Count: 1b
+				tag: {
+					modularrouters: {
+						ModuleFilter: { }
+					}
+				}
+			}
+			x: 1.0d
+			y: 0.0d
+			description: [
+				"要解锁创造物品页面，您必须完成 \"游戏结束\" 任务"
+			]
+			dependencies: ["2C8AB1F55FB366FF"]
+			id: "47900538A09CE4F2"
+			tasks: [
+				{
+					id: "43845AD1FF4F31E7"
+					type: "checkmark"
+					title: "创造任务"
+				}
+			]
+		}
+		{
+			title: "Fake Player"
+			icon: "computercraft:turtle_advanced"
+			x: 0.5d
+			y: 1.0d
+			description: [
+				"On this pack you have the FTB Chunks, which allows you to claim your chunks and protect them from any potential griefs."
+				""
+				"But when you place a Block Placer, a Wither Builder or other machine that places or breaks blocks automatically, they don't work."
+				"This is normal, you'll need to authorize Fake Player in your chunk config."
+				""
+				"To do so, you must click, in your inventory, the icon at the top left which represents three players (blue, green and red)"
+				"Then click the gear on the top right."
+				"And there you have all the configurations that you can customize for your chunks."
+				""
+				"§cBE CAREFUL, by accepting all fake players, anyone on your server will be able to use an RFTools builder (for example) to grief.§r"
+			]
+			dependencies: ["2C8AB1F55FB366FF"]
+			id: "508A8EDCA5271990"
+			tasks: [{
+				id: "26A31CBD381D7BA3"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "做好准备！"
+			icon: "ragnamod_seven:sculk_singularity"
+			x: -0.5d
+			y: 1.5d
+			description: [
+				"在这个整合包中，你需要准备一些奇点资源"
+				""
+				"看看自己需要提前养殖什么"
+				"这样你就不必等待它们来结束游戏了"
+			]
+			dependencies: ["2C8AB1F55FB366FF"]
+			id: "1CCB446F49264C47"
+			tasks: [{
+				id: "4594366B54D5BC86"
+				type: "checkmark"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

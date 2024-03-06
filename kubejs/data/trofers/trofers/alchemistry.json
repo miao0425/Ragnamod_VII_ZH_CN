@@ -1,0 +1,19 @@
+{
+	"name": {
+		"color": "#c49e3f",
+		"text": "炼金化学奖杯"
+	},
+	"display": {
+		"offset": {
+			"y": 2.9
+		},
+		"scale": 0.7
+	},
+	"item": {
+		"item": "alchemistry:combiner"
+	},
+	"colors": {
+		"base": "#312c36",
+		"accent": "#c49e3f"
+	}
+}

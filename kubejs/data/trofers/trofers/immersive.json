@@ -1,0 +1,19 @@
+{
+	"name": {
+		"color": "#824a33",
+		"text": "沉浸工程奖杯"
+	},
+	"display": {
+		"offset": {
+			"y": 4.5
+		},
+		"scale": 1
+	},
+	"item": {
+		"item": "immersivepetroleum:coker_unit"
+	},
+	"colors": {
+		"base": "#312c36",
+		"accent": "#824a33"
+	}
+}

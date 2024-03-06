@@ -1,0 +1,20 @@
+{
+	"name": {
+		"color": "#d02027",
+		"text": "创造凝血滴奖杯"
+	},
+	"animation": {
+		"type": "spinning",
+		"speed": 0.5
+	},
+	"display": {
+		"scale": 1.25
+	},
+	"item": {
+		"item": "evilcraft:creative_blood_drop"
+	},
+	"colors": {
+		"base": "#312c36",
+		"accent": "#d02027"
+	}
+}

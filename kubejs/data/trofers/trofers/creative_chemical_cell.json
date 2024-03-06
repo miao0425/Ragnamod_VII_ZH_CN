@@ -1,0 +1,20 @@
+{
+	"name": {
+		"color": "#a3bcd1",
+		"text": "创造化学品存储元件奖杯"
+	},
+	"animation": {
+		"type": "spinning",
+		"speed": 0.5
+	},
+	"display": {
+		"scale": 1
+	},
+	"item": {
+		"item": "appmek:creative_chemical_cell"
+	},
+	"colors": {
+		"base": "#312c36",
+		"accent": "#a3bcd1"
+	}
+}
