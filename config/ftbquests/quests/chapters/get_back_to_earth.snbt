@@ -5,6 +5,7 @@
 	filename: "get_back_to_earth"
 	title: "回到地球"
 	icon: "beyond_earth:earth_globe"
+	subtitle: ["逃离暮色森林"]
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	quests: [
@@ -65,7 +66,8 @@
 			icon: "twilightforest:naga_trophy"
 			x: 1.5d
 			y: -0.5d
-			subtitle: "你需要击败娜迦才能得到一些娜迦鳞片"
+			subtitle: "第一场战斗"
+			description: ["你需要击败娜迦得到一些娜迦鳞片"]
 			dependencies: ["7DCDDC6CA278A7C5"]
 			id: "5CFDD2C9BF21A177"
 			tasks: [

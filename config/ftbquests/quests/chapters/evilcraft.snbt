@@ -5,6 +5,7 @@
 	filename: "evilcraft"
 	title: "邪恶工艺"
 	icon: "evilcraft:condensed_blood"
+	subtitle: ["黑暗魔法"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

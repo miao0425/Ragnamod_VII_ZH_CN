@@ -5,6 +5,7 @@
 	filename: "hostil_neural_networks"
 	title: "深度怪物学习"
 	icon: "hostilenetworks:sim_chamber"
+	subtitle: ["存储怪物数据并掠夺它们！"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

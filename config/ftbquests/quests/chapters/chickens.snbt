@@ -28,6 +28,7 @@
 			}
 		}
 	}
+	subtitle: ["还记得 Ragnamod V 吗？"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

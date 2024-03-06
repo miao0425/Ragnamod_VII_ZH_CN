@@ -5,6 +5,7 @@
 	filename: "create"
 	title: "机械动力"
 	icon: "create:wrench"
+	subtitle: ["疯狂旋转"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -12,7 +13,7 @@
 			title: "安山合金"
 			x: 0.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: [
 				"安山合金是机械动力中最基础的组件制造材料"
 			]
@@ -38,7 +39,7 @@
 		{
 			title: "水车"
 			x: -1.0d
-			y: 1.5d
+			y: 2.0d
 			shape: "square"
 			description: [
 				"水车是旋转力的一种来源。当水从它上流动时,它会产生旋转力"
@@ -134,7 +135,7 @@
 		{
 			title: "齿轮"
 			x: 1.0d
-			y: 1.5d
+			y: 2.0d
 			shape: "square"
 			description: [
 				"齿轮是 &d机械动力&r 中传递旋转的基本机械部件"
@@ -194,7 +195,7 @@
 			title: "安山岩外壳"
 			x: 3.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: [
 				"注：&d机械动力&r有一个内置指南。要访问它，您需要在 JEI 中对想要的物品按住W。然后就会出现动画指南"
 			]
@@ -223,7 +224,7 @@
 		}
 		{
 			title: "齿轮箱"
-			x: 2.0d
+			x: 1.5d
 			y: 1.0d
 			shape: "square"
 			description: [
@@ -280,7 +281,7 @@
 			]
 		}
 		{
-			x: 7.0d
+			x: 6.0d
 			y: -1.5d
 			shape: "square"
 			description: [
@@ -307,7 +308,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 7.0d
 			y: -1.5d
 			shape: "square"
 			description: [
@@ -487,7 +488,7 @@
 		{
 			title: "溜槽"
 			x: 5.0d
-			y: -3.0d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"溜槽垂直运输物品,类似于动力传送带"
@@ -575,7 +576,7 @@
 		{
 			x: 11.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: [
 				"这个外壳用于制作大多数高级的&d机械动力&r设备"
 			]
@@ -603,7 +604,7 @@
 			]
 		}
 		{
-			x: 8.0d
+			x: 7.5d
 			y: -4.0d
 			shape: "square"
 			description: [
@@ -693,8 +694,8 @@
 		}
 		{
 			title: "黄铜漏斗"
-			x: 7.0d
-			y: -4.5d
+			x: 6.5d
+			y: -6.0d
 			shape: "square"
 			description: [
 				"安山漏斗的升级版本"
@@ -725,8 +726,8 @@
 		}
 		{
 			title: "黄铜隧道"
-			x: 9.0d
-			y: -4.5d
+			x: 6.5d
+			y: -5.0d
 			shape: "square"
 			description: [
 				"黄铜隧道是一个只能放置在动力带上的机器。它可以分拣通过物品."
@@ -757,8 +758,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: -4.5d
+			x: 5.0d
+			y: -3.5d
 			shape: "square"
 			description: [
 				"智能溜槽类似于黄铜漏斗。它们可以过滤,只允许特定物品通过,并且用红石信号停止。与漏斗不同,它们可以同时插入和提取,但只能垂直运行。"
@@ -785,8 +786,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -7.0d
+			x: 2.0d
+			y: -4.5d
 			shape: "square"
 			description: [
 				"翻牌显示器是一种可扩展的标识替代品"
@@ -797,6 +798,7 @@
 				""
 				"显示链接可以将信息写入翻牌显示器"
 			]
+			hide_dependency_lines: true
 			dependencies: [
 				"16B1F60A0D8DAD6D"
 				"298A3F9171009D45"
@@ -819,8 +821,8 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: -6.5d
+			x: 3.0d
+			y: -4.5d
 			shape: "square"
 			description: [
 				"显示链接用于从方块获取信息，并将其发送给可以显示这些信息的方块"
@@ -850,8 +852,8 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: -6.5d
+			x: 4.0d
+			y: -4.5d
 			shape: "square"
 			description: [
 				"默认情况下,每个物品保险库的存储空间为20组"
@@ -913,8 +915,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: -3.5d
+			x: 5.5d
+			y: -5.0d
 			shape: "square"
 			description: [
 				"智能侦测器是一种机器，它会根据前方容器内的方块或物品发出红石信号"
@@ -944,7 +946,7 @@
 		}
 		{
 			x: 9.5d
-			y: -3.5d
+			y: -5.0d
 			shape: "square"
 			description: [
 				"存量转信器可测量物品栏的满载程度，并在可调节的阈值下发出红石信号"
@@ -973,14 +975,13 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: -6.0d
+			x: 10.5d
+			y: -5.0d
 			shape: "square"
 			description: [
 				"转速控制器是一个机械构件，可以让玩家精密地控制转速"
 			]
 			dependencies: [
-				"67680115E55B9C8B"
 				"013250199EBFD737"
 				"298A3F9171009D45"
 			]
@@ -1001,7 +1002,7 @@
 			]
 		}
 		{
-			x: 14.0d
+			x: 13.0d
 			y: -1.5d
 			shape: "square"
 			description: [
@@ -1031,7 +1032,7 @@
 		}
 		{
 			x: 15.0d
-			y: -2.0d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"这些板用来制造火车和火焰喷射器"
@@ -1059,7 +1060,7 @@
 		}
 		{
 			x: 3.0d
-			y: 2.5d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"鼓风机是一种可以产生气流和发电的机械部件"
@@ -1089,7 +1090,7 @@
 		{
 			title: "流体管道"
 			x: 5.0d
-			y: 0.5d
+			y: -0.5d
 			shape: "square"
 			description: [
 				"流体管道是用于输送和处理流体"
@@ -1118,8 +1119,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 1.5d
+			x: 4.5d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"动力泵用于从流体管道或流体储罐中抽取流体"
@@ -1145,8 +1146,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 2.5d
+			x: 5.5d
+			y: 0.5d
 			shape: "square"
 			description: [
 				"流体阀门可用于关闭或打开管道中的流体。流体阀门可以通过提供旋转力在打开和关闭之间切换"
@@ -1172,8 +1173,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 4.0d
+			x: 5.0d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"流体储罐是一种流体储存器，每个方块最多可储存 8 桶流体"
@@ -1312,8 +1313,8 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: 4.0d
+			x: 5.0d
+			y: 2.5d
 			shape: "square"
 			description: [
 				"蒸汽引擎是一个提供旋转力的方块。在所有生存模式发电机方块中，它的应力（SU）容量最高。它能将流体储罐中的水加热后产生的压力转化为旋转力，从而实现大规模物品生产和多种装置"
@@ -1343,7 +1344,7 @@
 		{
 			x: 7.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: [
 				"用于制作 &d机械动力&r 组件的外壳之一"
 			]
@@ -1368,7 +1369,7 @@
 			]
 		}
 		{
-			x: 9.5d
+			x: 4.5d
 			y: -5.5d
 			shape: "square"
 			description: [
@@ -1397,8 +1398,8 @@
 		}
 		{
 			title: "控制铁轨"
-			x: 6.5d
-			y: -5.5d
+			x: 5.5d
+			y: -6.0d
 			shape: "square"
 			description: [
 				"控制铁轨用于控制矿车或矿车转速控制器装置的速度"
@@ -1455,8 +1456,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 1.0d
+			x: 2.0d
+			y: 2.0d
 			shape: "square"
 			description: [
 				"应力计用于测量传动杆的应力量"
@@ -1576,7 +1577,7 @@
 		}
 		{
 			x: 4.0d
-			y: 3.0d
+			y: 2.0d
 			shape: "square"
 			description: [
 				"动力钻头是一种用于破坏方块的方块"
@@ -1604,8 +1605,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
+			x: 3.0d
+			y: -3.5d
 			shape: "square"
 			description: [
 				"移动式存储接口是一个允许物品运输装置与装置库存直接交互的方块"
@@ -1633,8 +1634,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -1.5d
+			x: 4.0d
+			y: 3.0d
 			shape: "square"
 			description: [
 				"动力收割机在前进过程中将收割所有接触到的成熟作物"
@@ -1693,8 +1694,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 3.5d
+			x: 2.5d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"绳索滑轮制造出的装置非常类似机械活塞，但只有一个方向，而且不需要活塞延长杆。"
@@ -1753,7 +1754,7 @@
 		{
 			x: 15.0d
 			y: 0.0d
-			shape: "square"
+			shape: "octagon"
 			description: [
 				"列车机壳用于制造与列车有关的所有机器"
 			]
@@ -1781,8 +1782,8 @@
 			]
 		}
 		{
-			x: 16.0d
-			y: -1.5d
+			x: 15.0d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"列车时刻表用于指导非玩家列车长"
@@ -1809,7 +1810,7 @@
 			]
 		}
 		{
-			x: 12.0d
+			x: 11.5d
 			y: -4.5d
 			shape: "square"
 			description: [
@@ -1948,7 +1949,7 @@
 		}
 		{
 			x: 11.0d
-			y: 1.5d
+			y: 2.5d
 			shape: "square"
 			description: [
 				"电梯滑轮是一种装置，用于轻松创建多层电梯"
@@ -1976,8 +1977,8 @@
 		}
 		{
 			title: "接触式红石信号发生器"
-			x: 0.0d
-			y: 4.5d
+			x: 10.0d
+			y: 3.0d
 			shape: "square"
 			description: [
 				"红石接触式红石信号发生器可以让装置传递红石信号或激活红石电路"
@@ -2007,8 +2008,8 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: 2.5d
+			x: 12.0d
+			y: 3.0d
 			shape: "square"
 			description: [
 				"动态结构控制器用于控制动态结构"
@@ -2039,7 +2040,7 @@
 		}
 		{
 			x: -1.0d
-			y: -3.0d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"工程师护目镜是一种可穿戴物品，可让用户看到放置机器的更多细节"
@@ -2067,7 +2068,7 @@
 		}
 		{
 			x: 1.0d
-			y: -3.0d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"强力胶能把装置中的结构粘在一起，黏液球就是如此"
@@ -2137,7 +2138,7 @@
 		}
 		{
 			x: 0.0d
-			y: -3.0d
+			y: -2.5d
 			shape: "square"
 			description: [
 				"扳手是用于旋转、拆卸和配置组件的工具"
@@ -2167,7 +2168,7 @@
 		}
 		{
 			x: 0.0d
-			y: -4.0d
+			y: -3.5d
 			shape: "square"
 			description: [
 				"工具箱每个插槽最多可容纳 256 件物品，最多可容纳 8 种不同类型的物品"
@@ -2194,7 +2195,7 @@
 			]
 		}
 		{
-			x: 12.5d
+			x: 12.0d
 			y: -2.5d
 			shape: "square"
 			description: [
@@ -2223,8 +2224,8 @@
 		}
 		{
 			title: "铜线"
-			x: 14.0d
-			y: -4.0d
+			x: 13.5d
+			y: -3.5d
 			shape: "square"
 			description: [
 				"只需制作一些线缆"
@@ -2253,7 +2254,7 @@
 			]
 		}
 		{
-			x: 13.0d
+			x: 12.5d
 			y: -3.5d
 			shape: "square"
 			description: [
@@ -2282,7 +2283,7 @@
 			]
 		}
 		{
-			x: 13.5d
+			x: 13.0d
 			y: -2.5d
 			shape: "square"
 			description: [
@@ -2311,7 +2312,7 @@
 		}
 		{
 			x: 13.5d
-			y: -5.0d
+			y: -4.5d
 			shape: "square"
 			description: [
 				"轧机用于制作线缆和棒杆"
@@ -2338,7 +2339,7 @@
 			]
 		}
 		{
-			x: 12.0d
+			x: 11.0d
 			y: -3.5d
 			shape: "square"
 			description: [
@@ -2368,7 +2369,7 @@
 		{
 			title: "无线红石信号终端"
 			x: 11.0d
-			y: 3.5d
+			y: 1.5d
 			shape: "square"
 			description: [
 				"无线红石信号终端可无线传输红石"
@@ -2426,7 +2427,7 @@
 			]
 		}
 		{
-			x: 11.0d
+			x: 8.5d
 			y: -1.5d
 			shape: "square"
 			subtitle: "黄铜时代"
@@ -2463,8 +2464,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: -4.5d
+			x: 9.5d
+			y: -6.0d
 			shape: "square"
 			subtitle: "自动单击"
 			description: [
@@ -2491,8 +2492,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -3.0d
+			x: 8.5d
+			y: -4.0d
 			shape: "square"
 			description: [
 				"在这个整合包中，制作玫瑰石英需要用到氟石和红石"
@@ -2525,8 +2526,8 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: -5.0d
+			x: 10.5d
+			y: -6.0d
 			shape: "square"
 			subtitle: "精密"
 			description: [
@@ -2555,8 +2556,8 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: -4.0d
+			x: 11.5d
+			y: -5.5d
 			shape: "square"
 			description: [
 				"现在，您将在 NASA 工作台的制作过程中使用您的动力臂，但这个动力臂在自动化 &d机械动力&r 设备中也能派上用场！"
@@ -2712,8 +2713,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -2.5d
+			x: 3.5d
+			y: -1.5d
 			shape: "square"
 			description: [
 				"切片机用于自动完成 Farmer's Delight 切割板工艺"
@@ -2731,6 +2732,137 @@
 				id: "13B403B74A988E55"
 				type: "item"
 				item: "sliceanddice:slicer"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			shape: "square"
+			description: ["异彩化合物用于制造阴影钢和光辉石"]
+			dependencies: [
+				"0F21B16927A39E9A"
+				"3DB4CDB19FD3915F"
+			]
+			id: "664DE56E7C145E46"
+			tasks: [{
+				id: "3B1F13937E9FB2E9"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5C4904F223D78D55"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			shape: "square"
+			description: [
+				"在末地虚空投掷异彩化合物可获得阴影钢"
+				""
+				"光辉石能通过在信标光束中投掷异彩化合物获得（您也可以在光辉石、火炬、蘑菇灯等处为您的复合物充电。但速度很慢）"
+			]
+			dependencies: ["664DE56E7C145E46"]
+			id: "38E0112BECD74268"
+			tasks: [
+				{
+					id: "23F8CBF27081A9E8"
+					type: "item"
+					item: "create:shadow_steel"
+				}
+				{
+					id: "0A64BC8F83B40A71"
+					type: "item"
+					item: "create:refined_radiance"
+				}
+			]
+			rewards: [
+				{
+					id: "3F28314D09B68A09"
+					type: "item"
+					item: "create:shadow_steel"
+					random_bonus: 3
+				}
+				{
+					id: "370A4EB419A82DDB"
+					type: "item"
+					item: "create:refined_radiance"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"阴影光辉石是由阴影钢和光辉石制成的合金"
+				"It's used to make the Inventory Linker from Create Quality of Life !"
+			]
+			dependencies: ["38E0112BECD74268"]
+			id: "479A49B3A97E49D3"
+			tasks: [{
+				id: "12DEA739EAA3C5DD"
+				type: "item"
+				item: "createqol:shadow_radiance"
+			}]
+			rewards: [{
+				id: "68C4175EB9D9C047"
+				type: "item"
+				item: "createqol:shadow_radiance"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			description: [
+				"The Inventory Linker is a powerful block who can be link with your inventory using a Player Paper."
+				""
+				"It needs rotational force underneath to work, you can output from it and input inside using Funnel (for example)."
+				""
+				"You have 3 different configuration on top."
+				"Inventory, Armor and Off Hand."
+				""
+				"Each configuration is link to you, so you can, for example, extract cobblestone from your inventory using a funnel with a filter."
+				"Or you can equip an armor automatically, injecting an armor into it."
+			]
+			dependencies: [
+				"479A49B3A97E49D3"
+				"67680115E55B9C8B"
+			]
+			id: "1ECE67F6DA1294FC"
+			tasks: [
+				{
+					id: "048DDEC79B03B990"
+					type: "item"
+					item: "createqol:inventory_linker"
+				}
+				{
+					id: "7A586698A6F174B9"
+					type: "item"
+					item: {
+						id: "createqol:player_paper"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "679A860F4D6B4D07"
+				type: "item"
+				item: "createqol:shadow_radiance"
 			}]
 		}
 	]

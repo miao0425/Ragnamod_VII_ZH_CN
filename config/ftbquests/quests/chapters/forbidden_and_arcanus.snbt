@@ -5,6 +5,7 @@
 	filename: "forbidden_and_arcanus"
 	title: "禁忌与奥秘"
 	icon: "forbidden_arcanus:hephaestus_forge"
+	subtitle: ["禁忌魔法"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

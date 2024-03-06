@@ -5,6 +5,7 @@
 	filename: "mekanism"
 	title: "通用机械"
 	icon: "mekanism:steel_casing"
+	subtitle: ["核心"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [

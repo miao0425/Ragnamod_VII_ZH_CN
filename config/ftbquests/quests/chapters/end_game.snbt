@@ -5,6 +5,7 @@
 	filename: "end_game"
 	title: "游戏结束"
 	icon: "ragnamod_seven:sphere"
+	subtitle: ["巨大黑球 - 厄运之球"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

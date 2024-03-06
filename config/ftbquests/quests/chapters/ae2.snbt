@@ -5,6 +5,7 @@
 	filename: "ae2"
 	title: "应用能源2"
 	icon: "ae2:controller"
+	subtitle: ["数字存储的巅峰时期"]
 	default_quest_shape: "circle"
 	default_hide_dependency_lines: false
 	quests: [

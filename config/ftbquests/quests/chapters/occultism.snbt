@@ -5,6 +5,7 @@
 	filename: "occultism"
 	title: "神秘学"
 	icon: "occultism:ritual_dummy/craft_miner_afrit_deeps"
+	subtitle: ["画一些五芒星，与恶魔一起玩耍"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: true
 	images: [

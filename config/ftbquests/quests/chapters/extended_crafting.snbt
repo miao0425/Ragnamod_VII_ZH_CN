@@ -5,6 +5,7 @@
 	filename: "extended_crafting"
 	title: "无尽贪婪"
 	icon: "avaritia:infinity_catalyst"
+	subtitle: ["奇点太多了，天哪！"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -852,7 +853,7 @@
 			y: 3.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶宇宙的砾岩物质。"
+				"这种奇点用于制作宇宙的砾岩物质。"
 				"This singularity is used to craft the Evil Space's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -1152,7 +1153,7 @@
 			y: -1.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶科技的砾岩物质。"
+				"这种奇点用于制作科技的砾岩物质。"
 				"This singularity is used to craft the Evil Tech's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -1452,7 +1453,7 @@
 			y: 2.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶宇宙的砾岩物质。"
+				"这种奇点用于制作宇宙的砾岩物质。"
 				"This singularity is used to craft the Evil Space's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -1482,7 +1483,7 @@
 			y: 2.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶宇宙的砾岩物质。"
+				"这种奇点用于制作宇宙的砾岩物质。"
 				"This singularity is used to craft the Evil Space's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -1512,7 +1513,7 @@
 			y: -2.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶FTBIC的砾岩物质。"
+				"这种奇点用于制作FTBIC的砾岩物质。"
 				"This singularity is used to craft the Evil FTBIC's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -1542,7 +1543,7 @@
 			y: 3.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶的禁忌奥术师的砾岩物质。"
+				"这种奇点用于制作的禁忌奥术师的砾岩物质。"
 				"This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -1572,7 +1573,7 @@
 			y: 2.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶的禁忌奥术师的砾岩物质。"
+				"这种奇点用于制作的禁忌奥术师的砾岩物质。"
 				"This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -1602,7 +1603,7 @@
 			y: 4.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶的禁忌奥术师的砾岩物质。"
+				"这种奇点用于制作的禁忌奥术师的砾岩物质。"
 				"This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -1632,7 +1633,7 @@
 			y: 0.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶合成的砾岩物质。"
+				"这种奇点用于制作合成的砾岩物质。"
 				"This singularity is used to craft the Evil Craft's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -1662,7 +1663,7 @@
 			y: 1.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶合成的砾岩物质。"
+				"这种奇点用于制作合成的砾岩物质。"
 				"This singularity is used to craft the Evil Craft's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -1722,7 +1723,7 @@
 			y: 0.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#2"
+				"这种奇点用于制作Minecraft的砾岩物质#2"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."
 			]
 			hide_dependency_lines: true
@@ -1752,7 +1753,7 @@
 			y: -3.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#1。"
+				"这种奇点用于制作Minecraft的砾岩物质#1。"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."
 			]
 			hide_dependency_lines: true
@@ -1782,7 +1783,7 @@
 			y: -3.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#1。"
+				"这种奇点用于制作Minecraft的砾岩物质#1。"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."
 			]
 			hide_dependency_lines: true
@@ -1812,7 +1813,7 @@
 			y: -2.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#1。"
+				"这种奇点用于制作Minecraft的砾岩物质#1。"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."
 			]
 			hide_dependency_lines: true
@@ -1842,7 +1843,7 @@
 			y: 3.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#3。"
+				"这种奇点用于制作Minecraft的砾岩物质#3。"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."
 			]
 			hide_dependency_lines: true
@@ -1872,7 +1873,7 @@
 			y: 1.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#2"
+				"这种奇点用于制作Minecraft的砾岩物质#2"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."
 			]
 			hide_dependency_lines: true
@@ -1902,7 +1903,7 @@
 			y: 3.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#3。"
+				"这种奇点用于制作Minecraft的砾岩物质#3。"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."
 			]
 			hide_dependency_lines: true
@@ -1932,7 +1933,7 @@
 			y: 2.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#3。"
+				"这种奇点用于制作Minecraft的砾岩物质#3。"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."
 			]
 			hide_dependency_lines: true
@@ -1962,7 +1963,7 @@
 			y: -0.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#2"
+				"这种奇点用于制作Minecraft的砾岩物质#2"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."
 			]
 			hide_dependency_lines: true
@@ -1992,7 +1993,7 @@
 			y: -1.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#2"
+				"这种奇点用于制作Minecraft的砾岩物质#2"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."
 			]
 			hide_dependency_lines: true
@@ -2022,7 +2023,7 @@
 			y: -2.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#1。"
+				"这种奇点用于制作Minecraft的砾岩物质#1。"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."
 			]
 			hide_dependency_lines: true
@@ -2052,7 +2053,7 @@
 			y: 1.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶科技的砾岩物质。"
+				"这种奇点用于制作科技的砾岩物质。"
 				"This singularity is used to craft the Evil Tech's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2082,7 +2083,7 @@
 			y: 0.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶科技的砾岩物质。"
+				"这种奇点用于制作科技的砾岩物质。"
 				"This singularity is used to craft the Evil Tech's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2112,7 +2113,7 @@
 			y: -0.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶科技的砾岩物质。"
+				"这种奇点用于制作科技的砾岩物质。"
 				"This singularity is used to craft the Evil Tech's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2142,7 +2143,7 @@
 			y: 0.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶科技的砾岩物质。"
+				"这种奇点用于制作科技的砾岩物质。"
 				"This singularity is used to craft the Evil Tech's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2172,7 +2173,7 @@
 			y: -1.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶通用机械的砾岩物质。"
+				"这种奇点用于制作通用机械的砾岩物质。"
 				"This singularity is used to craft the Evil Mekanism's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2202,7 +2203,7 @@
 			y: 0.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶通用机械的砾岩物质。"
+				"这种奇点用于制作通用机械的砾岩物质。"
 				"This singularity is used to craft the Evil Mekanism's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2232,7 +2233,7 @@
 			y: 0.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶通用机械的砾岩物质。"
+				"这种奇点用于制作通用机械的砾岩物质。"
 				"This singularity is used to craft the Evil Mekanism's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2262,7 +2263,7 @@
 			y: 1.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶通用机械的砾岩物质。"
+				"这种奇点用于制作通用机械的砾岩物质。"
 				"This singularity is used to craft the Evil Mekanism's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2292,7 +2293,7 @@
 			y: -3.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶FTBIC的砾岩物质。"
+				"这种奇点用于制作FTBIC的砾岩物质。"
 				"This singularity is used to craft the Evil FTBIC's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2322,7 +2323,7 @@
 			y: 4.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#3。"
+				"这种奇点用于制作Minecraft的砾岩物质#3。"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."
 			]
 			hide_dependency_lines: true
@@ -2352,7 +2353,7 @@
 			y: -0.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶通用机械的砾岩物质。"
+				"这种奇点用于制作通用机械的砾岩物质。"
 				"This singularity is used to craft the Evil Mekanism's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2382,7 +2383,7 @@
 			y: -4.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶FTBIC的砾岩物质。"
+				"这种奇点用于制作FTBIC的砾岩物质。"
 				"This singularity is used to craft the Evil FTBIC's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2412,7 +2413,7 @@
 			y: -3.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶FTBIC的砾岩物质。"
+				"这种奇点用于制作FTBIC的砾岩物质。"
 				"This singularity is used to craft the Evil FTBIC's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2442,7 +2443,7 @@
 			y: -2.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶气动工艺的聚合物质。"
+				"这种奇点用于制作气动工艺的聚合物质。"
 				"This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2472,7 +2473,7 @@
 			y: -3.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶气动工艺的聚合物质。"
+				"这种奇点用于制作气动工艺的聚合物质。"
 				"This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2652,7 +2653,7 @@
 			y: 0.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶PSI的砾岩物质。"
+				"这种奇点用于制作PSI的砾岩物质。"
 				"This singularity is used to craft the Evil PSI's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2682,7 +2683,7 @@
 			y: 3.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶热力聚合物质。"
+				"这种奇点用于制作热力聚合物质。"
 				"This singularity is used to craft the Evil Thermal's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2712,7 +2713,7 @@
 			y: 2.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶热力聚合物质。"
+				"这种奇点用于制作热力聚合物质。"
 				"This singularity is used to craft the Evil Thermal's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2742,7 +2743,7 @@
 			y: 2.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶热力聚合物质。"
+				"这种奇点用于制作热力聚合物质。"
 				"This singularity is used to craft the Evil Thermal's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2772,7 +2773,7 @@
 			y: 4.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶热力聚合物质。"
+				"这种奇点用于制作热力聚合物质。"
 				"This singularity is used to craft the Evil Thermal's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2802,7 +2803,7 @@
 			y: 3.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶热力聚合物质。"
+				"这种奇点用于制作热力聚合物质。"
 				"This singularity is used to craft the Evil Thermal's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2832,7 +2833,7 @@
 			y: -4.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶工匠结构的砾岩物质。"
+				"这种奇点用于制作工匠结构的砾岩物质。"
 				"This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2862,7 +2863,7 @@
 			y: 2.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶怪物的砾岩物质。"
+				"这种奇点用于制作怪物的砾岩物质。"
 				"This singularity is used to craft the Evil Mobs's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2892,7 +2893,7 @@
 			y: 4.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶怪物的砾岩物质。"
+				"这种奇点用于制作怪物的砾岩物质。"
 				"This singularity is used to craft the Evil Mobs's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2922,7 +2923,7 @@
 			y: 2.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶怪物的砾岩物质。"
+				"这种奇点用于制作怪物的砾岩物质。"
 				"This singularity is used to craft the Evil Mobs's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2952,7 +2953,7 @@
 			y: 3.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶怪物的砾岩物质。"
+				"这种奇点用于制作怪物的砾岩物质。"
 				"This singularity is used to craft the Evil Mobs's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -2982,7 +2983,7 @@
 			y: 3.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶怪物的砾岩物质。"
+				"这种奇点用于制作怪物的砾岩物质。"
 				"This singularity is used to craft the Evil Mobs's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3012,7 +3013,7 @@
 			y: -4.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#1。"
+				"这种奇点用于制作Minecraft的砾岩物质#1。"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #1."
 			]
 			hide_dependency_lines: true
@@ -3042,7 +3043,7 @@
 			y: -1.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶PSI的砾岩物质。"
+				"这种奇点用于制作PSI的砾岩物质。"
 				"This singularity is used to craft the Evil PSI's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3072,7 +3073,7 @@
 			y: 1.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶PSI的砾岩物质。"
+				"这种奇点用于制作PSI的砾岩物质。"
 				"This singularity is used to craft the Evil PSI's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3102,7 +3103,7 @@
 			y: -2.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶气动工艺的聚合物质。"
+				"这种奇点用于制作气动工艺的聚合物质。"
 				"This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3132,7 +3133,7 @@
 			y: -1.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶暮色的砾岩物质。"
+				"这种奇点用于制作暮色的砾岩物质。"
 				"This singularity is used to craft the Evil Twilight's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3162,7 +3163,7 @@
 			y: -2.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶暮色的砾岩物质。"
+				"这种奇点用于制作暮色的砾岩物质。"
 				"This singularity is used to craft the Evil Twilight's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3192,7 +3193,7 @@
 			y: -2.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶暮色的砾岩物质。"
+				"这种奇点用于制作暮色的砾岩物质。"
 				"This singularity is used to craft the Evil Twilight's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3222,7 +3223,7 @@
 			y: -0.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶暮色的砾岩物质。"
+				"这种奇点用于制作暮色的砾岩物质。"
 				"This singularity is used to craft the Evil Twilight's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3252,7 +3253,7 @@
 			y: -1.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶暮色的砾岩物质。"
+				"这种奇点用于制作暮色的砾岩物质。"
 				"This singularity is used to craft the Evil Twilight's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3282,7 +3283,7 @@
 			y: 2.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶深园的砾岩物质。"
+				"这种奇点用于制作深园的砾岩物质。"
 				"This singularity is used to craft the Evil Undergarden's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3312,7 +3313,7 @@
 			y: 1.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶深园的砾岩物质。"
+				"这种奇点用于制作深园的砾岩物质。"
 				"This singularity is used to craft the Evil Undergarden's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3342,7 +3343,7 @@
 			y: 2.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#3。"
+				"这种奇点用于制作Minecraft的砾岩物质#3。"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #3."
 			]
 			hide_dependency_lines: true
@@ -3402,7 +3403,7 @@
 			y: 3.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶宇宙的砾岩物质。"
+				"这种奇点用于制作宇宙的砾岩物质。"
 				"This singularity is used to craft the Evil Space's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3432,7 +3433,7 @@
 			y: 4.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶宇宙的砾岩物质。"
+				"这种奇点用于制作宇宙的砾岩物质。"
 				"This singularity is used to craft the Evil Space's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3462,7 +3463,7 @@
 			y: 0.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶Minecraft的砾岩物质#2"
+				"这种奇点用于制作Minecraft的砾岩物质#2"
 				"This singularity is used to craft the Evil Minecraft's Agglomerate Matter #2."
 			]
 			hide_dependency_lines: true
@@ -3522,7 +3523,7 @@
 			y: 0.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶PSI的砾岩物质。"
+				"这种奇点用于制作PSI的砾岩物质。"
 				"This singularity is used to craft the Evil PSI's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3552,7 +3553,7 @@
 			y: -0.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶PSI的砾岩物质。"
+				"这种奇点用于制作PSI的砾岩物质。"
 				"This singularity is used to craft the Evil PSI's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3582,7 +3583,7 @@
 			y: -1.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶合成的砾岩物质。"
+				"这种奇点用于制作合成的砾岩物质。"
 				"This singularity is used to craft the Evil Craft's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3612,7 +3613,7 @@
 			y: -0.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶合成的砾岩物质。"
+				"这种奇点用于制作合成的砾岩物质。"
 				"This singularity is used to craft the Evil Craft's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3642,7 +3643,7 @@
 			y: 0.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶合成的砾岩物质。"
+				"这种奇点用于制作合成的砾岩物质。"
 				"This singularity is used to craft the Evil Craft's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3792,7 +3793,7 @@
 			y: 3.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶的禁忌奥术师的砾岩物质。"
+				"这种奇点用于制作的禁忌奥术师的砾岩物质。"
 				"This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3822,7 +3823,7 @@
 			y: 2.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶的禁忌奥术师的砾岩物质。"
+				"这种奇点用于制作的禁忌奥术师的砾岩物质。"
 				"This singularity is used to craft the Evil Forbidden Arcanus's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3852,7 +3853,7 @@
 			y: 0.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶深园的砾岩物质。"
+				"这种奇点用于制作深园的砾岩物质。"
 				"This singularity is used to craft the Evil Undergarden's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3882,7 +3883,7 @@
 			y: 2.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶深园的砾岩物质。"
+				"这种奇点用于制作深园的砾岩物质。"
 				"This singularity is used to craft the Evil Undergarden's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3912,7 +3913,7 @@
 			y: 1.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶深园的砾岩物质。"
+				"这种奇点用于制作深园的砾岩物质。"
 				"This singularity is used to craft the Evil Undergarden's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3942,7 +3943,7 @@
 			y: -2.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶FTBIC的砾岩物质。"
+				"这种奇点用于制作FTBIC的砾岩物质。"
 				"This singularity is used to craft the Evil FTBIC's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -3972,7 +3973,7 @@
 			y: -2.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶工匠结构的砾岩物质。"
+				"这种奇点用于制作工匠结构的砾岩物质。"
 				"This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -4002,7 +4003,7 @@
 			y: -3.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶工匠结构的砾岩物质。"
+				"这种奇点用于制作工匠结构的砾岩物质。"
 				"This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -4032,7 +4033,7 @@
 			y: -3.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶工匠结构的砾岩物质。"
+				"这种奇点用于制作工匠结构的砾岩物质。"
 				"This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -4062,7 +4063,7 @@
 			y: -2.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶工匠结构的砾岩物质。"
+				"这种奇点用于制作工匠结构的砾岩物质。"
 				"This singularity is used to craft the Evil Tinkers Construct's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -4242,7 +4243,7 @@
 			y: -3.5d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶气动工艺的聚合物质。"
+				"这种奇点用于制作气动工艺的聚合物质。"
 				"This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."
 			]
 			hide_dependency_lines: true
@@ -4272,7 +4273,7 @@
 			y: -4.0d
 			shape: "circle"
 			description: [
-				"这种奇点用于制作邪恶气动工艺的聚合物质。"
+				"这种奇点用于制作气动工艺的聚合物质。"
 				"This singularity is used to craft the Evil Pneumaticcraft's Agglomerate Matter."
 			]
 			hide_dependency_lines: true

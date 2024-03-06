@@ -5,6 +5,7 @@
 	filename: "botania"
 	title: "植物魔法"
 	icon: "botania:mana_pylon"
+	subtitle: ["最佳科技mod！"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [

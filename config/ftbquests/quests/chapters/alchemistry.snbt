@@ -5,6 +5,7 @@
 	filename: "alchemistry"
 	title: "炼金化学"
 	icon: "alchemistry:combiner"
+	subtitle: ["学徒化学家工具"]
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
 	images: [

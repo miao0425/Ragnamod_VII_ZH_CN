@@ -5,6 +5,7 @@
 	filename: "industrial_foregoing"
 	title: "工业先锋"
 	icon: "industrialforegoing:mob_imprisonment_tool"
+	subtitle: ["彩虹发电机，不，是菌丝反应堆！"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

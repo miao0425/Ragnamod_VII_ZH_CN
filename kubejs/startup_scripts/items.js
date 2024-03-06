@@ -90,4 +90,6 @@ onEvent('item.registry', e => {
 		.maxStackSize(1);
 	e.create('ragnamod_seven:alloy_matrix').displayName('§c矩阵合金').glow(true).maxStackSize(1);
 	e.create('ragnamod_seven:solid_nuclear_waste').displayName("固态核废料")
+	e.create('thermal:press_rod_die').displayName("棒杆模具")
+    e.create('thermal:press_wire_die').displayName("线材模具")
 });

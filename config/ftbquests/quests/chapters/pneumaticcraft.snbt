@@ -5,6 +5,7 @@
 	filename: "pneumaticcraft"
 	title: "气动工艺"
 	icon: "pneumaticcraft:air_compressor"
+	subtitle: ["塑料，真是太棒了！"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

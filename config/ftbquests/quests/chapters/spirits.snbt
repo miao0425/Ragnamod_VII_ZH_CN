@@ -5,6 +5,7 @@
 	filename: "spirits"
 	title: "灵魂"
 	icon: "spirit:crude_soul_crystal"
+	subtitle: ["灵魂猎手"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

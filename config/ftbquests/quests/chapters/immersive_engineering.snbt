@@ -5,6 +5,7 @@
 	filename: "immersive_engineering"
 	title: "沉浸工程"
 	icon: "immersiveengineering:toolbox"
+	subtitle: ["如何成为一名工程师"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [

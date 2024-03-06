@@ -3,8 +3,9 @@
 	group: ""
 	order_index: 24
 	filename: "rftools_and_co"
-	title: "RF工具"
+	title: "RF工具和Xnet"
 	icon: "rftoolsbase:machine_frame"
+	subtitle: ["远古MOD但很实用"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

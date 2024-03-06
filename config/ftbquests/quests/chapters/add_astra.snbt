@@ -5,6 +5,7 @@
 	filename: "add_astra"
 	title: "飞跃地球"
 	icon: "beyond_earth:nasa_workbench"
+	subtitle: ["空间探索"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

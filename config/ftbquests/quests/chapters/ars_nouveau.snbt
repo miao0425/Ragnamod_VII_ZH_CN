@@ -5,6 +5,7 @@
 	filename: "ars_nouveau"
 	title: "新生魔艺"
 	icon: "ars_nouveau:novice_spell_book"
+	subtitle: ["这是神奇的魔法！"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

@@ -14,6 +14,7 @@
 			page: 0
 		}
 	}
+	subtitle: ["成为女巫？"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

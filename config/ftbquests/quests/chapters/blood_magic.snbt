@@ -5,6 +5,7 @@
 	filename: "blood_magic"
 	title: "血魔法"
 	icon: "bloodmagic:altar"
+	subtitle: ["流血体验"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

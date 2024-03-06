@@ -5,6 +5,7 @@
 	filename: "nature_aura"
 	title: "自然灵气"
 	icon: "naturesaura:gold_leaf"
+	subtitle: ["自然魔法"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
